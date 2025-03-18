@@ -1,0 +1,1417 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{bilimoria_conceptual_2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f94413f85be4847999f8315addf48c50}{%
+           family={Bilimoria},
+           familyi={B\bibinitperiod},
+           given={Karl\bibnamedelima D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=342ac4a4399880291f6886a04f795d3d}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Walter\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c4431e57df83db43e62013f6614aec4}{%
+           family={Schutte},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{2ac145a6e8eb896a9e0bf844b911c342}
+      \strng{fullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{bibnamehash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authorbibnamehash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authornamehash}{2ac145a6e8eb896a9e0bf844b911c342}
+      \strng{authorfullhash}{764d227c0e6882da7278eaa3878afd47}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single pilot operations (SPO) refers to flying a commercial aircraft with only one pilot in the cockpit, assisted by advanced onboard automation and/or ground operators providing piloting support services. Properly implemented, SPO could provide operating cost savings while maintaining a level of safety no less than conventional two-pilot commercial operations. A concept of operations (ConOps) for any paradigm describes the characteristics of its various components and their integration in a multidimensional design space. This paper presents key options for human/automation function allocation being considered by NASA in its ongoing development of a SPO ConOps.}
+      \field{isbn}{978-1-4503-2560-8}
+      \field{journaltitle}{Proceedings of the {International} {Conference} on {Human}-{Computer} {Interaction} in {Aerospace}}
+      \field{month}{7}
+      \field{series}{{HCI}-{Aero} '14}
+      \field{title}{Conceptual framework for single pilot operations}
+      \field{urlday}{28}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/2669592.2669647
+      \endverb
+      \verb{file}
+      \verb Bilimoria et al_2014_Conceptual framework for single pilot operations.pdf:C\:\\Users\\benja\\Zotero\\storage\\ZD9SK4ID\\Bilimoria et al_2014_Conceptual framework for single pilot operations.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/2669592.2669647
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2669592.2669647
+      \endverb
+      \keyw{single pilot operations,function allocation,concept of operations,crew resource management}
+    \endentry
+    \entry{boy_requirements_2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d82b0920e2c72a949df4a3673aba5ba7}{%
+           family={Boy},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{fullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{bibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorbibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authornamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorfullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{1}
+      \field{shorttitle}{Requirements for {Single} {Pilot} {Operations} in {Commercial} {Aviation}}
+      \field{title}{Requirements for {Single} {Pilot} {Operations} in {Commercial} {Aviation}: {A} {First} {High}-{Level} {Cognitive} {Function} {Analysis}}
+      \field{year}{2014}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{boy_prodec_2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
+           family={Boy},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima André},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8473f350b27b0219cf9055d6e917e3cf}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=114927384129ee346303aefa9c00edea}{%
+           family={Durnerin},
+           familyi={D\bibinitperiod},
+           given={Élise},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab264eb7d244237925290c6d6cd31e30}{%
+           family={Morel},
+           familyi={M\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
+      \strng{fullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
+      \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
+      \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
+      \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of the PRODEC scenario-based design method is the incremental cross-fertilization and refinement of procedural scenarios and declarative configurations. It uses virtual prototypes of the developed systems (mainly life-critical systems) to conduct human-in-the-loop simulations (HITLSs). Based on human systems integration (HSI) principles and criteria, as well as expertise and experience in the domain at stake, this HSI approach grounded in virtual environments requires a clear definition of physical and cognitive tangibility metrics to assess the distance between virtual and tangible (grasp) dimensions of the system being developed when it is put to work. PRODEC considers human and machine systems described in terms of structures and functions incrementally designed using procedural scenarios (i.e., stories) in task and activity networks, which provide life to declarative configurations (i.e., system's functions and structures). This active modeling and simulation process enables the discovery of emergent structures and functions of the system being developed when it is virtually operated. PRODEC's use is illustrated in an example. We discuss the use of PRODEC and its results as to how they can be used with digital twins.}
+      \field{issn}{1520-6858}
+      \field{journaltitle}{Systems Engineering}
+      \field{number}{n/a}
+      \field{title}{{PRODEC} for human systems integration of increasingly autonomous systems}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{n/a}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1002/sys.21751
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\JMI9QGKT\\Boy et al. - PRODEC for human systems integration of increasing.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\MF2K86YX\\sys.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
+      \endverb
+      \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
+    \endentry
+    \entry{endsley_here_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As autonomous and semiautonomous systems are developed for automotive, aviation, cyber, robotics and other applications, the ability of human operators to effectively oversee and interact with them when needed poses a significant challenge. An automation conundrum exists in which as more autonomy is added to a system, and its reliability and robustness increase, the lower the situation awareness of human operators and the less likely that they will be able to take over manual control when needed. The human–autonomy systems oversight model integrates several decades of relevant autonomy research on operator situation awareness, out-of-the-loop performance problems, monitoring, and trust, which are all major challenges underlying the automation conundrum. Key design interventions for improving human performance in interacting with autonomous systems are integrated in the model, including human–automation interface features and central automation interaction paradigms comprising levels of automation, adaptive automation, and granularity of control approaches. Recommendations for the design of human–autonomy interfaces are presented and directions for future research discussed.}
+      \field{issn}{0018-7208, 1547-8181}
+      \field{journaltitle}{Human Factors: The Journal of the Human Factors and Ergonomics Society}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{From {Here} to {Autonomy}}
+      \field{title}{From {Here} to {Autonomy}: {Lessons} {Learned} {From} {Human}–{Automation} {Research}}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{59}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1177/0018720816681350
+      \endverb
+      \verb{file}
+      \verb Endsley_2017_From Here to Autonomy.pdf:C\:\\Users\\benja\\Zotero\\storage\\WC587JJI\\Endsley_2017_From Here to Autonomy.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
+      \endverb
+    \endentry
+    \entry{hancock_imposing_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b594f283602b37909ae65e13227b840}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7b594f283602b37909ae65e13227b840}
+      \strng{fullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{bibnamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorbibnamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authornamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorfullhash}{7b594f283602b37909ae65e13227b840}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Our present era is witnessing the genesis of a sea-change in the way that advanced technologies operate. Amongst this burgeoning wave of untrammelled automation there is now beginning to arise a cadre of ever-more independent, autonomous systems. The degree of interaction between these latter systems with any form of human controller is becoming progressively more diminished and remote; and this perhaps necessarily so. Here, I advocate for human-centred and human favouring constraints to be designed, programmed, promulgated and imposed upon these nascent forms of independent entity. I am not sanguine about the collective response of modern society to this call. Nevertheless, the warning must be voiced and the issue debated, especially among those who most look to mediate between people and technology.}
+      \field{issn}{0014-0139, 1366-5847}
+      \field{journaltitle}{Ergonomics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Imposing limits on autonomous systems}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{60}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{284\bibrangedash 291}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1080/00140139.2016.1190035
+      \endverb
+      \verb{file}
+      \verb Hancock_2017_Imposing limits on autonomous systems.pdf:C\:\\Users\\benja\\Zotero\\storage\\JKSVDK4P\\Hancock_2017_Imposing limits on autonomous systems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
+      \endverb
+    \endentry
+    \entry{harris_human-centred_2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ca19d0e14555900f54ec08d47855a9e5}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{fullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{bibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorbibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authornamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorfullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose - This paper aims to make a case that with the appropriate use of human factors methods it is possible to design and develop a single crew commercial aircraft using largely existing technology. Design/methodology/approach - From a review of the literature it is suggested that some of the functions of the non-flying pilot would be better assumed by either onboard automation or ground-based systems. Findings - It is argued that the design of the flight deck and the role of the pilot require re-conceptualising to accommodate the requirements for flying a highly automated aircraft single-handed. With such re-design, considerable efficiency gains will be achieved, but to fully realise these gains a system-wide approach is required which extends beyond the design of the aircraft per se. Research limitations/implications - This is only a high-level thought piece to stimulate debate. Much greater consideration of all the issues raised is required, as is a change in regulatory requirements. Practical implications - If implemented, the single crew aircraft could result in a revolution in air transport, offering considerable cost savings, especially on shorter routes with relatively small passenger loads. Originality/value - A first attempt to use human factors as a design driver to produce operational and economic efficiency by the novel use of existing technologies spun-out from other areas of aircraft development.}
+      \field{issn}{0002-2667}
+      \field{journaltitle}{Aircraft Engineering and Aerospace Technology}
+      \field{number}{5}
+      \field{title}{A human-centred design agenda for the development of single crew operated commercial aircraft}
+      \field{urlday}{28}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{79}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{518\bibrangedash 526}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1108/00022660710780650
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scopus.com/inward/record.url?scp=34548300053&partnerID=8YFLogxK
+      \endverb
+      \verb{url}
+      \verb http://www.scopus.com/inward/record.url?scp=34548300053&partnerID=8YFLogxK
+      \endverb
+      \keyw{Man machine systems,Man machine interface,Design,Integration}
+    \endentry
+    \entry{hoff_trust_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5083e8f31f5814f2c1b25575020daa6b}{%
+           family={Hoff},
+           familyi={H\bibinitperiod},
+           given={Kevin\bibnamedelima Anthony},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7234582f24de3dfb7b9ff3e4be93056a}{%
+           family={Bashir},
+           familyi={B\bibinitperiod},
+           given={Masooda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{fullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{bibnamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorbibnamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authornamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorfullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Human {Factors}: {The} {Journal} of the {Human} {Factors} and {Ergonomics} {Society}}
+      \field{month}{5}
+      \field{shorttitle}{Trust in {Automation}}
+      \field{title}{Trust in {Automation}: {Integrating} {Empirical} {Evidence} on {Factors} {That} {Influence} {Trust}}
+      \field{volume}{57}
+      \field{year}{2015}
+      \field{pages}{407\bibrangedash 434}
+      \range{pages}{28}
+    \endentry
+    \entry{holbrook_enabling_2020}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b7c3246fe4bd78fec14046910050b818}{%
+           family={Holbrook},
+           familyi={H\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca0530fbb1199174e54bb922013135cf}{%
+           family={Prinzel},
+           familyi={P\bibinitperiod},
+           given={Lawrence\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f1351dd0869778abdf2b97d5e09d9a1}{%
+           family={Chancey},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e2565b49f4d72b9be5c59b593758e8}{%
+           family={Shively},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d8eeb97e71dcec761aba55197a77890}{%
+           family={Feary},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb54b6ab74ef87e4324b30927478eb07}{%
+           family={Dao},
+           familyi={D\bibinitperiod},
+           given={Quang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a89885765b81bb61cf279b5a12d3eb8}{%
+           family={Ballin},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=145f9c7fd91fda70fc1572bacf242bd8}{%
+           family={Teubert},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {VIRTUAL EVENT}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{c38e3c5d66617c05d003af5432463ccb}
+      \strng{fullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{bibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authorbibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authornamehash}{c38e3c5d66617c05d003af5432463ccb}
+      \strng{authorfullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-62410-598-2}
+      \field{journaltitle}{{AIAA} {AVIATION} 2020 {FORUM}}
+      \field{month}{6}
+      \field{shorttitle}{Enabling {Urban} {Air} {Mobility}}
+      \field{title}{Enabling {Urban} {Air} {Mobility}: {Human}-{Autonomy} {Teaming} {Research} {Challenges} and {Recommendations}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2020-3250
+      \endverb
+      \verb{file}
+      \verb Holbrook et al. - 2020 - Enabling Urban Air Mobility Human-Autonomy Teamin.pdf:C\:\\Users\\benja\\Zotero\\storage\\QLKNJELK\\Holbrook et al. - 2020 - Enabling Urban Air Mobility Human-Autonomy Teamin.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
+      \endverb
+      \verb{url}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
+      \endverb
+    \endentry
+    \entry{aerospace_technology_institute_ati-insight_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d59877d8027821c2533b88d19800b39e}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={Aerospace\bibnamedelima Technology},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{fullhash}{d59877d8027821c2533b88d19800b39e}
+      \strng{bibnamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authorbibnamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authornamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authorfullhash}{d59877d8027821c2533b88d19800b39e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this INSIGHT paper the ATI explores the aerospace industry’s journey towards single pilot operations. While reviewing the roles of technological automation and autonomy in the possible approaches to enabling the concept of a single pilot airliner to become operational, other factors are identified as more significant drivers. Economics, demand, the projected shortage of pilots and the potential impact on aviation training play a huge role in moving towards fewer flight crew. However, innovation and development in flight deck technology are integral to realising effective and safe single pilot operations and it is imperative that the human sits at the heart of the conversation around reducing the number of crew onboard.}
+      \field{month}{7}
+      \field{title}{{ATI}-{INSIGHT} 12-{Single}-{Pilot}-{Commercial}-{Aircraft}}
+      \field{year}{2019}
+    \endentry
+    \entry{lee_design_2023}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5afd73a9b515b1bc5caa35a02400d62b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99dff94c8923f73329dff49c2a077d1}{%
+           family={Seppelt},
+           familyi={S\bibinitperiod},
+           given={Bobbie\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=33a162b4853970613914e88dcf0c92f7}{%
+           family={Nof},
+           familyi={N\bibinitperiod},
+           given={Shimon\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{fullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{bibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorbibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authornamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorfullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{editorbibnamehash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editornamehash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editorfullhash}{33a162b4853970613914e88dcf0c92f7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Designers frequently look toward automation as a way to increase system efficiency and safety by reducing involvement. This approach can disappoint because the contribution of people often becomes more, not less, important as automation becomes more powerful and prevalent. More powerful automation demands greater attention to its design, supervisory responsibilities, system maintenance, software upgrades, and automation coordination. Developing automation without consideration of the human operator can lead to new and more catastrophic failures. For automation to fulfill its promise, designers must avoid a technology-centered approach that often yields strong but silent forms of automation, and instead adopt an approach that considers the joint operator-automation system that yields more collaborative, communicative forms of automation. Automation-related problems arise because introducing automation changes the type and extent of feedback that operators receive, as well as the nature and structure of tasks. Also, operators’ behavioral, cognitive, and emotional responses to these changes can leave the system vulnerable to failure. No single approach can address all of these challenges because automation is a heterogeneous technology. There are many types and forms of automation and each poses different design challenges. This chapter describes how different types of automation place different demands on operators. It also presents strategies that can help designers achieve promised benefits of automation. The chapter concludes with future challenges in automation design and human interaction with increasingly autonomous systems.}
+      \field{booktitle}{Springer {Handbook} of {Automation}}
+      \field{isbn}{978-3-030-96729-1}
+      \field{series}{Springer {Handbooks}}
+      \field{title}{Design for {Human}-{Automation} and {Human}-{Autonomous} {Systems}}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{433\bibrangedash 455}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-030-96729-1_19
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-96729-1_19
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-96729-1_19
+      \endverb
+      \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
+    \endentry
+    \entry{matessa_using_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a62b2bcdd5d9e858f59e6e99b9e9f130}{%
+           family={Matessa},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{fullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{bibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorbibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authornamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorfullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using a {CRM} framework to develop {HAT} measures}
+      \field{year}{2017}
+      \verb{file}
+      \verb Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:C\:\\Users\\benja\\Zotero\\storage\\IITD9LTF\\Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{mcneese_chapter_2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=9d4a6bf63785f72f94e41d5cbbdc869a}{%
+           family={McNeese},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=2bce013ea0a08703b618d9fc4d44cddc}{%
+           family={McNeese},
+           familyi={M\bibinitperiod},
+           given={Nathaniel\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4014a77aef13831beef3b89e7a754445}{%
+           family={Pak},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=04df1371738824971dee7a750dc03d08}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={Ewart\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=bcfa0b44adbe94fb4e28645a602ca958}{%
+           family={Rovira},
+           familyi={R\bibinitperiod},
+           given={Ericka},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{fullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{bibnamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorbibnamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authornamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorfullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{editorbibnamehash}{23c7d85da00b0c492fe644f242ed324c}
+      \strng{editornamehash}{ac171585c9d97f026587df4395281fc8}
+      \strng{editorfullhash}{23c7d85da00b0c492fe644f242ed324c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Humans have a long history of interacting with many types of intelligent machines. The level and sophistication of this interaction will only continue to grow in upcoming years, as intelligent technology continues to advance from automation to autonomous capabilities. In this chapter, we provide a historical context on research that has been conducted on humans interacting with machines. Principles of extraordinary human–robotic interaction (EHRI) are outlined to better understand effective and meaningful human–robot interaction. Finally, a discussion regarding the design and development of EHRI is presented. In this section, we present frameworks on how to both study and design EHRI.}
+      \field{booktitle}{Living with {Robots}}
+      \field{isbn}{978-0-12-815367-3}
+      \field{month}{1}
+      \field{shorttitle}{Chapter 9 - {Humans} interacting with intelligent machines}
+      \field{title}{Chapter 9 - {Humans} interacting with intelligent machines: at the crossroads of symbiotic teamwork}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{165\bibrangedash 197}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-815367-3.00009-8
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:C\:\\Users\\benja\\Zotero\\storage\\EBM366AD\\B9780128153673000098.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
+      \endverb
+      \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
+    \endentry
+    \entry{shively_autonomy_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
+           family={Shively},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Montreal}%
+      }
+      \strng{namehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{fullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{bibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorbibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authornamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorfullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A significant level of debate and confusion has surrounded the meaning of the terms autonomy and automation. Automation is a multi-dimensional concept, and we propose that Remotely Piloted Aircraft Systems (RPAS) automation should be described with reference to the specific system and task that has been automated, the context in which the automation functions, and other relevant dimensions. In this paper, we present definitions of automation, pilot in the loop, pilot on the loop and pilot out of the loop. We further propose that in future, the International Civil Aviation Organization (ICAO) RPAS Panel avoids the use of the terms autonomy and autonomous when referring to automated systems on board RPA. Work Group 7 proposes to develop, in consultation with other workgroups, a taxonomy of Levels of Automation for RPAS.}
+      \field{month}{3}
+      \field{note}{NTRS Author Affiliations: NASA Ames Research Center NTRS Report/Patent Number: ARC-E-DAA-TN39628 NTRS Document ID: 20170002271 NTRS Research Center: Ames Research Center (ARC)}
+      \field{title}{Autonomy and {Automation}}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shively_2017_Autonomy and Automation.pdf:C\:\\Users\\benja\\Zotero\\storage\\RVE3CS2W\\Shively_2017_Autonomy and Automation.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\E53G5J3G\\20170002271.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/citations/20170002271
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/citations/20170002271
+      \endverb
+      \keyw{Aeronautics (General)}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bilimoria_conceptual_2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f94413f85be4847999f8315addf48c50}{%
+           family={Bilimoria},
+           familyi={B\bibinitperiod},
+           given={Karl\bibnamedelima D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=342ac4a4399880291f6886a04f795d3d}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Walter\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c4431e57df83db43e62013f6614aec4}{%
+           family={Schutte},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{2ac145a6e8eb896a9e0bf844b911c342}
+      \strng{fullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{bibnamehash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authorbibnamehash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authornamehash}{2ac145a6e8eb896a9e0bf844b911c342}
+      \strng{authorfullhash}{764d227c0e6882da7278eaa3878afd47}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single pilot operations (SPO) refers to flying a commercial aircraft with only one pilot in the cockpit, assisted by advanced onboard automation and/or ground operators providing piloting support services. Properly implemented, SPO could provide operating cost savings while maintaining a level of safety no less than conventional two-pilot commercial operations. A concept of operations (ConOps) for any paradigm describes the characteristics of its various components and their integration in a multidimensional design space. This paper presents key options for human/automation function allocation being considered by NASA in its ongoing development of a SPO ConOps.}
+      \field{isbn}{978-1-4503-2560-8}
+      \field{journaltitle}{Proceedings of the {International} {Conference} on {Human}-{Computer} {Interaction} in {Aerospace}}
+      \field{month}{7}
+      \field{series}{{HCI}-{Aero} '14}
+      \field{title}{Conceptual framework for single pilot operations}
+      \field{urlday}{28}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/2669592.2669647
+      \endverb
+      \verb{file}
+      \verb Bilimoria et al_2014_Conceptual framework for single pilot operations.pdf:C\:\\Users\\benja\\Zotero\\storage\\ZD9SK4ID\\Bilimoria et al_2014_Conceptual framework for single pilot operations.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/2669592.2669647
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2669592.2669647
+      \endverb
+      \keyw{single pilot operations,function allocation,concept of operations,crew resource management}
+    \endentry
+    \entry{boy_requirements_2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d82b0920e2c72a949df4a3673aba5ba7}{%
+           family={Boy},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{fullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{bibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorbibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authornamehash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorfullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{1}
+      \field{shorttitle}{Requirements for {Single} {Pilot} {Operations} in {Commercial} {Aviation}}
+      \field{title}{Requirements for {Single} {Pilot} {Operations} in {Commercial} {Aviation}: {A} {First} {High}-{Level} {Cognitive} {Function} {Analysis}}
+      \field{year}{2014}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{boy_prodec_2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
+           family={Boy},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima André},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8473f350b27b0219cf9055d6e917e3cf}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=114927384129ee346303aefa9c00edea}{%
+           family={Durnerin},
+           familyi={D\bibinitperiod},
+           given={Élise},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab264eb7d244237925290c6d6cd31e30}{%
+           family={Morel},
+           familyi={M\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
+      \strng{fullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
+      \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
+      \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
+      \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of the PRODEC scenario-based design method is the incremental cross-fertilization and refinement of procedural scenarios and declarative configurations. It uses virtual prototypes of the developed systems (mainly life-critical systems) to conduct human-in-the-loop simulations (HITLSs). Based on human systems integration (HSI) principles and criteria, as well as expertise and experience in the domain at stake, this HSI approach grounded in virtual environments requires a clear definition of physical and cognitive tangibility metrics to assess the distance between virtual and tangible (grasp) dimensions of the system being developed when it is put to work. PRODEC considers human and machine systems described in terms of structures and functions incrementally designed using procedural scenarios (i.e., stories) in task and activity networks, which provide life to declarative configurations (i.e., system's functions and structures). This active modeling and simulation process enables the discovery of emergent structures and functions of the system being developed when it is virtually operated. PRODEC's use is illustrated in an example. We discuss the use of PRODEC and its results as to how they can be used with digital twins.}
+      \field{issn}{1520-6858}
+      \field{journaltitle}{Systems Engineering}
+      \field{number}{n/a}
+      \field{title}{{PRODEC} for human systems integration of increasingly autonomous systems}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{n/a}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1002/sys.21751
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\JMI9QGKT\\Boy et al. - PRODEC for human systems integration of increasing.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\MF2K86YX\\sys.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
+      \endverb
+      \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
+    \endentry
+    \entry{endsley_here_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As autonomous and semiautonomous systems are developed for automotive, aviation, cyber, robotics and other applications, the ability of human operators to effectively oversee and interact with them when needed poses a significant challenge. An automation conundrum exists in which as more autonomy is added to a system, and its reliability and robustness increase, the lower the situation awareness of human operators and the less likely that they will be able to take over manual control when needed. The human–autonomy systems oversight model integrates several decades of relevant autonomy research on operator situation awareness, out-of-the-loop performance problems, monitoring, and trust, which are all major challenges underlying the automation conundrum. Key design interventions for improving human performance in interacting with autonomous systems are integrated in the model, including human–automation interface features and central automation interaction paradigms comprising levels of automation, adaptive automation, and granularity of control approaches. Recommendations for the design of human–autonomy interfaces are presented and directions for future research discussed.}
+      \field{issn}{0018-7208, 1547-8181}
+      \field{journaltitle}{Human Factors: The Journal of the Human Factors and Ergonomics Society}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{From {Here} to {Autonomy}}
+      \field{title}{From {Here} to {Autonomy}: {Lessons} {Learned} {From} {Human}–{Automation} {Research}}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{59}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1177/0018720816681350
+      \endverb
+      \verb{file}
+      \verb Endsley_2017_From Here to Autonomy.pdf:C\:\\Users\\benja\\Zotero\\storage\\WC587JJI\\Endsley_2017_From Here to Autonomy.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
+      \endverb
+    \endentry
+    \entry{hancock_imposing_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b594f283602b37909ae65e13227b840}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7b594f283602b37909ae65e13227b840}
+      \strng{fullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{bibnamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorbibnamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authornamehash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorfullhash}{7b594f283602b37909ae65e13227b840}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Our present era is witnessing the genesis of a sea-change in the way that advanced technologies operate. Amongst this burgeoning wave of untrammelled automation there is now beginning to arise a cadre of ever-more independent, autonomous systems. The degree of interaction between these latter systems with any form of human controller is becoming progressively more diminished and remote; and this perhaps necessarily so. Here, I advocate for human-centred and human favouring constraints to be designed, programmed, promulgated and imposed upon these nascent forms of independent entity. I am not sanguine about the collective response of modern society to this call. Nevertheless, the warning must be voiced and the issue debated, especially among those who most look to mediate between people and technology.}
+      \field{issn}{0014-0139, 1366-5847}
+      \field{journaltitle}{Ergonomics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Imposing limits on autonomous systems}
+      \field{urlday}{15}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{60}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{284\bibrangedash 291}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1080/00140139.2016.1190035
+      \endverb
+      \verb{file}
+      \verb Hancock_2017_Imposing limits on autonomous systems.pdf:C\:\\Users\\benja\\Zotero\\storage\\JKSVDK4P\\Hancock_2017_Imposing limits on autonomous systems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
+      \endverb
+    \endentry
+    \entry{harris_human-centred_2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ca19d0e14555900f54ec08d47855a9e5}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{fullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{bibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorbibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authornamehash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorfullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose - This paper aims to make a case that with the appropriate use of human factors methods it is possible to design and develop a single crew commercial aircraft using largely existing technology. Design/methodology/approach - From a review of the literature it is suggested that some of the functions of the non-flying pilot would be better assumed by either onboard automation or ground-based systems. Findings - It is argued that the design of the flight deck and the role of the pilot require re-conceptualising to accommodate the requirements for flying a highly automated aircraft single-handed. With such re-design, considerable efficiency gains will be achieved, but to fully realise these gains a system-wide approach is required which extends beyond the design of the aircraft per se. Research limitations/implications - This is only a high-level thought piece to stimulate debate. Much greater consideration of all the issues raised is required, as is a change in regulatory requirements. Practical implications - If implemented, the single crew aircraft could result in a revolution in air transport, offering considerable cost savings, especially on shorter routes with relatively small passenger loads. Originality/value - A first attempt to use human factors as a design driver to produce operational and economic efficiency by the novel use of existing technologies spun-out from other areas of aircraft development.}
+      \field{issn}{0002-2667}
+      \field{journaltitle}{Aircraft Engineering and Aerospace Technology}
+      \field{number}{5}
+      \field{title}{A human-centred design agenda for the development of single crew operated commercial aircraft}
+      \field{urlday}{28}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{79}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{518\bibrangedash 526}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1108/00022660710780650
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scopus.com/inward/record.url?scp=34548300053&partnerID=8YFLogxK
+      \endverb
+      \verb{url}
+      \verb http://www.scopus.com/inward/record.url?scp=34548300053&partnerID=8YFLogxK
+      \endverb
+      \keyw{Man machine systems,Man machine interface,Design,Integration}
+    \endentry
+    \entry{hoff_trust_2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5083e8f31f5814f2c1b25575020daa6b}{%
+           family={Hoff},
+           familyi={H\bibinitperiod},
+           given={Kevin\bibnamedelima Anthony},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7234582f24de3dfb7b9ff3e4be93056a}{%
+           family={Bashir},
+           familyi={B\bibinitperiod},
+           given={Masooda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{fullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{bibnamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorbibnamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authornamehash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorfullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Human {Factors}: {The} {Journal} of the {Human} {Factors} and {Ergonomics} {Society}}
+      \field{month}{5}
+      \field{shorttitle}{Trust in {Automation}}
+      \field{title}{Trust in {Automation}: {Integrating} {Empirical} {Evidence} on {Factors} {That} {Influence} {Trust}}
+      \field{volume}{57}
+      \field{year}{2015}
+      \field{pages}{407\bibrangedash 434}
+      \range{pages}{28}
+    \endentry
+    \entry{holbrook_enabling_2020}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b7c3246fe4bd78fec14046910050b818}{%
+           family={Holbrook},
+           familyi={H\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca0530fbb1199174e54bb922013135cf}{%
+           family={Prinzel},
+           familyi={P\bibinitperiod},
+           given={Lawrence\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f1351dd0869778abdf2b97d5e09d9a1}{%
+           family={Chancey},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e2565b49f4d72b9be5c59b593758e8}{%
+           family={Shively},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d8eeb97e71dcec761aba55197a77890}{%
+           family={Feary},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb54b6ab74ef87e4324b30927478eb07}{%
+           family={Dao},
+           familyi={D\bibinitperiod},
+           given={Quang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a89885765b81bb61cf279b5a12d3eb8}{%
+           family={Ballin},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=145f9c7fd91fda70fc1572bacf242bd8}{%
+           family={Teubert},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {VIRTUAL EVENT}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{c38e3c5d66617c05d003af5432463ccb}
+      \strng{fullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{bibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authorbibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authornamehash}{c38e3c5d66617c05d003af5432463ccb}
+      \strng{authorfullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-62410-598-2}
+      \field{journaltitle}{{AIAA} {AVIATION} 2020 {FORUM}}
+      \field{month}{6}
+      \field{shorttitle}{Enabling {Urban} {Air} {Mobility}}
+      \field{title}{Enabling {Urban} {Air} {Mobility}: {Human}-{Autonomy} {Teaming} {Research} {Challenges} and {Recommendations}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2020-3250
+      \endverb
+      \verb{file}
+      \verb Holbrook et al. - 2020 - Enabling Urban Air Mobility Human-Autonomy Teamin.pdf:C\:\\Users\\benja\\Zotero\\storage\\QLKNJELK\\Holbrook et al. - 2020 - Enabling Urban Air Mobility Human-Autonomy Teamin.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
+      \endverb
+      \verb{url}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
+      \endverb
+    \endentry
+    \entry{aerospace_technology_institute_ati-insight_2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d59877d8027821c2533b88d19800b39e}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={Aerospace\bibnamedelima Technology},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{fullhash}{d59877d8027821c2533b88d19800b39e}
+      \strng{bibnamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authorbibnamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authornamehash}{d59877d8027821c2533b88d19800b39e}
+      \strng{authorfullhash}{d59877d8027821c2533b88d19800b39e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this INSIGHT paper the ATI explores the aerospace industry’s journey towards single pilot operations. While reviewing the roles of technological automation and autonomy in the possible approaches to enabling the concept of a single pilot airliner to become operational, other factors are identified as more significant drivers. Economics, demand, the projected shortage of pilots and the potential impact on aviation training play a huge role in moving towards fewer flight crew. However, innovation and development in flight deck technology are integral to realising effective and safe single pilot operations and it is imperative that the human sits at the heart of the conversation around reducing the number of crew onboard.}
+      \field{month}{7}
+      \field{title}{{ATI}-{INSIGHT} 12-{Single}-{Pilot}-{Commercial}-{Aircraft}}
+      \field{year}{2019}
+    \endentry
+    \entry{lee_design_2023}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5afd73a9b515b1bc5caa35a02400d62b}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99dff94c8923f73329dff49c2a077d1}{%
+           family={Seppelt},
+           familyi={S\bibinitperiod},
+           given={Bobbie\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=33a162b4853970613914e88dcf0c92f7}{%
+           family={Nof},
+           familyi={N\bibinitperiod},
+           given={Shimon\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{fullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{bibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorbibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authornamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorfullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{editorbibnamehash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editornamehash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editorfullhash}{33a162b4853970613914e88dcf0c92f7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Designers frequently look toward automation as a way to increase system efficiency and safety by reducing involvement. This approach can disappoint because the contribution of people often becomes more, not less, important as automation becomes more powerful and prevalent. More powerful automation demands greater attention to its design, supervisory responsibilities, system maintenance, software upgrades, and automation coordination. Developing automation without consideration of the human operator can lead to new and more catastrophic failures. For automation to fulfill its promise, designers must avoid a technology-centered approach that often yields strong but silent forms of automation, and instead adopt an approach that considers the joint operator-automation system that yields more collaborative, communicative forms of automation. Automation-related problems arise because introducing automation changes the type and extent of feedback that operators receive, as well as the nature and structure of tasks. Also, operators’ behavioral, cognitive, and emotional responses to these changes can leave the system vulnerable to failure. No single approach can address all of these challenges because automation is a heterogeneous technology. There are many types and forms of automation and each poses different design challenges. This chapter describes how different types of automation place different demands on operators. It also presents strategies that can help designers achieve promised benefits of automation. The chapter concludes with future challenges in automation design and human interaction with increasingly autonomous systems.}
+      \field{booktitle}{Springer {Handbook} of {Automation}}
+      \field{isbn}{978-3-030-96729-1}
+      \field{series}{Springer {Handbooks}}
+      \field{title}{Design for {Human}-{Automation} and {Human}-{Autonomous} {Systems}}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{433\bibrangedash 455}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-030-96729-1_19
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-96729-1_19
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-96729-1_19
+      \endverb
+      \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
+    \endentry
+    \entry{matessa_using_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a62b2bcdd5d9e858f59e6e99b9e9f130}{%
+           family={Matessa},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{fullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{bibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorbibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authornamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorfullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using a {CRM} framework to develop {HAT} measures}
+      \field{year}{2017}
+      \verb{file}
+      \verb Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:C\:\\Users\\benja\\Zotero\\storage\\IITD9LTF\\Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{mcneese_chapter_2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=9d4a6bf63785f72f94e41d5cbbdc869a}{%
+           family={McNeese},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=2bce013ea0a08703b618d9fc4d44cddc}{%
+           family={McNeese},
+           familyi={M\bibinitperiod},
+           given={Nathaniel\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4014a77aef13831beef3b89e7a754445}{%
+           family={Pak},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=04df1371738824971dee7a750dc03d08}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={Ewart\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=bcfa0b44adbe94fb4e28645a602ca958}{%
+           family={Rovira},
+           familyi={R\bibinitperiod},
+           given={Ericka},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{fullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{bibnamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorbibnamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authornamehash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorfullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{editorbibnamehash}{23c7d85da00b0c492fe644f242ed324c}
+      \strng{editornamehash}{ac171585c9d97f026587df4395281fc8}
+      \strng{editorfullhash}{23c7d85da00b0c492fe644f242ed324c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Humans have a long history of interacting with many types of intelligent machines. The level and sophistication of this interaction will only continue to grow in upcoming years, as intelligent technology continues to advance from automation to autonomous capabilities. In this chapter, we provide a historical context on research that has been conducted on humans interacting with machines. Principles of extraordinary human–robotic interaction (EHRI) are outlined to better understand effective and meaningful human–robot interaction. Finally, a discussion regarding the design and development of EHRI is presented. In this section, we present frameworks on how to both study and design EHRI.}
+      \field{booktitle}{Living with {Robots}}
+      \field{isbn}{978-0-12-815367-3}
+      \field{month}{1}
+      \field{shorttitle}{Chapter 9 - {Humans} interacting with intelligent machines}
+      \field{title}{Chapter 9 - {Humans} interacting with intelligent machines: at the crossroads of symbiotic teamwork}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{165\bibrangedash 197}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-815367-3.00009-8
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:C\:\\Users\\benja\\Zotero\\storage\\EBM366AD\\B9780128153673000098.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
+      \endverb
+      \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
+    \endentry
+    \entry{shively_autonomy_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
+           family={Shively},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Montreal}%
+      }
+      \strng{namehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{fullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{bibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorbibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authornamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorfullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A significant level of debate and confusion has surrounded the meaning of the terms autonomy and automation. Automation is a multi-dimensional concept, and we propose that Remotely Piloted Aircraft Systems (RPAS) automation should be described with reference to the specific system and task that has been automated, the context in which the automation functions, and other relevant dimensions. In this paper, we present definitions of automation, pilot in the loop, pilot on the loop and pilot out of the loop. We further propose that in future, the International Civil Aviation Organization (ICAO) RPAS Panel avoids the use of the terms autonomy and autonomous when referring to automated systems on board RPA. Work Group 7 proposes to develop, in consultation with other workgroups, a taxonomy of Levels of Automation for RPAS.}
+      \field{month}{3}
+      \field{note}{NTRS Author Affiliations: NASA Ames Research Center NTRS Report/Patent Number: ARC-E-DAA-TN39628 NTRS Document ID: 20170002271 NTRS Research Center: Ames Research Center (ARC)}
+      \field{title}{Autonomy and {Automation}}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Shively_2017_Autonomy and Automation.pdf:C\:\\Users\\benja\\Zotero\\storage\\RVE3CS2W\\Shively_2017_Autonomy and Automation.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\E53G5J3G\\20170002271.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/citations/20170002271
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/citations/20170002271
+      \endverb
+      \keyw{Aeronautics (General)}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

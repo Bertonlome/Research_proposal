@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper]{article} % Defines the document as an article with 12pt font on A4 paper
+\usepackage[utf8]{inputenc} % Sets UTF-8 encoding
+\usepackage{geometry} % Enables page geometry customization
+\geometry{margin=1in} % Sets 1-inch margins
+\usepackage{graphicx} % Allows inclusion of images
+\usepackage{titlesec} % Controls section formatting
+\usepackage{hyperref} % Enables hyperlinks
+\usepackage{setspace} % Allows line spacing adjustments
+\usepackage{csquotes} % Improves quotation handling
+\usepackage{datetime} % Provides date and time formatting
+\usepackage[backend=biber,style=apa, sorting=nyt]{biblatex} % Configures bibliography using Biber with APA style
+\addbibresource{references.bib} % Adds a bibliography file (replace with your .bib file name)
+\renewcommand{\dateseparator}{-} % Sets date separator as '-'
+\onehalfspacing % Sets line spacing to 1.5
+
+
+\title{\textbf{Research Proposal: PhD candidate in Industrial Engineering}} % Defines the title
+\author{
+	\textbf{Benjamin R. Berton}\\
+	Polytechnique Montréal\\
+	\href{mailto:benjamin.berton@polymtl.ca}{benjamin.berton@polymtl.ca}\\
+	\textit{Supervised by: Philippe Doyon-Poulin}
+} % Defines author details
+
+\begin{document} % Begins the document
+	\maketitle % Generates the title
+	
+	\begin{center}
+		\textbf{A cognitive modelling approach to evaluating Human-Autonomy Teaming in commercial aviation}
+	\end{center} % Centers the research title
+	
+	\begin{center}
+		Submitted to members of the Jury:\\
+		Pr. Jean-Marc Frayret, Pr. Philippe Doyon-Poulin \& Pr. Shi Cao\\
+		\date{\today} % Inserts today's date
+	\end{center} % Centers the research title
+	
+	\newpage % Starts a new page
+	
+	\tableofcontents % Generates the table of contents
+	\newpage % Starts a new page
+	
+	\section{Trigger} % Defines a section titled "Trigger"
+	Commercial aviation has shown a trend toward crew reduction, progressively decreasing the number of members in the cockpit \parencite{harris_human-centred_2007}. Historically, flight crews included up to five members, but technological advancements have reduced this number to two—the Captain (CPT) and First Officer (FO)—eliminating the need for flight engineers, navigators, and radio operators.
+	
+	Currently, the Federal Aviation Administration (FAA) - Part 25 regulations mandate a minimum of two pilots in the cockpit. However, technological advancements suggest the possibility of transitioning to Single Pilot Operations (SPO), where only one pilot would be on duty, assisted by advanced onboard technologies and potentially ground support \parencite{bilimoria_conceptual_2014}. While this transition is technically feasible, it introduces significant challenges, far more complex than previous crew reductions \parencite{matessa_using_2017}.
+	
+	One of the main issues with SPO is the removal of a redundancy layer, a fundamental element of aviation safety. Shifting from a two-pilot cockpit to a single-operator model requires ensuring an equivalent or higher level of safety compared to current operations \parencite{boy_requirements_2014}. Simply replacing the human co-pilot with increased automation is not a viable solution. Future operational concepts must rethink task distribution between the pilot and autonomy to maintain reliability and resilience.
+	
+	Successfully integrating SPO into commercial aviation requires moving beyond the traditional Human-Centered Design (HCD) approach. It is crucial to adopt a Human Systems Integration (HSI) perspective to ensure a seamless consideration of technical, organizational, and human dimensions throughout the system's lifecycle \parencite{boy_prodec_2024}. This transition will involve structural changes within air traffic management, raising new safety concerns. Identifying design flaws, anticipating potential human errors, and addressing them early in the development process are essential. The HSI approach allows for these aspects to be considered within a global operational framework, integrating interactions between human and technological elements.
+	
+	Another key factor for the success of SPO is the collaborative aspect between humans and advanced automated systems, known as Human-Autonomy Teaming (HAT). This approach emphasizes effective cooperation between the single pilot and advanced autonomous systems, where these systems do more than assist—they act as teammates \parencite{shively_autonomy_2017}.
+	
+	HAT is based on the evolution from automation to autonomy. Automation refers to technologies that process data, make decisions, and execute tasks based on predefined procedures \parencite{hoff_trust_2015, hancock_imposing_2017}. Autonomy, on the other hand, refers to a system’s ability to perform tasks with minimal human intervention over an extended period \parencite{endsley_here_2017, holbrook_enabling_2020}. This progressive shift toward greater autonomy fundamentally changes the human-automation relationship, evolving from simple interaction to genuine teamwork \parencite{endsley_here_2017}.
+	
+	However, increasing automation levels also presents challenges, particularly automation complacency, where excessive reliance on automated systems can lead to reduced vigilance and an inability to react effectively in case of anomalies \parencite{lee_design_2023}. To avoid this pitfall, it is crucial to design systems that promote active collaboration between the pilot and onboard autonomy \parencite{endsley_here_2017}. The goal of HAT is to ensure smooth and efficient cooperation, where autonomous systems act as real teammates, contributing to safer and more effective flight operations \parencite{mcneese_chapter_2020}.
+	
+	Just trying something here to see how it looks. I will remove this later. \parencite{aerospace_technology_institute_ati-insight_2019}
+	\section{Theoretical Background}
+	\subsection{Human-Autonomy Teaming}
+	\subsection{Situation Awareness}
+	\subsubsection{Team-Situation Awareness}
+	\subsubsection{Computational models of Situation Awareness}
+	\subsection{Knowledge gap} % Section title "Knowledge Boundaries"
+	
+	%\section{Research Question and Hypothesis} % Section for research question and hypothesis
+	%\textbf{Question:} How does introducing a virtual co-pilot based on a cognitive model influence pilot performance and situation %awareness in Single Pilot Operations?
+	%
+	%\textbf{Hypothesis:} A virtual co-pilot, designed with a rigorous cognitive model, improves pilot situation awareness while %reducing cognitive load.
+	
+	\section{Objectives} % Defines the "Objectives" section
+	The general objective of this research is to develop a methodology that facilitates the design of an autonomous agent in commercial aviation. To do so, we will use a collection of methods from the human factors and ergonomics toolkit, design an agent, and investigate how the design of the human-autonomy teamwork and agent interface impacts the team Situation Awareness.
+	
+	To achieve this objective, the thesis will be comprised of three phases. First, we will conduct a thorough analysis of the work and design domain in order to delineate the taskwork and teamwork and list requirements for the agent design. Second, we will develop in parallel a cognitive model of the human pilot and the autonomous agent, enabling them to interact in a closed-loop simulation environment. Third, we will conduct Human-In-The-Loop Simulation studies with expert pilots to both validate the cognitive model, and investigates the human factors that weren't modeled such as trust in the autonomous agent and usability of the interface. These phases will be detailed in the next section 
+	
+	\section{Methodology} % Section title "Methodology"
+	\subsection{Phase 1: Work and design domain analysis}
+	\subsubsection{Goal-Directed Task Analysis}
+	\subsubsection{Interdependence Analysis}
+	\subsection{Phase 2: Cognitive modeling and agent development}
+	\subsubsection{QN-ACTR}
+	\subsubsection{SEEV}
+	\subsubsection{Agent design}
+	\subsubsection{System architecture}
+	\subsubsection{Scenario \& Simulation}
+	\subsection{Phase 3: Human-In-The-loop simulation studies}
+	\subsubsection{Scenario}
+	\subsubsection{Equipment}
+	\subsubsection{Participants}
+	\subsubsection{Protocol}
+	\subsubsection{Model validation and results}
+	
+	\section{Expected Results} % Section for expected results
+	\begin{itemize}
+		\item A cognitive model predicting pilot cognitive load and situation awareness.
+		\item An evaluation of human-autonomy cooperation strategies.
+		\item Empirical validation via HITLS to assess acceptance of the autonomous co-pilot.
+	\end{itemize} % Lists expected outcomes
+	
+	\section{Originality and Impact} % Section for originality and impact
+	This project provides an advanced methodology for integrating collaborative autonomous systems into the cockpit, improving the safety and efficiency of Single Pilot Operations.
+	
+	\section{Risks assessment and mitigation}
+	My risks
+	
+	\section{Resource management}
+	My resources
+	
+	\section{Timeline}
+	\printbibliography % Prints the bibliography
+	
+\end{document} % Ends the document
