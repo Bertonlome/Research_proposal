@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/apasortcite//global/global}
-    \entry{bilimoria_conceptual_2014}{article}{}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{bilimoria_conceptual_2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f94413f85be4847999f8315addf48c50}{%
            family={Bilimoria},
@@ -48,10 +48,12 @@
       }
       \strng{namehash}{2ac145a6e8eb896a9e0bf844b911c342}
       \strng{fullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{fullhashraw}{764d227c0e6882da7278eaa3878afd47}
       \strng{bibnamehash}{764d227c0e6882da7278eaa3878afd47}
       \strng{authorbibnamehash}{764d227c0e6882da7278eaa3878afd47}
       \strng{authornamehash}{2ac145a6e8eb896a9e0bf844b911c342}
       \strng{authorfullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authorfullhashraw}{764d227c0e6882da7278eaa3878afd47}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -86,7 +88,7 @@
       \endverb
       \keyw{single pilot operations,function allocation,concept of operations,crew resource management}
     \endentry
-    \entry{boy_requirements_2014}{article}{}
+    \entry{boy_requirements_2014}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d82b0920e2c72a949df4a3673aba5ba7}{%
            family={Boy},
@@ -94,10 +96,12 @@
       }
       \strng{namehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{fullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{fullhashraw}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{bibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authorbibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authornamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authorfullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorfullhashraw}{d82b0920e2c72a949df4a3673aba5ba7}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -112,7 +116,7 @@
       \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
       \endverb
     \endentry
-    \entry{boy_prodec_2024}{article}{}
+    \entry{boy_prodec_2024}{article}{}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
            family={Boy},
@@ -144,10 +148,12 @@
       }
       \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
       \strng{fullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{fullhashraw}{1c3b65b32225649648eb66252f879972}
       \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
       \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
       \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
       \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{authorfullhashraw}{1c3b65b32225649648eb66252f879972}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -179,7 +185,7 @@
       \endverb
       \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
     \endentry
-    \entry{endsley_here_2017}{article}{}
+    \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
            family={Endsley},
@@ -193,10 +199,12 @@
       }
       \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -232,7 +240,62 @@
       \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
       \endverb
     \endentry
-    \entry{hancock_imposing_2017}{article}{}
+    \entry{endsley_designing_2003}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea6995fa167ea91bb8c8cbbed0c4806b}{%
+           family={Bolte},
+           familyi={B\bibinitperiod},
+           given={Betty},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b644b49bf45f5354013f1938a5c44fc4}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Debra\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{228e8ff40e9e5787d17d340168c6044f}
+      \strng{fullhash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{fullhashraw}{c98666a9f47dbf975069a89493c3e088}
+      \strng{bibnamehash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authorbibnamehash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authornamehash}{228e8ff40e9e5787d17d340168c6044f}
+      \strng{authorfullhash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authorfullhashraw}{c98666a9f47dbf975069a89493c3e088}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Enhancing Situation Awareness (SA) is a major design goal for projects in many fields, including aviation, ground transportation, air traffic control, nuclear power, and medicine, but little information exists in an integral format to support this goal. Designing for Situation Awareness helps designers understand how people acquire and inte}
+      \field{isbn}{978-0-429-20477-7}
+      \field{month}{7}
+      \field{shorttitle}{Designing for {Situation} {Awareness}}
+      \field{title}{Designing for {Situation} {Awareness}: {An} {Approach} to {User}-{Centered} {Design}}
+      \field{year}{2003}
+      \verb{doi}
+      \verb 10.1201/9780203485088
+      \endverb
+      \verb{file}
+      \verb Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:C\:\\Users\\benja\\Zotero\\storage\\5NIEX5YS\\Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:application/pdf;Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\2J9HL4IM\\Endsley et al. - 2003 - Designing for Situation Awareness An Approach to .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{hancock_imposing_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7b594f283602b37909ae65e13227b840}{%
            family={Hancock},
@@ -246,10 +309,12 @@
       }
       \strng{namehash}{7b594f283602b37909ae65e13227b840}
       \strng{fullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{fullhashraw}{7b594f283602b37909ae65e13227b840}
       \strng{bibnamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authorbibnamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authornamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authorfullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorfullhashraw}{7b594f283602b37909ae65e13227b840}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -284,7 +349,7 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
       \endverb
     \endentry
-    \entry{harris_human-centred_2007}{article}{}
+    \entry{harris_human-centred_2007}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ca19d0e14555900f54ec08d47855a9e5}{%
            family={Harris},
@@ -295,10 +360,12 @@
       }
       \strng{namehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{fullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{fullhashraw}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{bibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authorbibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authornamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authorfullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorfullhashraw}{ca19d0e14555900f54ec08d47855a9e5}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -330,7 +397,7 @@
       \endverb
       \keyw{Man machine systems,Man machine interface,Design,Integration}
     \endentry
-    \entry{hoff_trust_2015}{article}{}
+    \entry{hoff_trust_2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5083e8f31f5814f2c1b25575020daa6b}{%
            family={Hoff},
@@ -350,10 +417,12 @@
       }
       \strng{namehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{fullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{fullhashraw}{58bf31e90281388d95f41d3da5ae1643}
       \strng{bibnamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authorbibnamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authornamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authorfullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorfullhashraw}{58bf31e90281388d95f41d3da5ae1643}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -370,7 +439,7 @@
       \field{pages}{407\bibrangedash 434}
       \range{pages}{28}
     \endentry
-    \entry{holbrook_enabling_2020}{article}{}
+    \entry{holbrook_enabling_2020}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=b7c3246fe4bd78fec14046910050b818}{%
            family={Holbrook},
@@ -433,10 +502,12 @@
       }
       \strng{namehash}{c38e3c5d66617c05d003af5432463ccb}
       \strng{fullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{fullhashraw}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{bibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{authorbibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{authornamehash}{c38e3c5d66617c05d003af5432463ccb}
       \strng{authorfullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authorfullhashraw}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -467,34 +538,138 @@
       \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
       \endverb
     \endentry
-    \entry{aerospace_technology_institute_ati-insight_2019}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d59877d8027821c2533b88d19800b39e}{%
-           family={Institute},
-           familyi={I\bibinitperiod},
-           given={Aerospace\bibnamedelima Technology},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+    \entry{johnson_coactive_2014}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62e61a693fd2d71fd67d7bcaf2a9cdc}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cca1b751fea9bf48f5f66601e9ca09a}{%
+           family={Feltovich},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6e45d57654819f9899a30fc7db995ea}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={Catholijn\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cd922ee9553b5ea8c66d0175c137bf9}{%
+           family={Riemsdijk},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi Birna},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9570d53ba5b8cf965bdb1bd85672f802}{%
+           family={Sierhuis},
+           familyi={S\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{fullhash}{d59877d8027821c2533b88d19800b39e}
-      \strng{bibnamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authorbibnamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authornamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authorfullhash}{d59877d8027821c2533b88d19800b39e}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{fullhash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{fullhashraw}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{bibnamehash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authorbibnamehash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authornamehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{authorfullhash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authorfullhashraw}{e5ab045a86577cc523f90a731c1bde28}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Coactive Design is a new approach to address the increasingly sophisticated roles that people and robots play as the use of robots expands into new, complex domains. The approach is motivated by the desire for robots to perform less like teleoperated tools or independent automatons and more like interdependent teammates. In this article, we describe what it means to be interdependent, why this is important, and the design implications that follow from this perspective. We argue for a human-robot system model that supports interdependence through careful attention to requirements for observability, predictability, and directability. We present a Coactive Design method and show how it can be a useful approach for developers trying to understand how to translate high-level teamwork concepts into reusable control algorithms, interface elements, and behaviors that enable robots to fulfill their envisioned role as teammates. As an example of the coactive design approach, we present our results from the DARPA Virtual Robotics Challenge, a competition designed to spur development of advanced robots that can assist humans in recovering from natural and man-made disasters. Twenty-six teams from eight countries competed in three different tasks providing an excellent evaluation of the relative effectiveness of different approaches to human-machine system design.}
+      \field{journaltitle}{Journal of Human-Robot Interaction}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{Coactive design}
+      \field{title}{Coactive design: designing support for interdependence in joint activity}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 69}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.5898/JHRI.3.1.Johnson
+      \endverb
+      \verb{file}
+      \verb Johnson et al_2014_Coactive design.pdf:C\:\\Users\\benja\\Zotero\\storage\\XQHBGIZN\\Johnson et al_2014_Coactive design.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.5898/JHRI.3.1.Johnson
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.5898/JHRI.3.1.Johnson
+      \endverb
+      \keyw{teamwork,human-robot interaction,coactive design,collaboration,human-agent-robot teamwork,interdependence,joint activity}
+    \endentry
+    \entry{johnson_understanding_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd9fb47c37432cec2f87e40fff7e67a}{%
+           family={Vignati},
+           familyi={V\bibinitperiod},
+           given={Micael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df50b317ed61f23575fe16d90b2926c0}{%
+           family={Duran},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{fullhash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{fullhashraw}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{bibnamehash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authorbibnamehash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authornamehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{authorfullhash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authorfullhashraw}{6170251dcd554bb96a2d2112daec7cf5}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this INSIGHT paper the ATI explores the aerospace industry’s journey towards single pilot operations. While reviewing the roles of technological automation and autonomy in the possible approaches to enabling the concept of a single pilot airliner to become operational, other factors are identified as more significant drivers. Economics, demand, the projected shortage of pilots and the potential impact on aviation training play a huge role in moving towards fewer flight crew. However, innovation and development in flight deck technology are integral to realising effective and safe single pilot operations and it is imperative that the human sits at the heart of the conversation around reducing the number of crew onboard.}
-      \field{month}{7}
-      \field{title}{{ATI}-{INSIGHT} 12-{Single}-{Pilot}-{Commercial}-{Aircraft}}
-      \field{year}{2019}
+      \field{journaltitle}{Symp. {Hum}. {Auton}. {Teaming}}
+      \field{title}{Understanding human-autonomy teaming through interdependence analysis}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \verb{file}
+      \verb Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:C\:\\Users\\benja\\Zotero\\storage\\GS3ZSP5G\\Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:application/pdf
+      \endverb
     \endentry
-    \entry{lee_design_2023}{inbook}{}
+    \entry{lee_design_2023}{inbook}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5afd73a9b515b1bc5caa35a02400d62b}{%
            family={Lee},
@@ -527,13 +702,16 @@
       }
       \strng{namehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{fullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{fullhashraw}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{bibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authorbibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authornamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authorfullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorfullhashraw}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{editorbibnamehash}{33a162b4853970613914e88dcf0c92f7}
       \strng{editornamehash}{33a162b4853970613914e88dcf0c92f7}
       \strng{editorfullhash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editorfullhashraw}{33a162b4853970613914e88dcf0c92f7}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -564,7 +742,7 @@
       \endverb
       \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
     \endentry
-    \entry{matessa_using_2017}{article}{}
+    \entry{matessa_using_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a62b2bcdd5d9e858f59e6e99b9e9f130}{%
            family={Matessa},
@@ -575,10 +753,12 @@
       }
       \strng{namehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{fullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{fullhashraw}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{bibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authorbibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authornamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authorfullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorfullhashraw}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -592,7 +772,7 @@
       \verb Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:C\:\\Users\\benja\\Zotero\\storage\\IITD9LTF\\Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:application/pdf
       \endverb
     \endentry
-    \entry{mcneese_chapter_2020}{inbook}{}
+    \entry{mcneese_chapter_2020}{inbook}{}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=9d4a6bf63785f72f94e41d5cbbdc869a}{%
            family={McNeese},
@@ -631,13 +811,16 @@
       }
       \strng{namehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{fullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{fullhashraw}{b607bcdb6402131886bec96445fe12dd}
       \strng{bibnamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authorbibnamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authornamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authorfullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorfullhashraw}{b607bcdb6402131886bec96445fe12dd}
       \strng{editorbibnamehash}{23c7d85da00b0c492fe644f242ed324c}
       \strng{editornamehash}{ac171585c9d97f026587df4395281fc8}
       \strng{editorfullhash}{23c7d85da00b0c492fe644f242ed324c}
+      \strng{editorfullhashraw}{23c7d85da00b0c492fe644f242ed324c}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -672,7 +855,7 @@
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
     \endentry
-    \entry{shively_autonomy_2017}{article}{}
+    \entry{shively_autonomy_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
            family={Shively},
@@ -683,10 +866,12 @@
       }
       \strng{namehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{fullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{fullhashraw}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{bibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authorbibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authornamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authorfullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorfullhashraw}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -715,8 +900,8 @@
       \keyw{Aeronautics (General)}
     \endentry
   \enddatalist
-  \datalist[entry]{nyt/global//global/global}
-    \entry{bilimoria_conceptual_2014}{article}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{bilimoria_conceptual_2014}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f94413f85be4847999f8315addf48c50}{%
            family={Bilimoria},
@@ -745,10 +930,12 @@
       }
       \strng{namehash}{2ac145a6e8eb896a9e0bf844b911c342}
       \strng{fullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{fullhashraw}{764d227c0e6882da7278eaa3878afd47}
       \strng{bibnamehash}{764d227c0e6882da7278eaa3878afd47}
       \strng{authorbibnamehash}{764d227c0e6882da7278eaa3878afd47}
       \strng{authornamehash}{2ac145a6e8eb896a9e0bf844b911c342}
       \strng{authorfullhash}{764d227c0e6882da7278eaa3878afd47}
+      \strng{authorfullhashraw}{764d227c0e6882da7278eaa3878afd47}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -783,7 +970,7 @@
       \endverb
       \keyw{single pilot operations,function allocation,concept of operations,crew resource management}
     \endentry
-    \entry{boy_requirements_2014}{article}{}
+    \entry{boy_requirements_2014}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d82b0920e2c72a949df4a3673aba5ba7}{%
            family={Boy},
@@ -791,10 +978,12 @@
       }
       \strng{namehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{fullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{fullhashraw}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{bibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authorbibnamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authornamehash}{d82b0920e2c72a949df4a3673aba5ba7}
       \strng{authorfullhash}{d82b0920e2c72a949df4a3673aba5ba7}
+      \strng{authorfullhashraw}{d82b0920e2c72a949df4a3673aba5ba7}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -809,7 +998,7 @@
       \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
       \endverb
     \endentry
-    \entry{boy_prodec_2024}{article}{}
+    \entry{boy_prodec_2024}{article}{}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
            family={Boy},
@@ -841,10 +1030,12 @@
       }
       \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
       \strng{fullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{fullhashraw}{1c3b65b32225649648eb66252f879972}
       \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
       \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
       \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
       \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
+      \strng{authorfullhashraw}{1c3b65b32225649648eb66252f879972}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -876,7 +1067,7 @@
       \endverb
       \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
     \endentry
-    \entry{endsley_here_2017}{article}{}
+    \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
            family={Endsley},
@@ -890,10 +1081,12 @@
       }
       \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -929,7 +1122,62 @@
       \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
       \endverb
     \endentry
-    \entry{hancock_imposing_2017}{article}{}
+    \entry{endsley_designing_2003}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea6995fa167ea91bb8c8cbbed0c4806b}{%
+           family={Bolte},
+           familyi={B\bibinitperiod},
+           given={Betty},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b644b49bf45f5354013f1938a5c44fc4}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Debra\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{228e8ff40e9e5787d17d340168c6044f}
+      \strng{fullhash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{fullhashraw}{c98666a9f47dbf975069a89493c3e088}
+      \strng{bibnamehash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authorbibnamehash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authornamehash}{228e8ff40e9e5787d17d340168c6044f}
+      \strng{authorfullhash}{c98666a9f47dbf975069a89493c3e088}
+      \strng{authorfullhashraw}{c98666a9f47dbf975069a89493c3e088}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Enhancing Situation Awareness (SA) is a major design goal for projects in many fields, including aviation, ground transportation, air traffic control, nuclear power, and medicine, but little information exists in an integral format to support this goal. Designing for Situation Awareness helps designers understand how people acquire and inte}
+      \field{isbn}{978-0-429-20477-7}
+      \field{month}{7}
+      \field{shorttitle}{Designing for {Situation} {Awareness}}
+      \field{title}{Designing for {Situation} {Awareness}: {An} {Approach} to {User}-{Centered} {Design}}
+      \field{year}{2003}
+      \verb{doi}
+      \verb 10.1201/9780203485088
+      \endverb
+      \verb{file}
+      \verb Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:C\:\\Users\\benja\\Zotero\\storage\\5NIEX5YS\\Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:application/pdf;Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\2J9HL4IM\\Endsley et al. - 2003 - Designing for Situation Awareness An Approach to .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{hancock_imposing_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7b594f283602b37909ae65e13227b840}{%
            family={Hancock},
@@ -943,10 +1191,12 @@
       }
       \strng{namehash}{7b594f283602b37909ae65e13227b840}
       \strng{fullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{fullhashraw}{7b594f283602b37909ae65e13227b840}
       \strng{bibnamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authorbibnamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authornamehash}{7b594f283602b37909ae65e13227b840}
       \strng{authorfullhash}{7b594f283602b37909ae65e13227b840}
+      \strng{authorfullhashraw}{7b594f283602b37909ae65e13227b840}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -981,7 +1231,7 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/00140139.2016.1190035
       \endverb
     \endentry
-    \entry{harris_human-centred_2007}{article}{}
+    \entry{harris_human-centred_2007}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ca19d0e14555900f54ec08d47855a9e5}{%
            family={Harris},
@@ -992,10 +1242,12 @@
       }
       \strng{namehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{fullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{fullhashraw}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{bibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authorbibnamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authornamehash}{ca19d0e14555900f54ec08d47855a9e5}
       \strng{authorfullhash}{ca19d0e14555900f54ec08d47855a9e5}
+      \strng{authorfullhashraw}{ca19d0e14555900f54ec08d47855a9e5}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1027,7 +1279,7 @@
       \endverb
       \keyw{Man machine systems,Man machine interface,Design,Integration}
     \endentry
-    \entry{hoff_trust_2015}{article}{}
+    \entry{hoff_trust_2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5083e8f31f5814f2c1b25575020daa6b}{%
            family={Hoff},
@@ -1047,10 +1299,12 @@
       }
       \strng{namehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{fullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{fullhashraw}{58bf31e90281388d95f41d3da5ae1643}
       \strng{bibnamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authorbibnamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authornamehash}{58bf31e90281388d95f41d3da5ae1643}
       \strng{authorfullhash}{58bf31e90281388d95f41d3da5ae1643}
+      \strng{authorfullhashraw}{58bf31e90281388d95f41d3da5ae1643}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1067,7 +1321,7 @@
       \field{pages}{407\bibrangedash 434}
       \range{pages}{28}
     \endentry
-    \entry{holbrook_enabling_2020}{article}{}
+    \entry{holbrook_enabling_2020}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=b7c3246fe4bd78fec14046910050b818}{%
            family={Holbrook},
@@ -1130,10 +1384,12 @@
       }
       \strng{namehash}{c38e3c5d66617c05d003af5432463ccb}
       \strng{fullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{fullhashraw}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{bibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{authorbibnamehash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \strng{authornamehash}{c38e3c5d66617c05d003af5432463ccb}
       \strng{authorfullhash}{eff8b999dd639b184d1fbbaa2fbf3ad1}
+      \strng{authorfullhashraw}{eff8b999dd639b184d1fbbaa2fbf3ad1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1164,34 +1420,138 @@
       \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
       \endverb
     \endentry
-    \entry{aerospace_technology_institute_ati-insight_2019}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d59877d8027821c2533b88d19800b39e}{%
-           family={Institute},
-           familyi={I\bibinitperiod},
-           given={Aerospace\bibnamedelima Technology},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+    \entry{johnson_coactive_2014}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62e61a693fd2d71fd67d7bcaf2a9cdc}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cca1b751fea9bf48f5f66601e9ca09a}{%
+           family={Feltovich},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6e45d57654819f9899a30fc7db995ea}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={Catholijn\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cd922ee9553b5ea8c66d0175c137bf9}{%
+           family={Riemsdijk},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi Birna},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9570d53ba5b8cf965bdb1bd85672f802}{%
+           family={Sierhuis},
+           familyi={S\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{fullhash}{d59877d8027821c2533b88d19800b39e}
-      \strng{bibnamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authorbibnamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authornamehash}{d59877d8027821c2533b88d19800b39e}
-      \strng{authorfullhash}{d59877d8027821c2533b88d19800b39e}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{fullhash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{fullhashraw}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{bibnamehash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authorbibnamehash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authornamehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{authorfullhash}{e5ab045a86577cc523f90a731c1bde28}
+      \strng{authorfullhashraw}{e5ab045a86577cc523f90a731c1bde28}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Coactive Design is a new approach to address the increasingly sophisticated roles that people and robots play as the use of robots expands into new, complex domains. The approach is motivated by the desire for robots to perform less like teleoperated tools or independent automatons and more like interdependent teammates. In this article, we describe what it means to be interdependent, why this is important, and the design implications that follow from this perspective. We argue for a human-robot system model that supports interdependence through careful attention to requirements for observability, predictability, and directability. We present a Coactive Design method and show how it can be a useful approach for developers trying to understand how to translate high-level teamwork concepts into reusable control algorithms, interface elements, and behaviors that enable robots to fulfill their envisioned role as teammates. As an example of the coactive design approach, we present our results from the DARPA Virtual Robotics Challenge, a competition designed to spur development of advanced robots that can assist humans in recovering from natural and man-made disasters. Twenty-six teams from eight countries competed in three different tasks providing an excellent evaluation of the relative effectiveness of different approaches to human-machine system design.}
+      \field{journaltitle}{Journal of Human-Robot Interaction}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{Coactive design}
+      \field{title}{Coactive design: designing support for interdependence in joint activity}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 69}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.5898/JHRI.3.1.Johnson
+      \endverb
+      \verb{file}
+      \verb Johnson et al_2014_Coactive design.pdf:C\:\\Users\\benja\\Zotero\\storage\\XQHBGIZN\\Johnson et al_2014_Coactive design.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.5898/JHRI.3.1.Johnson
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.5898/JHRI.3.1.Johnson
+      \endverb
+      \keyw{teamwork,human-robot interaction,coactive design,collaboration,human-agent-robot teamwork,interdependence,joint activity}
+    \endentry
+    \entry{johnson_understanding_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd9fb47c37432cec2f87e40fff7e67a}{%
+           family={Vignati},
+           familyi={V\bibinitperiod},
+           given={Micael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df50b317ed61f23575fe16d90b2926c0}{%
+           family={Duran},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{fullhash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{fullhashraw}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{bibnamehash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authorbibnamehash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authornamehash}{d0b8d75018db273fb4274b2390e6ae19}
+      \strng{authorfullhash}{6170251dcd554bb96a2d2112daec7cf5}
+      \strng{authorfullhashraw}{6170251dcd554bb96a2d2112daec7cf5}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this INSIGHT paper the ATI explores the aerospace industry’s journey towards single pilot operations. While reviewing the roles of technological automation and autonomy in the possible approaches to enabling the concept of a single pilot airliner to become operational, other factors are identified as more significant drivers. Economics, demand, the projected shortage of pilots and the potential impact on aviation training play a huge role in moving towards fewer flight crew. However, innovation and development in flight deck technology are integral to realising effective and safe single pilot operations and it is imperative that the human sits at the heart of the conversation around reducing the number of crew onboard.}
-      \field{month}{7}
-      \field{title}{{ATI}-{INSIGHT} 12-{Single}-{Pilot}-{Commercial}-{Aircraft}}
-      \field{year}{2019}
+      \field{journaltitle}{Symp. {Hum}. {Auton}. {Teaming}}
+      \field{title}{Understanding human-autonomy teaming through interdependence analysis}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \verb{file}
+      \verb Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:C\:\\Users\\benja\\Zotero\\storage\\GS3ZSP5G\\Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:application/pdf
+      \endverb
     \endentry
-    \entry{lee_design_2023}{inbook}{}
+    \entry{lee_design_2023}{inbook}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5afd73a9b515b1bc5caa35a02400d62b}{%
            family={Lee},
@@ -1224,13 +1584,16 @@
       }
       \strng{namehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{fullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{fullhashraw}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{bibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authorbibnamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authornamehash}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{authorfullhash}{6b6e7ffe31ca1f1de535845dd77bea64}
+      \strng{authorfullhashraw}{6b6e7ffe31ca1f1de535845dd77bea64}
       \strng{editorbibnamehash}{33a162b4853970613914e88dcf0c92f7}
       \strng{editornamehash}{33a162b4853970613914e88dcf0c92f7}
       \strng{editorfullhash}{33a162b4853970613914e88dcf0c92f7}
+      \strng{editorfullhashraw}{33a162b4853970613914e88dcf0c92f7}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1261,7 +1624,7 @@
       \endverb
       \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
     \endentry
-    \entry{matessa_using_2017}{article}{}
+    \entry{matessa_using_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a62b2bcdd5d9e858f59e6e99b9e9f130}{%
            family={Matessa},
@@ -1272,10 +1635,12 @@
       }
       \strng{namehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{fullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{fullhashraw}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{bibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authorbibnamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authornamehash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \strng{authorfullhash}{a62b2bcdd5d9e858f59e6e99b9e9f130}
+      \strng{authorfullhashraw}{a62b2bcdd5d9e858f59e6e99b9e9f130}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1289,7 +1654,7 @@
       \verb Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:C\:\\Users\\benja\\Zotero\\storage\\IITD9LTF\\Matessa - 2017 - Using a CRM framework to develop HAT measures.pdf:application/pdf
       \endverb
     \endentry
-    \entry{mcneese_chapter_2020}{inbook}{}
+    \entry{mcneese_chapter_2020}{inbook}{}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=9d4a6bf63785f72f94e41d5cbbdc869a}{%
            family={McNeese},
@@ -1328,13 +1693,16 @@
       }
       \strng{namehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{fullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{fullhashraw}{b607bcdb6402131886bec96445fe12dd}
       \strng{bibnamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authorbibnamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authornamehash}{b607bcdb6402131886bec96445fe12dd}
       \strng{authorfullhash}{b607bcdb6402131886bec96445fe12dd}
+      \strng{authorfullhashraw}{b607bcdb6402131886bec96445fe12dd}
       \strng{editorbibnamehash}{23c7d85da00b0c492fe644f242ed324c}
       \strng{editornamehash}{ac171585c9d97f026587df4395281fc8}
       \strng{editorfullhash}{23c7d85da00b0c492fe644f242ed324c}
+      \strng{editorfullhashraw}{23c7d85da00b0c492fe644f242ed324c}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1369,7 +1737,7 @@
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
     \endentry
-    \entry{shively_autonomy_2017}{article}{}
+    \entry{shively_autonomy_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
            family={Shively},
@@ -1380,10 +1748,12 @@
       }
       \strng{namehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{fullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{fullhashraw}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{bibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authorbibnamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authornamehash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \strng{authorfullhash}{6cc98be5b834b90fb854bdd8a1ef9eeb}
+      \strng{authorfullhashraw}{6cc98be5b834b90fb854bdd8a1ef9eeb}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}

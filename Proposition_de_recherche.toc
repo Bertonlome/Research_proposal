@@ -7,23 +7,24 @@
 \contentsline {subsection}{\numberline {2.3}Knowledge gap}{4}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Objectives}{4}{section.3}%
 \contentsline {section}{\numberline {4}Methodology}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Phase 1: Work and design domain analysis}{5}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Goal-Directed Task Analysis}{5}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Interdependence Analysis}{5}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}Phase 2: Cognitive modeling and agent development}{5}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}QN-ACTR}{5}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}SEEV}{5}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Agent design}{5}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}System architecture}{5}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}Scenario \& Simulation}{5}{subsubsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.3}Phase 3: Human-In-The-loop simulation studies}{5}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Scenario}{5}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Equipment}{5}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Participants}{5}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Protocol}{5}{subsubsection.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.3.5}Model validation and results}{5}{subsubsection.4.3.5}%
-\contentsline {section}{\numberline {5}Expected Results}{5}{section.5}%
-\contentsline {section}{\numberline {6}Originality and Impact}{5}{section.6}%
-\contentsline {section}{\numberline {7}Risks assessment and mitigation}{6}{section.7}%
-\contentsline {section}{\numberline {8}Resource management}{6}{section.8}%
-\contentsline {section}{\numberline {9}Timeline}{6}{section.9}%
+\contentsline {subsection}{\numberline {4.1}The use case scenario}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Phase 1: Work and design domain analysis}{5}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Goal-Directed Task Analysis}{5}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Interdependence Analysis}{6}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Phase 2: Cognitive modeling and agent development}{7}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}QN-ACTR}{8}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}SEEV}{8}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Agent design}{8}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}System architecture}{8}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Scenario \& Simulation}{8}{subsubsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.4}Phase 3: Human-In-The-loop simulation studies}{8}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Scenario}{8}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Equipment}{8}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Participants}{8}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Protocol}{8}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}Model validation and results}{8}{subsubsection.4.4.5}%
+\contentsline {section}{\numberline {5}Expected Results}{8}{section.5}%
+\contentsline {section}{\numberline {6}Originality and Impact}{8}{section.6}%
+\contentsline {section}{\numberline {7}Risks assessment and mitigation}{8}{section.7}%
+\contentsline {section}{\numberline {8}Resource management}{8}{section.8}%
+\contentsline {section}{\numberline {9}Timeline}{9}{section.9}%

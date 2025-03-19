@@ -5,6 +5,8 @@
 \usepackage{graphicx} % Allows inclusion of images
 \usepackage{titlesec} % Controls section formatting
 \usepackage{hyperref} % Enables hyperlinks
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, calc}
 \usepackage{setspace} % Allows line spacing adjustments
 \usepackage{csquotes} % Improves quotation handling
 \usepackage{datetime} % Provides date and time formatting
@@ -55,7 +57,6 @@
 	
 	However, increasing automation levels also presents challenges, particularly automation complacency, where excessive reliance on automated systems can lead to reduced vigilance and an inability to react effectively in case of anomalies \parencite{lee_design_2023}. To avoid this pitfall, it is crucial to design systems that promote active collaboration between the pilot and onboard autonomy \parencite{endsley_here_2017}. The goal of HAT is to ensure smooth and efficient cooperation, where autonomous systems act as real teammates, contributing to safer and more effective flight operations \parencite{mcneese_chapter_2020}.
 	
-	Just trying something here to see how it looks. I will remove this later. \parencite{aerospace_technology_institute_ati-insight_2019}
 	\section{Theoretical Background}
 	\subsection{Human-Autonomy Teaming}
 	\subsection{Situation Awareness}
@@ -69,15 +70,86 @@
 	%\textbf{Hypothesis:} A virtual co-pilot, designed with a rigorous cognitive model, improves pilot situation awareness while %reducing cognitive load.
 	
 	\section{Objectives} % Defines the "Objectives" section
-	The general objective of this research is to develop a methodology that facilitates the design of an autonomous agent in commercial aviation. To do so, we will use a collection of methods from the human factors and ergonomics toolkit, design an agent, and investigate how the design of the human-autonomy teamwork and agent interface impacts the team Situation Awareness.
+	The general objective of this research is to develop a methodology that facilitates the design of an autonomous agent collaborating with a human pilot in commercial aviation operations. To do so, we will use a collection of methods from the human factors and ergonomics research toolkit, design an agent, and investigate how the design of the human-autonomy teamwork and agent interface impacts the team Situation Awareness.
 	
 	To achieve this objective, the thesis will be comprised of three phases. First, we will conduct a thorough analysis of the work and design domain in order to delineate the taskwork and teamwork and list requirements for the agent design. Second, we will develop in parallel a cognitive model of the human pilot and the autonomous agent, enabling them to interact in a closed-loop simulation environment. Third, we will conduct Human-In-The-Loop Simulation studies with expert pilots to both validate the cognitive model, and investigates the human factors that weren't modeled such as trust in the autonomous agent and usability of the interface. These phases will be detailed in the next section 
 	
 	\section{Methodology} % Section title "Methodology"
+	\subsection{The use case scenario}
+	The preliminary step for applying the methodology is to select a proper use case scenario, that is (1) realistic, so that information is easily available for modelling and knowledge gained can benefit the aviation industry, (2) challenging enough so that teaming with an autonomous agent is strongly beneficial for achieving good performance, and (3) procedural, deterministic, and short enough so that the cognitive modelling and agent implementation can be implemented inside Polytechnique's flight simulator platform.
+	
+	The scenario consists in a takeoff and initial climb phase with an engine failure due to a bird or drone strike. The scenario is performed by a single pilot in a multi-engine very light jet aircraft. Take-off with an engine failure is a challenging scenario for single pilot operations that is highly dynamic and require fast and precise decision-making from the captain. Bird and drone strike will be an issue for the foreseeable future of commercial aviation and is therefore a scenario of particular interest for the industry.
+
+	\begin{figure}[h!]
+ 		\centering
+  		\includegraphics[width=1\textwidth]{./images/scenario.png}
+   		\caption{Takeoff scenario with a birdstrike causing an engine failure.}
+		\label{fig:your-image-label}
+	\end{figure}
+
+
 	\subsection{Phase 1: Work and design domain analysis}
+	The first step of the methodology involves analyzing the current state of commercial aviation operations to understand the design domain of the to-be-designed Autonomous Agent (AA). Two complementary methods are used, the Goal Directed Task Analysis (GDTA) and the Interdependence Analysis (IA).
+
 	\subsubsection{Goal-Directed Task Analysis}
+	A GDTA was conducted to understand the information needs inherent to commercial aviation operations. GDTA is a task analysis methodology aimed at identifying the critical information human operators must acquire and process to achieve their mission goals effectively and safely. This information contributes to the construction and maintenance of Situation Awareness (SA), a key predictor of operational performance and safety in commercial aviation \parencite{endsley_here_2017}. %Verify this ref, goal is to say SA is predictor of operational performance. SotA on SA might be good
+	Following the established GDTA outlined by Endsley and Jones for a complete commercial aviation flight \parencite{endsley_designing_2003}, our GDTA was constructed by selecting the relevant hierarchy of goals and associated information requirements for our takeoff scenario. To enrich and validate the GDTA, four experienced commercial pilots were recruited and interviewed. Their insights were incorporated to ensure that the analysis reflects the operational realities of contemporary flight environments.
+
+	The GDTA resulted in a hierarchically organized representation of pilot goals, each associated with the specific information necessary for optimal task performance. This structured output serves as a foundation for designing the human-autonomy team. Specifically, the identified information elements will guide the development of the Autonomous Agent, ensuring that both the human pilot and the synthetic teammate maintain a sufficient level of SA throughout the operation.
+
+	The goal is to ensure that the closely coupled human-agent team maintains alignment of their respective situation representation by attending both to the proper information for the task at hand. This alignment supports the development of Team Situation Awareness (Team SA)—the state in which each teammate possesses an accurate understanding of the situation relevant to their roles within the flight deck.
+	This notion is visually represented by Figure~\ref{fig:team-sa-venn}, where individual SA of each team member contributes to the larger construct of Team SA. Furthermore, a significant overlap in individual SA defines the concept of Shared Situation Awareness. Achieving and maintaining both individual SA and shared SA between the human and autonomous teammate is critical to ensuring coordinated, safe, and effective operations.
+
+	\begin{figure}[h!]
+		\centering
+		\begin{tikzpicture}
+        % Left circle (Human SA)
+        \fill[red!30, opacity=0.8] (-1,0) circle (2);
+        % Right circle (Agent SA)
+        \fill[blue!30, opacity=0.8] (1,0) circle (2);
+
+        % Borders
+        \draw[thick] (-1,0) circle (2) node[above left=1.5cm] {Human SA};
+        \draw[thick] (1,0) circle (2) node[above right=1.5cm] {Agent SA};
+
+        % Label overlap
+        \node at (0,0) {Shared SA};
+		\end{tikzpicture}
+		\caption{Venn diagram illustrating Team Situation Awareness (Team SA) with the overlapping individual SA of the human pilot and the autonomous agent representing Shared SA.}
+		\label{fig:team-sa-venn}
+	\end{figure}
+
 	\subsubsection{Interdependence Analysis}
+	Interdependent Analysis is a work analysis methods part of the coactive design process that helps improve collaboration between humans and machines by identifying key interdependence relationships that are essential for effective teamwork \parencite{johnson_coactive_2014}. It also defines the requirements for tasks that involve interdependence, ensuring successful cooperation. This framework consists of three main parts: (1) joint activity modeling, (2) interdependence assessment, and (3) workflow analysis. These components help guide the design of systems for more effective teamwork, particularly in human-autonomy teams \parencite{johnson_understanding_2018}.
+	To define human and autonomy role for our case study we have performed an Interdependence Analysis. This tool's most powerful feature is its ability to map different teaming options at the beginning of the design process, as opposed to a single function allocation solution. The output of an IA gives:
+	\begin{itemize}
+		\item Different teaming alternatives, especially in our case the dyad human-agent with human as main performer of the activity and agent as supporter or conversely agent as the main performer and human as the supporter.
+		\item A visualization of possible workflows for the team to carry-out the activity, depending on the team alternative, required, and opportunistic interdependence relationship.
+		\item A list of \textbf{Observability, Predictability, and Directability} requirements to ensure proper collaboration for the human-autonomy team.
+	\end{itemize}
 	\subsection{Phase 2: Cognitive modeling and agent development}
+
+	\begin{figure}[h!]
+		\centering
+		% First logo
+		\begin{minipage}[b]{0.3\textwidth}
+			\centering
+			\raisebox{2mm}{\includegraphics[width=0.9\textwidth]{images/hierarchy_diagram.png}}
+		\end{minipage}
+		% Second logo
+		\begin{minipage}[b]{0.3\textwidth}
+			\centering
+			\includegraphics[width=0.6\textwidth]{images/workflow_icon.png}
+		\end{minipage}
+		% Third logo
+		\begin{minipage}[b]{0.3\textwidth}
+			\centering
+			\includegraphics[width=0.8\textwidth]{images/requirements.png}
+		\end{minipage}
+		\caption{Output of phase 1 - goal hierarchy, task workflow, information \& OPD requirements.}
+		\label{fig:logos}
+	\end{figure}
+
 	\subsubsection{QN-ACTR}
 	\subsubsection{SEEV}
 	\subsubsection{Agent design}
