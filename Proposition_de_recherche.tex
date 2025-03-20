@@ -6,7 +6,8 @@
 \usepackage{titlesec} % Controls section formatting
 \usepackage{hyperref} % Enables hyperlinks
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, calc}
+\usepackage{amsmath}
+\usetikzlibrary{shapes.geometric, calc, arrows.meta, positioning}
 \usepackage{setspace} % Allows line spacing adjustments
 \usepackage{csquotes} % Improves quotation handling
 \usepackage{datetime} % Provides date and time formatting
@@ -127,6 +128,7 @@
 		\item A visualization of possible workflows for the team to carry-out the activity, depending on the team alternative, required, and opportunistic interdependence relationship.
 		\item A list of \textbf{Observability, Predictability, and Directability} requirements to ensure proper collaboration for the human-autonomy team.
 	\end{itemize}
+	The output of the GDTA was used to facilitates the IA, the goal hierarchy served to create the Joint Activity Graph, which is a hierarchical task decomposition of the activity, and the information requirements also guided the fine-level task definition.
 	\subsection{Phase 2: Cognitive modeling and agent development}
 
 	\begin{figure}[h!]
@@ -149,11 +151,72 @@
 		\caption{Output of phase 1 - goal hierarchy, task workflow, information \& OPD requirements.}
 		\label{fig:logos}
 	\end{figure}
+	The phase 1 allowed us to delineate the design domain and list detailed information as well as teaming requirements that will be useful for the modelling and agent design phase.
+	\begin{itemize}
+		\item The goal hierarchy will be used for the task structure of the cognitive model and the agent, each goal from the GDTA will be implemented in the cognitive model using the goal module of the ACT-R architecture, responsible for holding the current goal or focus of attention of the model. Likewise, agent-side, the goal hierarchy will be represented as a structure containing states and transitions akin to a Finite State Machine (FSM)
+		\item Workflows from the IA will be used as an input to a module responsible for the task allocation between the model and the agent, for each workflow, this "dispatcher" module will effectively activate or inhibit actions for the model and agent.
+		\item Information requirements will be used to program that both the model and agent attend to the relevant elements of the environment for the task at hand. It will also be used for Team Situation Awareness assessment, as the cognitive model can be asked to answer questions regarding the value/status of relevant information for the task, and information representation of the agent can be inspected at any time, thus the alignment in situation representation can be approximated by the difference in situation representation for both teammates. OPD requirements will be individually assessed during simulation by observing team behavior.
+	\end{itemize}
 
-	\subsubsection{QN-ACTR}
-	\subsubsection{SEEV}
+	\subsubsection{QN-ACTR and SEEV}
+	The cognitive model of the single pilot will be implemented using the QN-ACTR architecture, integrating a simplified SEEV model to capture attention allocation dynamics and level 1 situation awareness (SA). Based on the output from Phase 1 (interdependence analysis), operational documentation, and available training materials, an initial model of an expert pilot operating a Cessna Citation Mustang will be developed. The model will simulate routine decision-making and procedural execution, following Standard Operating Procedures (SOPs) and checklists for the takeoff phase, witout any assistance from an autonomous agent.
+
+	The model will be connected to X-Plane 11 in a closed-loop simulation, receiving real-time aircraft and environment data via bidirectional UDP and issuing control inputs directly to the simulator. Once validated in this baseline condition, the model will be extended to collaborate with the autonomous agent, enabling the pilot model to observe and direct the agent's actions, again via UDP.
+	
+	The model will be implemented in Lisp and integrated into the QN-ACTR platform, with necessary adjustments to the platform to ensure appropriate input/output handling with X-Plane 11. Development will build upon the QN-ACTR takeoff model by Xu et al. \parencite{xu_modeling_2021}, which currently models a single-pilot normal takeoff procedure in a Cessna 172 aircraft.
+	
+	The SEEV model will be applied to determine the probability of the pilot allocating attention to relevant Areas of Interest (AOIs) in the cockpit and external environment. The SEEV parameters—Salience, Effort, Expectancy, and Value—will initially adopt the coefficient weights proposed by Wang et al. \parencite{wang_real-time_2024}, whose model was tuned for a similar scenario (engine failure at takeoff in Single Pilot Operations). Their configuration defines seven AOIs: (1) Primary Flight Display (PFD), (2) Navigation Display (ND), (3) Engine/Warning Display (E/WD), (4) System Display (SD), (5) Central Console, (6) Flight Manual, and (7) Outside Window.
+	
+	The attention probability ($P(AOI)$) towards each AOI will be computed using a simplified version of SEEV, where Effort and Salience parameters are discounted, following common practices in driving and aviation simulator studies \parencite{}. This is justified by the reduced visual angles and minimal scanning effort required in such setups. The attention allocation formula is defined in Equation~\ref{eq:VA_AOI}:
+	
+	\begin{equation}
+		VA_{AOI} = \sum_{t=1}^{n} (Ex_t) (R_t) (P_t)
+		\label{eq:VA_AOI}
+		\end{equation}
+	Here, $VA_{AOI}$ is the raw attention value for an AOI, $t$ indexes across $n$ tasks, $Ex_t$ is the Expectancy of the AOI for task $t$, $R_t$ is its Relevance, and $P_t$ is the Priority of task $t$. The combined effect of $R_t$ and $P_t$ represents the "Value" factor in the SEEV framework.
+	
+	The resulting $VA_{AOI}$ values are normalized to generate probabilistic attention weights across all AOIs. Monte Carlo simulations will be used to stochastically determine gaze allocation over time.
+	
+	The model thus accounts for both attentional and memory constraints: attention allocation drives what information enters the cognitive system, while ACT-R's declarative memory mechanisms (e.g., memory decay and activation thresholds) govern subsequent retention and retrieval. In QN-ACTR, activation levels of chunks representing critical elements must exceed a threshold to contribute to Level 1 SA (perception-based SA). Consequently, Level 1 SA in this model emerges from the interaction between visual attention (SEEV) and cognitive memory dynamics (ACT-R). The framework is presented in Figure~\ref{fig:qn-actr-seev}
+
+	\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./images/qn-actr-sa-synoptic.png}
+    \caption{Overview of the QN-ACTR-SEEV framework. Stages 1-3 (marked on the lines in the figure) signify the different cognitive processes necessary in the acquisition and maintenance of Level 1 SA. Adapted from Rehman (2020) \parencite{rehman_phd_thesis}.}
+    \label{fig:qn-actr-seev}
+	\end{figure}
+
+
+	%this is from umair thesis and need to be modified and cited
+
+
 	\subsubsection{Agent design}
+	A functional prototype of the Autonomous Agent (AA) system will be developed in parallel with the cognitive model to meet the previously defined requirements. The prototype will be deployed as a tablet application interfacing with the flight simulator and positioned within the cockpit environment.
+
+	The AA is implemented as a modular and reactive software component designed to assist the pilot in managing the flight scenario. The agent adopts a nested Finite State Machine (FSM) architecture, employing the state pattern, to organize its behavior into a structured hierarchy of states and substates. Each state encapsulates a specific procedural phase of the scenario, with transitions triggered by defined environmental conditions.
+	
+	This design was selected to reflect the deterministic and highly procedural characteristics of the flight scenario. The agent does not incorporate deliberative planning or uncertainty handling; rather, it functions as a partial Wizard of Oz system. Its purpose is to emulate the expert-like behavior of an AI system that executes preprogrammed actions in response to situational cues.
+	
+	The AA system is composed of the following modules: \begin{itemize} \item \textbf{State Hierarchy:} A layered structure of states and nested substates representing sequential and conditional phases of the flight (e.g., "Takeoff Roll" $\rightarrow$ "Bird Strike Response" $\rightarrow$ "Post-Incident Assessment"). \item \textbf{State Manager:} A supervisory module responsible for managing transitions between states based on predefined transition rules. \item \textbf{Action Layer:} A set of atomic actions (e.g., "Verify engine instruments", "Declare emergency to ATC") executed when specific states or substates become active. \item \textbf{Status Monitoring:} A continuous input channel from the flight simulator (X-Plane 11) used to assess scenario conditions and update the agent's internal state. \end{itemize}
+	
+	The nested FSM structure provides a modular and scalable framework, ensuring ease of maintenance and facilitating the alignment between the agent's reactive behavior and the cognitive model's procedural logic.
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1.0\textwidth]{./images/AA_synoptic.png}
+		\caption{AA Synoptic diagram}
+		\label{fig:aa_synoptic}
+	\end{figure}
+	
 	\subsubsection{System architecture}
+	The whole system architecture consists of three principal components: the Cognitive Model (QN-ACTR + SEEV), the AA, and the Task Dispatcher. These components operate within the same local network.
+
+	\begin{itemize} \item \textbf{Task Dispatcher:} A central module responsible for allocating tasks between the cognitive model (representing the human pilot) and the AA (the virtual copilot). The dispatcher can be thought of representing the Human-Autonomy pre-flight briefing. It activates or inhibit tasks for each member of the team, ensuring overall coherence between entities for effective collaboration to achieve the shared set of goals. \item \textbf{Cognitive Model:} The QN-ACTR+SEEV model simulates the pilot's cognitive processes, including level 1 situation awareness, memory dynamics, and attention allocation. It is capable of both executing tasks directly and interacting with the AA. \item \textbf{Autonomous Agent (AA):} As outlined earlier, this agent handles delegated tasks from the dispatcher and takes direct action in the simulation environment to assist the pilot. \end{itemize}
+
+	The system leverages the \textbf{Ingescape ecosystem} to connect distributed modules seamlessly: \begin{itemize} \item \textbf{Black-box agents:} Each software module (dispatcher, cognitive model, AA agent) is implemented as an independent black box with defined input/output ports. \item \textbf{ZeroMQ-based messaging:} Ingescape abstracts communication, enabling asynchronous and decoupled messaging between components. \item \textbf{Simulation Interface:} Both the AA agent and the cognitive model exchange real-time data with X-Plane 11 and between themselves, ensuring they operate with a synchronized and shared representation of the environment. \end{itemize}
+
+	This architecture enables flexible experimentation, including various teaming strategies (e.g., autonomous agent as backup or co-pilot), and modular upgrades to individual system components.
+
 	\subsubsection{Scenario \& Simulation}
 	\subsection{Phase 3: Human-In-The-loop simulation studies}
 	\subsubsection{Scenario}

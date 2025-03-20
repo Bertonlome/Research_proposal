@@ -3088,6 +3088,10 @@
     <bcf:citekey order="14" intorder="1">endsley_designing_2003</bcf:citekey>
     <bcf:citekey order="15" intorder="1">johnson_coactive_2014</bcf:citekey>
     <bcf:citekey order="16" intorder="1">johnson_understanding_2018</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">xu_modeling_2021</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">wang_real-time_2024</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">rehman_phd_thesis</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">rehman_phd_thesis</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

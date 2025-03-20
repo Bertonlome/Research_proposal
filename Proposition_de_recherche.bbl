@@ -855,6 +855,39 @@
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
     \endentry
+    \entry{rehman_phd_thesis}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=891deb5a2310c97677b5c9118e6731c3}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Umair},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{fullhash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{fullhashraw}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{bibnamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorbibnamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authornamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorfullhash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorfullhashraw}{891deb5a2310c97677b5c9118e6731c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{4}
+      \field{shorttitle}{Modelling {Level} 1 {Situation} {Awareness} in {Driving}}
+      \field{title}{Modelling {Level} 1 {Situation} {Awareness} in {Driving}: {A} {Cognitive} {Architecture} {Approach}}
+      \field{type}{phdthesis}
+      \field{year}{2020}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\VCEXXNTH\\Rehman - 2020 - Modelling Level 1 Situation Awareness in Driving .pdf:application/pdf
+      \endverb
+    \endentry
     \entry{shively_autonomy_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
@@ -898,6 +931,132 @@
       \verb https://ntrs.nasa.gov/citations/20170002271
       \endverb
       \keyw{Aeronautics (General)}
+    \endentry
+    \entry{wang_real-time_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f647bb6da8304b7be380ec58eb6373a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=358354b5a164dfa5336b9e5495a5ce7c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiyang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2027d87ecbb78155b509c7838f415304}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa1981c8adc8d4187b7ce03bfbaea1c5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhongchang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{10814f16ce9673476ec6de14dc6cea6e}
+      \strng{fullhash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{fullhashraw}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{bibnamehash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authorbibnamehash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authornamehash}{10814f16ce9673476ec6de14dc6cea6e}
+      \strng{authorfullhash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authorfullhashraw}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most human-caused flight accidents can be attributed to a pilot’s attention deficit and monitoring errors. Accordingly, pilots’ attention allocation is strongly related to their task performance. This study is aimed at analyzing pilots’ fixation characteristics and attention-allocation levels. First, we proposed a model for measuring attention-allocation level based on the salience, effort, expectancy, and value (SEEV) model. Second, a low-fidelity single-pilot operation (SPO) cockpit environment was constructed, and 20 pilots were recruited for an experiment to compare their fixation characteristics between SPO and double-pilot operation (DPO) scenarios. The results showed slight differences in the attention levels allocated by SPO and DPO pilots under a scenario of one-engine failure. It concluded that Human-centered flight deck design can enhance a pilot’s attention allocation level. These findings can be used to optimize future flight deck designing and flight training for improving pilot’s task performance.}
+      \field{issn}{1687-5974}
+      \field{journaltitle}{International Journal of Aerospace Engineering}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3901699}
+      \field{number}{1}
+      \field{title}{A {Real}-{Time} {Measurement} {Model} of {Attention}-{Allocation} {Level} and {Its} {Application} in {Simulated} {SPO} {Task}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{3901699}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2024/3901699
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\KIGPHYYN\\Wang et al. - 2024 - A Real-Time Measurement Model of Attention-Allocat.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\BNXV4GQ5\\3901699.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
+      \endverb
+    \endentry
+    \entry{xu_modeling_2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=41443a2501ed6b381d8902bf0da1130d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Rongbing},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Shi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baltimore, MD, United states}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc.}%
+      }
+      \strng{namehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{fullhash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{fullhashraw}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{bibnamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorbibnamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authornamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorfullhash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorfullhashraw}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cognitive architecture models can support the simulation and prediction of human performance in complex human-machine systems. In the current work, we demonstrate a pilot model that can perform and simulate taxiing and takeoff tasks. The model was built in Queueing Network-Adaptive Control of Thought Rational (QN-ACTR) cognitive architecture and can be connected to flight simulators such as X-Plane to generate various data, including performance, mental workload, and situation awareness. The model results are determined in combination by the declarative knowledge chunks, production rules, and a set of parameters. Currently, the model can generate flight operation behavior similar to human pilots. We will collect human pilot data to examine further and validate model assumptions and parameter values. Once validated, such models can support interface evaluation and competency-based pilot training, providing a theory-based predictive approach complementary to human-in-the-loop experiments for aviation research and development. © 2021 by Human Factors and Ergonomics Society. All rights reserved.}
+      \field{journaltitle}{65th {Human} {Factors} and {Ergonomics} {Society} {Annual} {Meeting}, {HFES} 2021, {October} 3, 2021 - {October} 8, 2021}
+      \field{note}{Issue: 1}
+      \field{series}{Proceedings of the {Human} {Factors} and {Ergonomics} {Society}}
+      \field{shorttitle}{Modeling {Pilot} {Flight} {Performance} in a {Cognitive} {Architecture}}
+      \field{title}{Modeling {Pilot} {Flight} {Performance} in a {Cognitive} {Architecture}: {Model} {Demonstration}}
+      \field{volume}{65}
+      \field{year}{2021}
+      \field{pages}{1254\bibrangedash 1258}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1177/1071181321651008
+      \endverb
+      \verb{file}
+      \verb Xu and Cao - 2021 - Modeling Pilot Flight Performance in a Cognitive A.pdf:C\:\\Users\\benja\\Zotero\\storage\\3CPPFE58\\Xu and Cao - 2021 - Modeling Pilot Flight Performance in a Cognitive A.pdf:application/pdf
+      \endverb
+      \keyw{Ergonomics,Flight simulators,Adaptive control systems,Behavioral research,Cognitive systems,Network architecture}
     \endentry
   \enddatalist
   \datalist[entry]{nyt/global//global/global/global}
@@ -1737,6 +1896,39 @@
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
     \endentry
+    \entry{rehman_phd_thesis}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=891deb5a2310c97677b5c9118e6731c3}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Umair},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{fullhash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{fullhashraw}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{bibnamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorbibnamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authornamehash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorfullhash}{891deb5a2310c97677b5c9118e6731c3}
+      \strng{authorfullhashraw}{891deb5a2310c97677b5c9118e6731c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{4}
+      \field{shorttitle}{Modelling {Level} 1 {Situation} {Awareness} in {Driving}}
+      \field{title}{Modelling {Level} 1 {Situation} {Awareness} in {Driving}: {A} {Cognitive} {Architecture} {Approach}}
+      \field{type}{phdthesis}
+      \field{year}{2020}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\VCEXXNTH\\Rehman - 2020 - Modelling Level 1 Situation Awareness in Driving .pdf:application/pdf
+      \endverb
+    \endentry
     \entry{shively_autonomy_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6cc98be5b834b90fb854bdd8a1ef9eeb}{%
@@ -1780,6 +1972,132 @@
       \verb https://ntrs.nasa.gov/citations/20170002271
       \endverb
       \keyw{Aeronautics (General)}
+    \endentry
+    \entry{wang_real-time_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f647bb6da8304b7be380ec58eb6373a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=358354b5a164dfa5336b9e5495a5ce7c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiyang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2027d87ecbb78155b509c7838f415304}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa1981c8adc8d4187b7ce03bfbaea1c5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhongchang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{10814f16ce9673476ec6de14dc6cea6e}
+      \strng{fullhash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{fullhashraw}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{bibnamehash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authorbibnamehash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authornamehash}{10814f16ce9673476ec6de14dc6cea6e}
+      \strng{authorfullhash}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \strng{authorfullhashraw}{01a1dd4376b4f7d69c79403bbfa436a3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most human-caused flight accidents can be attributed to a pilot’s attention deficit and monitoring errors. Accordingly, pilots’ attention allocation is strongly related to their task performance. This study is aimed at analyzing pilots’ fixation characteristics and attention-allocation levels. First, we proposed a model for measuring attention-allocation level based on the salience, effort, expectancy, and value (SEEV) model. Second, a low-fidelity single-pilot operation (SPO) cockpit environment was constructed, and 20 pilots were recruited for an experiment to compare their fixation characteristics between SPO and double-pilot operation (DPO) scenarios. The results showed slight differences in the attention levels allocated by SPO and DPO pilots under a scenario of one-engine failure. It concluded that Human-centered flight deck design can enhance a pilot’s attention allocation level. These findings can be used to optimize future flight deck designing and flight training for improving pilot’s task performance.}
+      \field{issn}{1687-5974}
+      \field{journaltitle}{International Journal of Aerospace Engineering}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3901699}
+      \field{number}{1}
+      \field{title}{A {Real}-{Time} {Measurement} {Model} of {Attention}-{Allocation} {Level} and {Its} {Application} in {Simulated} {SPO} {Task}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{3901699}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2024/3901699
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\KIGPHYYN\\Wang et al. - 2024 - A Real-Time Measurement Model of Attention-Allocat.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\BNXV4GQ5\\3901699.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
+      \endverb
+    \endentry
+    \entry{xu_modeling_2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=41443a2501ed6b381d8902bf0da1130d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Rongbing},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Shi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baltimore, MD, United states}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc.}%
+      }
+      \strng{namehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{fullhash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{fullhashraw}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{bibnamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorbibnamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authornamehash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorfullhash}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \strng{authorfullhashraw}{e1efe1c0195cf9839c070cb22da5c7e3}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cognitive architecture models can support the simulation and prediction of human performance in complex human-machine systems. In the current work, we demonstrate a pilot model that can perform and simulate taxiing and takeoff tasks. The model was built in Queueing Network-Adaptive Control of Thought Rational (QN-ACTR) cognitive architecture and can be connected to flight simulators such as X-Plane to generate various data, including performance, mental workload, and situation awareness. The model results are determined in combination by the declarative knowledge chunks, production rules, and a set of parameters. Currently, the model can generate flight operation behavior similar to human pilots. We will collect human pilot data to examine further and validate model assumptions and parameter values. Once validated, such models can support interface evaluation and competency-based pilot training, providing a theory-based predictive approach complementary to human-in-the-loop experiments for aviation research and development. © 2021 by Human Factors and Ergonomics Society. All rights reserved.}
+      \field{journaltitle}{65th {Human} {Factors} and {Ergonomics} {Society} {Annual} {Meeting}, {HFES} 2021, {October} 3, 2021 - {October} 8, 2021}
+      \field{note}{Issue: 1}
+      \field{series}{Proceedings of the {Human} {Factors} and {Ergonomics} {Society}}
+      \field{shorttitle}{Modeling {Pilot} {Flight} {Performance} in a {Cognitive} {Architecture}}
+      \field{title}{Modeling {Pilot} {Flight} {Performance} in a {Cognitive} {Architecture}: {Model} {Demonstration}}
+      \field{volume}{65}
+      \field{year}{2021}
+      \field{pages}{1254\bibrangedash 1258}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1177/1071181321651008
+      \endverb
+      \verb{file}
+      \verb Xu and Cao - 2021 - Modeling Pilot Flight Performance in a Cognitive A.pdf:C\:\\Users\\benja\\Zotero\\storage\\3CPPFE58\\Xu and Cao - 2021 - Modeling Pilot Flight Performance in a Cognitive A.pdf:application/pdf
+      \endverb
+      \keyw{Ergonomics,Flight simulators,Adaptive control systems,Behavioral research,Cognitive systems,Network architecture}
     \endentry
   \enddatalist
 \endrefsection
