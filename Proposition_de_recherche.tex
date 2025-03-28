@@ -43,7 +43,7 @@
 	\tableofcontents % Generates the table of contents
 	\newpage % Starts a new page
 	
-	\section{Trigger} % Defines a section titled "Trigger"
+	\section{Trigger \textbf{TBD}} % Defines a section titled "Trigger"
 	Commercial aviation has shown a trend toward crew reduction, progressively decreasing the number of members in the cockpit \parencite{harris_human-centred_2007}. Historically, flight crews included up to five members, but technological advancements have reduced this number to two—the Captain (CPT) and First Officer (FO)—eliminating the need for flight engineers, navigators, and radio operators.
 	
 	Currently, the Federal Aviation Administration (FAA) - Part 25 regulations mandate a minimum of two pilots in the cockpit. However, technological advancements suggest the possibility of transitioning to Single Pilot Operations (SPO), where only one pilot would be on duty, assisted by advanced onboard technologies and potentially ground support \parencite{bilimoria_conceptual_2014}. While this transition is technically feasible, it introduces significant challenges, far more complex than previous crew reductions \parencite{matessa_using_2017}.
@@ -58,7 +58,7 @@
 	
 	However, increasing automation levels also presents challenges, particularly automation complacency, where excessive reliance on automated systems can lead to reduced vigilance and an inability to react effectively in case of anomalies \parencite{lee_design_2023}. To avoid this pitfall, it is crucial to design systems that promote active collaboration between the pilot and onboard autonomy \parencite{endsley_here_2017}. The goal of HAT is to ensure smooth and efficient cooperation, where autonomous systems act as real teammates, contributing to safer and more effective flight operations \parencite{mcneese_chapter_2020}.
 	
-	\section{Theoretical Background}
+	\section{Theoretical Background \textbf{TBD}}
 	\subsection{Human-Autonomy Teaming}
 	\subsection{Situation Awareness}
 	\subsubsection{Team-Situation Awareness}
@@ -71,13 +71,30 @@
 	%\textbf{Hypothesis:} A virtual co-pilot, designed with a rigorous cognitive model, improves pilot situation awareness while %reducing cognitive load.
 	
 	\section{Objectives} % Defines the "Objectives" section
-	The general objective of this research is to develop a methodology that facilitates the design of an autonomous agent collaborating with a human pilot in commercial aviation operations. To do so, we will use a collection of methods from the human factors and ergonomics research toolkit, design an agent, and investigate how the design of the human-autonomy teamwork and agent interface impacts the team Situation Awareness.
+	The general objective of this research is to develop a methodology that facilitates the design of an autonomous agent collaborating with a human pilot for commercial aviation operations. To do so, we will use a collection of methods from the human factors and ergonomics research domain, design an agent, and investigate how the design of the human-autonomy teamwork and agent interface impacts the Team Situation Awareness.
 	
-	To achieve this objective, the thesis will be comprised of three phases. First, we will conduct a thorough analysis of the work and design domain in order to delineate the taskwork and teamwork and list requirements for the agent design. Second, we will develop in parallel a cognitive model of the human pilot and the autonomous agent, enabling them to interact in a closed-loop simulation environment. Third, we will conduct Human-In-The-Loop Simulation studies with expert pilots to both validate the cognitive model, and investigates the human factors that weren't modeled such as trust in the autonomous agent and usability of the interface. These phases will be detailed in the next section 
+	To achieve this objective, the thesis will be comprised of three phases.
+	\begin{enumerate}
+		\item We will conduct a thorough analysis of the work and design domain in order to delineate the taskwork and teamwork and list requirements for the agent design. Especially:
+		\begin{enumerate}
+			\item Identify the goal hierarchy that pilots use to achieve high levels of safety and performance in current day operations.
+			\item List the information required to construct a good Situation Awareness 
+		\end{enumerate}
+		\item We will develop in parallel a cognitive model of the human pilot and the autonomous agent, enabling them to interact in a closed-loop simulation environment. 
+		\begin{enumerate}
+			\item Combine QN, ACT-R, and SEEV theory to create a cognitively plausible model of human pilot's perception of elements in the current situation (level 1 Situation Awareness)
+			\item Model the task using outputs from the GDTA and IA so that the cognitive model is capable of navigating the scenario on its own.
+			\item Develop an agent that can perform the tasks described in the IA.
+			\item Develop an Human-Agent Interface that comply with the teaming requirements established in the IA and modify the cognitive model so that it now has to team with the autonomy to navigate the scenario.
+		\end{enumerate}  
+		\item We will conduct Human-In-The-Loop Simulation studies with expert pilots to both validate the cognitive model, and investigates the human factors that weren't modeled such as trust in the autonomous agent and usability of the interface.
+	\end{enumerate}
+	These phases will be detailed in the next section 
+
 	
 	\section{Methodology} % Section title "Methodology"
 	\subsection{The use case scenario}
-	The preliminary step for applying the methodology is to select a proper use case scenario, that is (1) realistic, so that information is easily available for modelling and knowledge gained can benefit the aviation industry, (2) challenging enough so that teaming with an autonomous agent is strongly beneficial for achieving good performance, and (3) procedural, deterministic, and short enough so that the cognitive modelling and agent implementation can be implemented inside Polytechnique's flight simulator platform.
+	The preliminary step for applying the methodology is to select a proper use case scenario, that is (1) realistic, so that information is easily available for modelling and knowledge gained can benefit the aviation industry, (2) challenging enough so that teaming with an autonomous agent is strongly beneficial for achieving good performance, and (3) procedural, deterministic, and short enough so that the cognitive modelling and agent implementation can realistically be implemented inside Polytechnique's flight simulator platform.
 	
 	The scenario consists in a takeoff and initial climb phase with an engine failure due to a bird or drone strike. The scenario is performed by a single pilot in a multi-engine very light jet aircraft. Take-off with an engine failure is a challenging scenario for single pilot operations that is highly dynamic and require fast and precise decision-making from the captain. Bird and drone strike will be an issue for the foreseeable future of commercial aviation and is therefore a scenario of particular interest for the industry.
 
@@ -88,15 +105,14 @@
 		\label{fig:your-image-label}
 	\end{figure}
 
-
 	\subsection{Phase 1: Work and design domain analysis}
-	The first step of the methodology involves analyzing the current state of commercial aviation operations to understand the design domain of the to-be-designed Autonomous Agent (AA). Two complementary methods are used, the Goal Directed Task Analysis (GDTA) and the Interdependence Analysis (IA).
+	The first step of the methodology involves analyzing the current state of commercial aviation operations to understand the scope of the to-be-designed Autonomous Agent (AA). Two complementary methods are used, the Goal Directed Task Analysis (GDTA) and the Interdependence Analysis (IA).
 
 	\subsubsection{Goal-Directed Task Analysis}
 	A GDTA was conducted to understand the information needs inherent to commercial aviation operations. GDTA is a task analysis methodology aimed at identifying the critical information human operators must acquire and process to achieve their mission goals effectively and safely. This information contributes to the construction and maintenance of Situation Awareness (SA), a key predictor of operational performance and safety in commercial aviation \parencite{endsley_here_2017}. %Verify this ref, goal is to say SA is predictor of operational performance. SotA on SA might be good
 	Following the established GDTA outlined by Endsley and Jones for a complete commercial aviation flight \parencite{endsley_designing_2003}, our GDTA was constructed by selecting the relevant hierarchy of goals and associated information requirements for our takeoff scenario. To enrich and validate the GDTA, four experienced commercial pilots were recruited and interviewed. Their insights were incorporated to ensure that the analysis reflects the operational realities of contemporary flight environments.
 
-	The GDTA resulted in a hierarchically organized representation of pilot goals, each associated with the specific information necessary for optimal task performance. This structured output serves as a foundation for designing the human-autonomy team. Specifically, the identified information elements will guide the development of the Autonomous Agent, ensuring that both the human pilot and the synthetic teammate maintain a sufficient level of SA throughout the operation.
+	The GDTA resulted in a hierarchically organized representation of pilot goals, each associated with the specific information necessary for optimal task performance. This structured output serves as a foundation for designing the human-autonomy team. Specifically, the identified information elements will guide the development of the Autonomous Agent, ensuring that both the human pilot and the synthetic teammate maintain a sufficient level of SA throughout the operation. (\textbf{GDTA figure To be added in appendix})
 
 	The goal is to ensure that the closely coupled human-agent team maintains alignment of their respective situation representation by attending both to the proper information for the task at hand. This alignment supports the development of Team Situation Awareness (Team SA)—the state in which each teammate possesses an accurate understanding of the situation relevant to their roles within the flight deck.
 	This notion is visually represented by Figure~\ref{fig:team-sa-venn}, where individual SA of each team member contributes to the larger construct of Team SA. Furthermore, a significant overlap in individual SA defines the concept of Shared Situation Awareness. Achieving and maintaining both individual SA and shared SA between the human and autonomous teammate is critical to ensuring coordinated, safe, and effective operations.
@@ -121,14 +137,14 @@
 	\end{figure}
 
 	\subsubsection{Interdependence Analysis}
-	Interdependent Analysis is a work analysis methods part of the coactive design process that helps improve collaboration between humans and machines by identifying key interdependence relationships that are essential for effective teamwork \parencite{johnson_coactive_2014}. It also defines the requirements for tasks that involve interdependence, ensuring successful cooperation. This framework consists of three main parts: (1) joint activity modeling, (2) interdependence assessment, and (3) workflow analysis. These components help guide the design of systems for more effective teamwork, particularly in human-autonomy teams \parencite{johnson_understanding_2018}.
+	Interdependent Analysis is a work analysis methods part of the coactive design process that helps improve collaboration between humans and machines by identifying key interdependence relationships that are essential for effective teamwork \parencite{johnson_coactive_2014}. It also defines the requirements for tasks that involve interdependence, ensuring successful cooperation. This framework consists of three main parts: (1) joint activity modeling, (2) interdependence assessment, and (3) workflow analysis. These components help guide the design of systems for more effective teamwork, particularly in human-autonomy teams \parencite{johnson_understanding_2018} \textbf{to be moved in SotA}.
 	To define human and autonomy role for our case study we have performed an Interdependence Analysis. This tool's most powerful feature is its ability to map different teaming options at the beginning of the design process, as opposed to a single function allocation solution. The output of an IA gives:
 	\begin{itemize}
 		\item Different teaming alternatives, especially in our case the dyad human-agent with human as main performer of the activity and agent as supporter or conversely agent as the main performer and human as the supporter.
 		\item A visualization of possible workflows for the team to carry-out the activity, depending on the team alternative, required, and opportunistic interdependence relationship.
 		\item A list of \textbf{Observability, Predictability, and Directability} requirements to ensure proper collaboration for the human-autonomy team.
 	\end{itemize}
-	The output of the GDTA was used to facilitates the IA, the goal hierarchy served to create the Joint Activity Graph, which is a hierarchical task decomposition of the activity, and the information requirements also guided the fine-level task definition.
+	The output of the GDTA was used to facilitates the IA, the goal hierarchy served to create the Joint Activity Graph, which is a hierarchical task decomposition of the activity, and the information requirements also guided the fine-level task definition. (\textbf{IA tables reference in appendix})
 	\subsection{Phase 2: Cognitive modeling and agent development}
 
 	\begin{figure}[h!]
@@ -155,29 +171,29 @@
 	\begin{itemize}
 		\item The goal hierarchy will be used for the task structure of the cognitive model and the agent, each goal from the GDTA will be implemented in the cognitive model using the goal module of the ACT-R architecture, responsible for holding the current goal or focus of attention of the model. Likewise, agent-side, the goal hierarchy will be represented as a structure containing states and transitions akin to a Finite State Machine (FSM)
 		\item Workflows from the IA will be used as an input to a module responsible for the task allocation between the model and the agent, for each workflow, this "dispatcher" module will effectively activate or inhibit actions for the model and agent.
-		\item Information requirements will be used to program that both the model and agent attend to the relevant elements of the environment for the task at hand. It will also be used for Team Situation Awareness assessment, as the cognitive model can be asked to answer questions regarding the value/status of relevant information for the task, and information representation of the agent can be inspected at any time, thus the alignment in situation representation can be approximated by the difference in situation representation for both teammates. OPD requirements will be individually assessed during simulation by observing team behavior.
+		\item Information requirements will be used to program that both the model and agent attend to the relevant elements of the environment for the task at hand. It will also be used for SA assessment, as the cognitive model can be asked to answer questions regarding the value/status of relevant information for the task, and information representation of the agent can be inspected at any time, thus the alignment in SA can be approximated by the difference in situation representation for both teammates. OPD requirements will be individually assessed during simulation by observing team behavior.
 	\end{itemize}
 
 	\subsubsection{QN-ACTR and SEEV}
-	The cognitive model of the single pilot will be implemented using the QN-ACTR architecture, integrating a simplified SEEV model to capture attention allocation dynamics and level 1 situation awareness (SA). Based on the output from Phase 1 (interdependence analysis), operational documentation, and available training materials, an initial model of an expert pilot operating a Cessna Citation Mustang will be developed. The model will simulate routine decision-making and procedural execution, following Standard Operating Procedures (SOPs) and checklists for the takeoff phase, witout any assistance from an autonomous agent.
+	The cognitive model of the single pilot will be implemented using the QN-ACTR architecture, integrating a simplified SEEV model to capture attention allocation dynamics and level 1 situation awareness (SA). Based on the output from Phase 1 (interdependence analysis), operational documentation, and available training materials, an initial model of an expert pilot operating a Cessna Citation Mustang will be developed. The model will simulate routine procedural execution, following Standard Operating Procedures (SOPs) and checklists for the takeoff phase,\textbf{witout any assistance from an autonomous agent} (baseline model).
 
-	The model will be connected to X-Plane 11 in a closed-loop simulation, receiving real-time aircraft and environment data via bidirectional UDP and issuing control inputs directly to the simulator. Once validated in this baseline condition, the model will be extended to collaborate with the autonomous agent, enabling the pilot model to observe and direct the agent's actions, again via UDP.
+	The model will be connected to X-Plane 11 in a closed-loop simulation, receiving real-time aircraft and environment data via bidirectional UDP and issuing control inputs directly to the simulator. Once the baseline model can effectively navigate the scenario, it will be extended to collaborate with the autonomous agent, enabling it to observe and direct the agent's actions.
 	
-	The model will be implemented in Lisp and integrated into the QN-ACTR platform, with necessary adjustments to the platform to ensure appropriate input/output handling with X-Plane 11. Development will build upon the QN-ACTR takeoff model by Xu et al. \parencite{xu_modeling_2021}, which currently models a single-pilot normal takeoff procedure in a Cessna 172 aircraft.
+	The model will be implemented in Lisp and integrated into the QN-ACTR platform, with necessary adjustments to the platform to ensure appropriate input/output handling with X-Plane 11. Development will build upon the QN-ACTR takeoff model by Xu and colleagues \parencite{xu_modeling_2021}, which currently models a single-pilot normal takeoff procedure in a Cessna 172 aircraft.
 	
 	The SEEV model will be applied to determine the probability of the pilot allocating attention to relevant Areas of Interest (AOIs) in the cockpit and external environment. The SEEV parameters—Salience, Effort, Expectancy, and Value—will initially adopt the coefficient weights proposed by Wang et al. \parencite{wang_real-time_2024}, whose model was tuned for a similar scenario (engine failure at takeoff in Single Pilot Operations). Their configuration defines seven AOIs: (1) Primary Flight Display (PFD), (2) Navigation Display (ND), (3) Engine/Warning Display (E/WD), (4) System Display (SD), (5) Central Console, (6) Flight Manual, and (7) Outside Window.
 	
-	The attention probability ($P(AOI)$) towards each AOI will be computed using a simplified version of SEEV, where Effort and Salience parameters are discounted, following common practices in driving and aviation simulator studies \parencite{}. This is justified by the reduced visual angles and minimal scanning effort required in such setups. The attention allocation formula is defined in Equation~\ref{eq:VA_AOI}:
+	The attention probability ($P(AOI)$) towards each AOI will be computed using a simplified version of SEEV, where Effort and Salience parameters are discounted, following common practices in driving and aviation simulator studies \parencite{rehman_phd_thesis}. This is justified by the reduced visual angles and minimal scanning effort required in such setups. The attention allocation formula is defined in Equation~\ref{eq:VA_AOI}: %check this ref, not only cite Rehman's thesis.
 	
 	\begin{equation}
 		VA_{AOI} = \sum_{t=1}^{n} (Ex_t) (R_t) (P_t)
 		\label{eq:VA_AOI}
 		\end{equation}
-	Here, $VA_{AOI}$ is the raw attention value for an AOI, $t$ indexes across $n$ tasks, $Ex_t$ is the Expectancy of the AOI for task $t$, $R_t$ is its Relevance, and $P_t$ is the Priority of task $t$. The combined effect of $R_t$ and $P_t$ represents the "Value" factor in the SEEV framework.
+	Here, $VA_{AOI}$ is the raw attention value for an AOI, $t$ indexes across $n$ tasks, $Ex_t$ is the Expectancy of the AOI for task $t$, $R_t$ is its Relevance, and $P_t$ is the Priority of task $t$. The combined effect of $R_t$ and $P_t$ represents the "Value" factor in the SEEV model.
 	
 	The resulting $VA_{AOI}$ values are normalized to generate probabilistic attention weights across all AOIs. Monte Carlo simulations will be used to stochastically determine gaze allocation over time.
 	
-	The model thus accounts for both attentional and memory constraints: attention allocation drives what information enters the cognitive system, while ACT-R's declarative memory mechanisms (e.g., memory decay and activation thresholds) govern subsequent retention and retrieval. In QN-ACTR, activation levels of chunks representing critical elements must exceed a threshold to contribute to Level 1 SA (perception-based SA). Consequently, Level 1 SA in this model emerges from the interaction between visual attention (SEEV) and cognitive memory dynamics (ACT-R). The framework is presented in Figure~\ref{fig:qn-actr-seev}
+	The model accounts for both attentional and memory constraints: attention allocation drives what information enters the cognitive system, while ACT-R's declarative memory mechanisms (e.g., memory decay and activation thresholds) govern subsequent retention and retrieval. In QN-ACTR, activation levels of chunks representing critical elements must exceed a threshold to contribute to Level 1 SA (perception-based SA). Consequently, Level 1 SA in this model emerges from the interaction between visual attention (SEEV) and cognitive memory dynamics (ACT-R). The framework is presented in Figure~\ref{fig:qn-actr-seev}
 
 	\begin{figure}[h!]
     \centering
@@ -197,7 +213,7 @@
 	
 	This design was selected to reflect the deterministic and highly procedural characteristics of the flight scenario. The agent does not incorporate deliberative planning or uncertainty handling; rather, it functions as a partial Wizard of Oz system. Its purpose is to emulate the expert-like behavior of an AI system that executes preprogrammed actions in response to situational cues.
 	
-	The AA system is composed of the following modules: \begin{itemize} \item \textbf{State Hierarchy:} A layered structure of states and nested substates representing sequential and conditional phases of the flight (e.g., "Takeoff Roll" $\rightarrow$ "Bird Strike Response" $\rightarrow$ "Post-Incident Assessment"). \item \textbf{State Manager:} A supervisory module responsible for managing transitions between states based on predefined transition rules. \item \textbf{Action Layer:} A set of atomic actions (e.g., "Verify engine instruments", "Declare emergency to ATC") executed when specific states or substates become active. \item \textbf{Status Monitoring:} A continuous input channel from the flight simulator (X-Plane 11) used to assess scenario conditions and update the agent's internal state. \end{itemize}
+	The AA system is composed of the following modules: \begin{itemize} \item \textbf{State Hierarchy:} A layered structure of states and nested substates representing sequential and conditional phases of the flight (e.g., "Takeoff Roll" $\rightarrow$ "Engine-Out Emergency Procedure" $\rightarrow$ "Communicate with ATC"). \item \textbf{State Manager:} A supervisory module responsible for managing transitions between states based on predefined transition rules. \item \textbf{Action Layer:} A set of atomic actions (e.g., "Verify engine instruments", "Declare emergency to ATC") executed when specific states or substates become active. \item \textbf{Status Monitoring:} A continuous input channel from the flight simulator (X-Plane 11) used to assess scenario conditions and update the agent's internal state. \end{itemize}
 	
 	The nested FSM structure provides a modular and scalable framework, ensuring ease of maintenance and facilitating the alignment between the agent's reactive behavior and the cognitive model's procedural logic.
 
@@ -213,11 +229,125 @@
 
 	\begin{itemize} \item \textbf{Task Dispatcher:} A central module responsible for allocating tasks between the cognitive model (representing the human pilot) and the AA (the virtual copilot). The dispatcher can be thought of representing the Human-Autonomy pre-flight briefing. It activates or inhibit tasks for each member of the team, ensuring overall coherence between entities for effective collaboration to achieve the shared set of goals. \item \textbf{Cognitive Model:} The QN-ACTR+SEEV model simulates the pilot's cognitive processes, including level 1 situation awareness, memory dynamics, and attention allocation. It is capable of both executing tasks directly and interacting with the AA. \item \textbf{Autonomous Agent (AA):} As outlined earlier, this agent handles delegated tasks from the dispatcher and takes direct action in the simulation environment to assist the pilot. \end{itemize}
 
-	The system leverages the \textbf{Ingescape ecosystem} to connect distributed modules seamlessly: \begin{itemize} \item \textbf{Black-box agents:} Each software module (dispatcher, cognitive model, AA agent) is implemented as an independent black box with defined input/output ports. \item \textbf{ZeroMQ-based messaging:} Ingescape abstracts communication, enabling asynchronous and decoupled messaging between components. \item \textbf{Simulation Interface:} Both the AA agent and the cognitive model exchange real-time data with X-Plane 11 and between themselves, ensuring they operate with a synchronized and shared representation of the environment. \end{itemize}
+	The system leverages the \textbf{Ingescape ecosystem} to connect distributed modules seamlessly: \begin{itemize} \item \textbf{Black-box agents:} Each software module (dispatcher, cognitive model, AA agent) is implemented as an independent black box with defined input/output ports. \item \textbf{ZeroMQ-based messaging:} Ingescape abstracts communication, enabling asynchronous and decoupled messaging between components. \item \textbf{Simulation Interface:} Both the AA agent and the cognitive model exchange real-time data with X-Plane 11 and between themselves, ensuring they operate with a synchronized and shared representation of the environment orchestrated by the ingescape platform. \end{itemize}
 
-	This architecture enables flexible experimentation, including various teaming strategies (e.g., autonomous agent as backup or co-pilot), and modular upgrades to individual system components.
+	This architecture enables flexible experimentation, including various teaming strategies (e.g., autonomous agent as backup or co-pilot), and modular upgrades to individual system components, see Figure~\ref{fig:ingescape_platform}.
+
+	\begin{figure}[h!]Develop an agent that 
+		\centering
+		\includegraphics[width=1.0\textwidth]{./images/ingescape_platform.png}
+		\caption{system architecture overview from the ingescape platform}
+		\label{fig:ingescape_platform}
+	\end{figure}
 
 	\subsubsection{Scenario \& Simulation}
+	We constructed the scenario based on checklists, standard operating procedures (SOPs), training material, and feedback from subject matter experts of the Cessna Citation Mustang. This aircraft is single-pilot certified, meaning that the required procedures are currently performed by either a single pilot or a two-pilot crew. This aspect facilitated the construction of the cognitive model, as a baseline single-pilot operation (SPO) already exists, eliminating the need to invent new procedures. We ensured that our scenario remains as close to operational reality as possible.
+
+	Upon completing the development of both the cognitive model and the autonomous agent, we will enter the simulation phase to gather data. The experiment will involve multiple independent variables, each designed to examine different aspects of human-autonomy teaming in aviation.
+	
+	\textbf{Independent Variables}
+	\begin{itemize}
+	\item \textbf{Teaming Configuration}:
+	\begin{itemize}
+	\item Baseline condition: Cognitive model alone in SPO
+	\item Minimum teaming configuration: Using only the required teaming interdependence
+	\item Maximum teaming configuration: Using every required and opportunistic teaming interdependence
+	\end{itemize}
+	\item \textbf{Scenario Variations}:
+	\begin{itemize}
+	\item \textbf{Nominal Condition}: No bird strike
+	\item \textbf{Non-Nominal Conditions}:
+	\begin{itemize}
+	\item Bird strike and engine failure before V1 (Rejected Takeoff scenario)
+	\item Bird strike and engine failure after V1 (Engine failure after takeoff scenario)
+	\end{itemize}
+	\end{itemize}
+	\end{itemize}
+	
+	\textbf{Dependent Variables}
+	We will measure multiple aspects of pilot cognition, teaming effectiveness, and performance:
+	\begin{itemize}
+	\item \textbf{Situation Awareness (SA)}:
+	\begin{itemize}
+	\item Assessed through the SAGAT (Situation Awareness Global Assessment Technique) methodology at various points in the scenario.
+	\item SAGAT questions are derived from the GDTA (Goal-Directed Task Analysis) information requirements and will be probed by pausing the simulation at predefined moments.
+	\item The autonomous agent's current situation representation will be retrieved simultaneously, capturing relevant flight parameters as defined by the information requirements.
+	\end{itemize}
+	\item \textbf{Cognitive Model Workload Estimation}:
+	\begin{itemize}
+	\item Estimated workload levels will be assessed through the cognitive model’s internal mechanisms, examining attentional resources and task demands.
+	\end{itemize}
+	\item \textbf{Performance Metrics}:
+	\begin{itemize}
+	\item Compliance with SOPs.
+	\item Time to return to a nominal flight condition following the bird strike.
+	\item Specific performance criteria per scenario:
+	\begin{itemize}
+	\item Rejected takeoff: Reaction time to initiate the rejected takeoff procedure.
+	\item Engine failure after takeoff: Time to execute the emergency procedures and checklist.
+	\end{itemize}
+	\end{itemize}
+	\item \textbf{Attention Allocation and Gaze Behavior}:
+	\begin{itemize}
+	\item The cognitive model’s gaze patterns and attention allocation toward Areas of Interest (AoIs) will be analyzed.
+	\item Specific attention will be given to the human-machine interface (HMI) used for teaming interactions.
+	\end{itemize}
+	\item \textbf{Teaming Effectiveness Evaluation}:
+	\begin{itemize}
+	\item Systematic validation of teaming requirements:
+	\begin{itemize}
+	\item \textbf{Observability}: The agent’s actions and state must be observable to the human pilot.
+	\item \textbf{Predictability}: The agent’s behavior must align with human expectations.
+	\item \textbf{Directability}: The human pilot must be able to direct the agent effectively.
+	\end{itemize}
+	\end{itemize}
+	\end{itemize}
+	
+	\textbf{Simulation Repetitions and Statistical Analysis}
+	Given the stochastic nature of the cognitive model’s attention allocation module (based on the SEEV model), each condition will be repeated 50 times. This will allow for a robust statistical analysis of mean differences across simulation batches.
+	
+	\textbf{Hypotheses}
+	We expect the following trends in our results:
+	\begin{itemize}
+	\item \textbf{Workload}: No teaming $>$ Low teaming $>$ High teaming
+	\item \textbf{Situation Awareness (SA)}: No teaming $<$ Low teaming $\approx$ High teaming (no significant differences between teaming configurations)
+	\item \textbf{Team SA}: No significant differences in situation representation (e.g., the cognitive model's airspeed representation should closely match the autonomous agent's in teaming scenarios)
+	\item \textbf{Performance \& SOP Compliance}: No teaming $<$ Low teaming $<$ High teaming
+	\item \textbf{Gaze time on the autonomy's HMI AoI}: Low teaming $<$ High teaming
+	\end{itemize}
+	Additionally, we anticipate being able to systematically validate the OPD (Observability, Predictability, Directability) requirements during the simulation phase. These results will inform the design and evaluation of future human-autonomy teaming configurations in commercial aviation.
+	
+	\section{Next Steps}
+	\begin{enumerate}
+	\item \textbf{Finalize Cognitive Model and AI Agent}:
+	\begin{itemize}
+	\item Ensure both the cognitive model and AI agent are functioning according to the defined architecture.
+	\item Validate information exchange mechanisms between the two entities.
+	\end{itemize}
+	\item \textbf{Refine Experimental Setup}:
+	\begin{itemize}
+	\item Conduct pilot simulations to ensure scenario validity.
+	\item Adjust experimental conditions if necessary based on initial observations.
+	\end{itemize}
+	\item \textbf{Data Collection and Analysis}:
+	\begin{itemize}
+	\item Execute the planned simulations and collect data from all independent conditions.
+	\item Apply statistical methods to analyze workload, SA, performance, and teaming effectiveness.
+	\end{itemize}
+	\item \textbf{Evaluation and Reporting}:
+	\begin{itemize}
+	\item Interpret results in light of human-autonomy teaming principles.
+	\item Compare findings with existing models and human performance baselines.
+	\item Document key insights to guide future research and application in aviation.
+	\end{itemize}
+	\end{enumerate}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1.0\textwidth]{./images/scenario_detailed.png}
+		\caption{Takeoff scenario detailed}
+		\label{fig:scenario_detailed}
+	\end{figure}
+	
 	\subsection{Phase 3: Human-In-The-loop simulation studies}
 	\subsubsection{Scenario}
 	\subsubsection{Equipment}
@@ -242,6 +372,7 @@
 	My resources
 	
 	\section{Timeline}
+	My timeline.
 	\printbibliography % Prints the bibliography
 	
 \end{document} % Ends the document
