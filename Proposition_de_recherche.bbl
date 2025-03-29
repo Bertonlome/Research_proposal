@@ -185,6 +185,64 @@
       \endverb
       \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
     \endentry
+    \entry{cao_modelling_2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Shi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yili},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{fullhash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{fullhashraw}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{bibnamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorbibnamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authornamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorfullhash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorfullhashraw}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-5549, 1742-5557}
+      \field{journaltitle}{International Journal of Human Factors Modelling and Simulation}
+      \field{number}{2}
+      \field{title}{Modelling workload in cognitive and concurrent tasks with time stress using an integrated cognitive architecture}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{113}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1504/IJHFMS.2015.075360
+      \endverb
+      \verb{file}
+      \verb Cao and Liu - 2015 - Modelling workload in cognitive and concurrent tas.pdf:files/3393/Cao and Liu - 2015 - Modelling workload in cognitive and concurrent tas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.inderscience.com/link.php?id=75360
+      \endverb
+      \verb{url}
+      \verb http://www.inderscience.com/link.php?id=75360
+      \endverb
+    \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
@@ -1225,6 +1283,64 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
       \endverb
       \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
+    \endentry
+    \entry{cao_modelling_2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Shi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yili},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{fullhash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{fullhashraw}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{bibnamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorbibnamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authornamehash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorfullhash}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \strng{authorfullhashraw}{2ea7ca69becad0d115f25523cf2c1ecc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-5549, 1742-5557}
+      \field{journaltitle}{International Journal of Human Factors Modelling and Simulation}
+      \field{number}{2}
+      \field{title}{Modelling workload in cognitive and concurrent tasks with time stress using an integrated cognitive architecture}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{113}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1504/IJHFMS.2015.075360
+      \endverb
+      \verb{file}
+      \verb Cao and Liu - 2015 - Modelling workload in cognitive and concurrent tas.pdf:files/3393/Cao and Liu - 2015 - Modelling workload in cognitive and concurrent tas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.inderscience.com/link.php?id=75360
+      \endverb
+      \verb{url}
+      \verb http://www.inderscience.com/link.php?id=75360
+      \endverb
     \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
