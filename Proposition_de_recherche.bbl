@@ -106,6 +106,7 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{month}{1}
@@ -116,75 +117,6 @@
       \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
       \endverb
     \endentry
-    \entry{boy_prodec_2024}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
-           family={Boy},
-           familyi={B\bibinitperiod},
-           given={Guy\bibnamedelima André},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=8473f350b27b0219cf9055d6e917e3cf}{%
-           family={Masson},
-           familyi={M\bibinitperiod},
-           given={Dimitri},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=114927384129ee346303aefa9c00edea}{%
-           family={Durnerin},
-           familyi={D\bibinitperiod},
-           given={Élise},
-           giveni={É\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ab264eb7d244237925290c6d6cd31e30}{%
-           family={Morel},
-           familyi={M\bibinitperiod},
-           given={Chloé},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
-      \strng{fullhash}{1c3b65b32225649648eb66252f879972}
-      \strng{fullhashraw}{1c3b65b32225649648eb66252f879972}
-      \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
-      \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
-      \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
-      \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
-      \strng{authorfullhashraw}{1c3b65b32225649648eb66252f879972}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The purpose of the PRODEC scenario-based design method is the incremental cross-fertilization and refinement of procedural scenarios and declarative configurations. It uses virtual prototypes of the developed systems (mainly life-critical systems) to conduct human-in-the-loop simulations (HITLSs). Based on human systems integration (HSI) principles and criteria, as well as expertise and experience in the domain at stake, this HSI approach grounded in virtual environments requires a clear definition of physical and cognitive tangibility metrics to assess the distance between virtual and tangible (grasp) dimensions of the system being developed when it is put to work. PRODEC considers human and machine systems described in terms of structures and functions incrementally designed using procedural scenarios (i.e., stories) in task and activity networks, which provide life to declarative configurations (i.e., system's functions and structures). This active modeling and simulation process enables the discovery of emergent structures and functions of the system being developed when it is virtually operated. PRODEC's use is illustrated in an example. We discuss the use of PRODEC and its results as to how they can be used with digital twins.}
-      \field{issn}{1520-6858}
-      \field{journaltitle}{Systems Engineering}
-      \field{number}{n/a}
-      \field{title}{{PRODEC} for human systems integration of increasingly autonomous systems}
-      \field{urlday}{11}
-      \field{urlmonth}{7}
-      \field{urlyear}{2024}
-      \field{volume}{n/a}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1002/sys.21751
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\JMI9QGKT\\Boy et al. - PRODEC for human systems integration of increasing.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\MF2K86YX\\sys.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
-      \endverb
-      \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
-    \endentry
     \entry{cao_modelling_2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
@@ -193,12 +125,12 @@
            given={Shi},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
+        {{un=1,uniquepart=given,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Yili},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{language}{1}{%
         {en}%
@@ -243,6 +175,356 @@
       \verb http://www.inderscience.com/link.php?id=75360
       \endverb
     \endentry
+    \entry{chen_developing_2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=dd060cd064f8f607eb1bee6712820270}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e242b8fcbdf3579bd5ff6c9182df80}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43a245acb43340f5083034bf9c352fc7}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a543fd1c880a03106e817e073b07d8c9}{%
+           family={Wanyan},
+           familyi={W\bibinitperiod},
+           given={Xiaoru},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a72c1cf47d2743b9b53d32f7673fc3df}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yufeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34bcb9ba6216c3c32c851b701b4b5b33}
+      \strng{fullhash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{fullhashraw}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{bibnamehash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authorbibnamehash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authornamehash}{34bcb9ba6216c3c32c851b701b4b5b33}
+      \strng{authorfullhash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authorfullhashraw}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{According to a previously built situation-awareness (SA) model based on attention allocation, with the ACT-R (Adaptive Control of Thought, Rational) theory for analyzing pilot cognitive processes for situation elements, an SA mathematical model was improved to predict pilot SA during exposure to different display interfaces and missions. An indicator-display monitoring task was performed under different experimental conditions for SA model verification, while the SA global assessment technique (SAGAT), performance measures, 10-dimensional SA rating technique (10-D SART), and eye movement measures were adopted to comprehensively assess the operator's SA. The experimental results revealed that theoretical prediction values calculated using the improved SA model were strongly correlated with the operation performance, and thus confirming the model validation. The SAGAT was shown to be a more effective method than SART in this research, and the overall SAGAT accuracy rate, as well as the accuracy response time, are effective indices for SA measurement. Eye-movement indices, such as the fixation/saccade ratio, which corresponds to the mode of information perception and extraction, was examined to be sensitive to operator's SA changes. The Advances of the improved SA model have been achieved in predicting and indicating SA by using human behaviors, including operation performance, SAGAT response behaviors, and visual behaviors. Thereby, it provides a new auxiliary tool for quantitative characterization of pilot's SA during cockpit interface design optimization and ergonomic evaluation.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Conference Name: IEEE Access}
+      \field{title}{Developing an {Improved} {ACT}-{R} {Model} for {Pilot} {Situation} {Awareness} {Measurement}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{122113\bibrangedash 122124}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2021.3108438
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\Z5FCSXNZ\\9524611.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\SVH4SAZR\\Chen et al. - 2021 - Developing an Improved ACT-R Model for Pilot Situa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9524611
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9524611
+      \endverb
+      \keyw{Analytical models,Aircraft,Visualization,Resource management,situation awareness,Task analysis,human-machine interaction,ACT-R model,Brain modeling,cockpit display interface,cognitive modeling,Predictive models}
+    \endentry
+    \entry{christoffersen_1_2002}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=37a32465cefd42e175bcd9c3b55bf215}{%
+           family={Christoffersen},
+           familyi={C\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3952c6dfe7462f10d1c9638f0f3673ba}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima D},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{fullhash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{fullhashraw}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{bibnamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorbibnamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authornamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorfullhash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorfullhashraw}{76d89ab92d6c7cc0d09215fb6731c834}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When designing a joint system for a complex, dynamic, open environment, where the consequences of poor performance by the joint system are potentially grave, the need to shape the machine agents into team players is critical. Traditionally, the assumption has been that if a joint system fails to perform adequately, the cause can be traced to so-called “human error.” However, if one digs a little deeper, they find that the only reason many of these joint systems perform adequately at all is because of the resourcefulness and adaptability that the human agents display in the face of uncommunicative and uncooperative machine agents. The ability of a joint system to perform effectively in the face of difficult problems depends intimately on the ability of the human and machine agents to coordinate and capitalize upon the unique abilities and information to which each agent has access.For automated agents to become team players, there are two fundamental characteristics which need to be designed in from the beginning: observability and directability. In other words, users need to be able to see what the automated agents are doing and what they will do next relative to the state of the process, and users need to be able to re-direct machine activities fluently in instances where they recognize a need to intervene. These two basic capabilities are the keys to fostering a cooperative relationship between the human and machine agents in any joint system.}
+      \field{booktitle}{Advances in {Human} {Performance} and {Cognitive} {Engineering} {Research}}
+      \field{isbn}{978-1-84950-145-3 978-0-7623-0864-4}
+      \field{month}{1}
+      \field{series}{Advances in {Human} {Performance} and {Cognitive} {Engineering} {Research}}
+      \field{title}{1. {How} to make automated systems team players}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S1479-3601(02)02003-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S1479-3601(02)02003-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S1479-3601(02)02003-9
+      \endverb
+    \endentry
+    \entry{cooke_interactive_2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=73f5530872389d57cf81979f10938be7}{%
+           family={Cooke},
+           familyi={C\bibinitperiod},
+           given={Nancy\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53b404f4b4070add24a975409f1bc202}{%
+           family={Gorman},
+           familyi={G\bibinitperiod},
+           given={Jamie\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd2e130bd86011e145c272d2215c75b1}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dece4a10254c42f0a7617e8e7ed40dee}{%
+           family={Duran},
+           familyi={D\bibinitperiod},
+           given={Jasmine\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{95d23a25377ffa590b15e7dddcf68b05}
+      \strng{fullhash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{fullhashraw}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{bibnamehash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authorbibnamehash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authornamehash}{95d23a25377ffa590b15e7dddcf68b05}
+      \strng{authorfullhash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authorfullhashraw}{0284b844e00acadbcf32132cb22c8b3f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cognition in work teams has been predominantly understood and explained in terms of shared cognition with a focus on the similarity of static knowledge structures across individual team members. Inspired by the current zeitgeist in cognitive science, as well as by empirical data and pragmatic concerns, we offer an alternative theory of team cognition. Interactive Team Cognition (ITC) theory posits that (1) team cognition is an activity, not a property or a product; (2) team cognition should be measured and studied at the team level; and (3) team cognition is inextricably tied to context. There are implications of ITC for theory building, modeling, measurement, and applications that make teams more effective performers.}
+      \field{issn}{1551-6709}
+      \field{journaltitle}{Cognitive Science}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.12009}
+      \field{number}{2}
+      \field{title}{Interactive {Team} {Cognition}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{255\bibrangedash 285}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1111/cogs.12009
+      \endverb
+      \verb{file}
+      \verb Cooke et al_2013_Interactive Team Cognition.pdf:C\:\\Users\\benja\\Zotero\\storage\\5CH3HNXC\\Cooke et al_2013_Interactive Team Cognition.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.12009
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.12009
+      \endverb
+      \keyw{Communication,Dynamical systems,Interaction,Shared cognition,Team cognition}
+    \endentry
+    \entry{daniello_fuzzy_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4eece69cae581b8dc2f0bdccdce264ed}{%
+           family={D’Aniello},
+           familyi={D\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{fullhash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{fullhashraw}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{bibnamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorbibnamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authornamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorfullhash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorfullhashraw}{4eece69cae581b8dc2f0bdccdce264ed}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Situation awareness is the cognitive capability of human and artificial agents to perceive, understand and predict the status of the situation in an environment. Situation awareness systems aim at supporting the situation awareness of human and artificial agents using computational techniques, models, and approaches for supporting the assessment, tracking, and prediction of critical situations. Fuzzy logic formalisms have been extensively used in situation awareness systems thanks to their capability of dealing with uncertainties while providing agents with easily understandable models of situations and decisions. This paper proposes a systematic, unbiased, and updated review of the literature on fuzzy logic for situation awareness from 2010 to 2021, conducted using the PRISMA methodology, analyzing 139 articles. An in-depth discussion of the main open challenges and future research directions is provided.}
+      \field{issn}{1868-5145}
+      \field{journaltitle}{Journal of Ambient Intelligence and Humanized Computing}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{Fuzzy logic for situation awareness}
+      \field{title}{Fuzzy logic for situation awareness: a systematic review}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{4419\bibrangedash 4438}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s12652-023-04560-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\KJT7WBNZ\\D’Aniello - 2023 - Fuzzy logic for situation awareness a systematic .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12652-023-04560-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12652-023-04560-6
+      \endverb
+      \keyw{Artificial Intelligence,Situation awareness,Cognitive situation management,Fuzzy cognitive map,Fuzzy inference system,Fuzzy logic,Situation-aware systems}
+    \endentry
+    \entry{easa_guidance_2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7a864088ca5cfac83bba94004eeb6e1}{%
+           family={EASA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cologne, Germany}%
+      }
+      \strng{namehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{fullhash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{fullhashraw}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{bibnamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorbibnamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authornamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorfullhash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorfullhashraw}{e7a864088ca5cfac83bba94004eeb6e1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Guidance for {Level} 1 \& 2 machine learning applications, issue 2}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \field{pages}{240}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://easa.europa.eu/ai
+      \endverb
+      \verb{url}
+      \verb https://easa.europa.eu/ai
+      \endverb
+    \endentry
+    \entry{endsley_measurement_1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Methodologies for the empirical measurement of situation awareness are reviewed, including a discussion of the advantages and disadvantages of each method and the potential limitations of the measures from a theoretical and practical viewpoint. Two studies are presented that investigate questions of validity and intrusiveness regarding a query-based technique. This technique requires that a simulation of the operational tasks be momentarily interrupted in order to query operators on their situation awareness. The results of the two studies indicate that the query technique is not intrusive on normal subject behavior during the trial and does not suffer from limitations of human memory, which provides an indication of empirical validity. The results of other validity studies regarding the technique are discussed along with recommendations for its use in measuring situation awareness in varied settings.}
+      \field{issn}{0018-7208, 1547-8181}
+      \field{journaltitle}{Human Factors: The Journal of the Human Factors and Ergonomics Society}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Measurement of {Situation} {Awareness} in {Dynamic} {Systems}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{volume}{37}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{65\bibrangedash 84}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1518/001872095779049499
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
+      \endverb
+    \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
@@ -263,8 +545,10 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -297,6 +581,170 @@
       \verb{url}
       \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
       \endverb
+    \endentry
+    \entry{endsley_here_2017-1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As autonomous and semiautonomous systems are developed for automotive, aviation, cyber, robotics and other applications, the ability of human operators to effectively oversee and interact with them when needed poses a significant challenge. An automation conundrum exists in which as more autonomy is added to a system, and its reliability and robustness increase, the lower the situation awareness of human operators and the less likely that they will be able to take over manual control when needed. The human–autonomy systems oversight model integrates several decades of relevant autonomy research on operator situation awareness, out-of-the-loop performance problems, monitoring, and trust, which are all major challenges underlying the automation conundrum. Key design interventions for improving human performance in interacting with autonomous systems are integrated in the model, including human–automation interface features and central automation interaction paradigms comprising levels of automation, adaptive automation, and granularity of control approaches. Recommendations for the design of human–autonomy interfaces are presented and directions for future research discussed.}
+      \field{issn}{0018-7208}
+      \field{journaltitle}{Human Factors}
+      \field{month}{2}
+      \field{note}{Publisher: SAGE Publications Inc}
+      \field{number}{1}
+      \field{shorttitle}{From {Here} to {Autonomy}}
+      \field{title}{From {Here} to {Autonomy}: {Lessons} {Learned} {From} {Human}–{Automation} {Research}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{59}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1177/0018720816681350
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0018720816681350
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0018720816681350
+      \endverb
+    \endentry
+    \entry{endsley_ironies_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bainbridge’s Ironies of Automation was a prescient description of automation related challenges for human performance that have characterized much of the 40 years since its publication. Today a new wave of automation based on artificial intelligence (AI) is being introduced across a wide variety of domains and applications. Not only are Bainbridge’s original warnings still pertinent for AI, but AI’s very nature and focus on cognitive tasks has introduced many new challenges for people who interact with it. Five ironies of AI are presented including difficulties with understanding AI and forming adaptations, opaqueness in AI limitations and biases that can drive human decision biases, and difficulties in understanding the AI reliability, despite the fact that AI remains insufficiently intelligent for many of its intended applications. Future directions are provided to create more human-centered AI applications that can address these challenges.}
+      \field{issn}{0014-0139}
+      \field{journaltitle}{Ergonomics}
+      \field{month}{8}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/00140139.2023.2243404}
+      \field{number}{ja}
+      \field{title}{Ironies of {Artificial} {Intelligence}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{0}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/00140139.2023.2243404
+      \endverb
+      \verb{file}
+      \verb Endsley - 2023 - Ironies of Artificial Intelligence.pdf:C\:\\Users\\benja\\Zotero\\storage\\VALITV7U\\Endsley - 2023 - Ironies of Artificial Intelligence.pdf:application/pdf;Ironies of artificial intelligence 3.pdf:C\:\\Users\\benja\\Zotero\\storage\\MG2T7JNL\\Ironies of artificial intelligence 3.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00140139.2023.2243404
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00140139.2023.2243404
+      \endverb
+      \keyw{Automation,Artificial Intelligence,Bias,Human-Centered AI,Situation awareness,Transparency}
+    \endentry
+    \entry{endsley_supporting_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{System autonomy and AI are being developed for a wide variety of applications where they will likely work in tandem with people, forming human-AI teams (HAT). Situation awareness (SA) of autonomous systems and AI has been established as critical for effective interaction and oversight of these systems. As AI capabilities grow, and more effective teaming behaviors are expected of AI systems, there will also be an increased need for shared SA between the human and AI teammates. Methods for supporting team SA within HAT are discussed in terms of team SA requirements, team SA mechanisms, team SA displays and team SA processes. A framework for understanding the types of information that needs to be shared within HAT is provided, including a focus on taskwork SA, agent SA, and teamwork SA. AI based on learning systems creates new challenges for the development of good SA and mental models. AI transparency and explainability are discussed in terms of their separate roles for supporting SA and mental models in HAT. The SA Oriented Design (SAOD) process is described as a systematic methodology for developing transparent AI displays for HAT and an example of its application to automated driving in a Tesla is provided.}
+      \field{issn}{0747-5632}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{month}{3}
+      \field{shorttitle}{Supporting {Human}-{AI} {Teams}}
+      \field{title}{Supporting {Human}-{AI} {Teams}:{Transparency}, explainability, and situation awareness}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{140}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{107574}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chb.2022.107574
+      \endverb
+      \verb{file}
+      \verb Endsley - 2023 - Supporting Human-AI TeamsTransparency, explainabi.pdf:C\:\\Users\\benja\\Zotero\\storage\\WP8DGSFH\\Endsley - 2023 - Supporting Human-AI TeamsTransparency, explainabi.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\benja\\Zotero\\storage\\YNQFX2CB\\S0747563222003946.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563222003946
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563222003946
+      \endverb
+      \keyw{Situation awareness,Transparency,Explainable AI,Human-AI teams,Tesla}
     \endentry
     \entry{endsley_designing_2003}{book}{}{}
       \name{author}{3}{}{%
@@ -352,6 +800,80 @@
       \verb{file}
       \verb Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:C\:\\Users\\benja\\Zotero\\storage\\5NIEX5YS\\Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:application/pdf;Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\2J9HL4IM\\Endsley et al. - 2003 - Designing for Situation Awareness An Approach to .pdf:application/pdf
       \endverb
+    \endentry
+    \entry{freiman_assessing_2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=18cd6993eb28fc837537f9768aac7e8f}{%
+           family={Freiman},
+           familyi={F\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8468e951d141423f7bd8f3d3792623ee}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b2f67684aaf2eb1b9d0340adda94182}{%
+           family={Caisse},
+           familyi={C\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7755f4aa31a426fdac3eae993b463}{%
+           family={Halverson},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31ec7e17ab44d346aa3011e3c96465d}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91a6d6de62f90165d26df2eb9c076f77}
+      \strng{fullhash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{fullhashraw}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{bibnamehash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authorbibnamehash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authornamehash}{91a6d6de62f90165d26df2eb9c076f77}
+      \strng{authorfullhash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authorfullhashraw}{6984a7f4946e6832cefd0b35235329a1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The model of situation awareness (SA) as described by Mica Endsley in her articles over the past couple decades is based in empirical psychological research and validated through testing and application across many domains. While there are many similar descriptive (“box-and-arrow”) models of human SA, some of which differ significantly from Endsley's, few computational process models of human SA exist. The vigorous debate over the proper form and function of descriptive SA models offers us a valuable insight into how best to evaluate process models for their adherence to human cognitive processes. Here we propose criteria, based on the descriptive SA model literature, for evaluating computational process models' SA capabilities, provide an example of that evaluation, and argue for the utility of computational process models in testing theoretical claims about situation awareness.}
+      \field{journaltitle}{2019 {IEEE} {Conference} on {Cognitive} and {Computational} {Aspects} of {Situation} {Management} ({CogSIMA})}
+      \field{month}{4}
+      \field{note}{ISSN: 2379-1675}
+      \field{title}{Assessing {Cognitive} {Fidelity} in a {Situation} {Awareness} {Process} {Model}}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{100\bibrangedash 106}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/COGSIMA.2019.8724256
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\GAYAQKVF\\authors.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8724256/authors#authors
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8724256/authors#authors
+      \endverb
+      \keyw{Analytical models,Atmospheric modeling,Computational modeling,Cognitive science,cognitive architecture,situation awareness,Task analysis,autonomous synthetic teammate (AST),Cognitive processes,computational cognitive process model,situation model,Time factors}
     \endentry
     \entry{hancock_imposing_2017}{article}{}{}
       \name{author}{1}{}{%
@@ -596,6 +1118,68 @@
       \verb https://arc.aiaa.org/doi/10.2514/6.2020-3250
       \endverb
     \endentry
+    \entry{johnson_no_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd21a8c9bfcfdf3cf66066f073fd7ff6}{%
+           family={Vera},
+           familyi={V\bibinitperiod},
+           given={Alonso},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{fullhash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{fullhashraw}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{bibnamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorbibnamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authornamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorfullhash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorfullhashraw}{69577fa039b1a47397c4b3b11b4fa02f}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The purpose of this article is to draw attention to an aspect of intelligence that has not yet received significant attention from the AI community, but that plays a crucial role in a technology’s effectiveness in the world, namely teaming intelligence. We propose that Al will reach its full potential only if, as part of its intelligence, it also has enough teaming intelligence to work well with people. Although seemingly counterintuitive, the more intelligent the technological system, the greater the need for collaborative skills. This paper will argue why teaming intelligence is important to AI, provide a general structure for AI researchers to use in developing intelligent systems that team well, assess the current state of the art and, in doing so, suggest a path forward for future AI systems. This is not a call to develop a new capability, but rather, an approach to what AI capabilities should be built, and how, so as to imbue intelligent systems with teaming competence.}
+      \field{issn}{2371-9621}
+      \field{journaltitle}{AI Magazine}
+      \field{month}{3}
+      \field{note}{Number: 1}
+      \field{number}{1}
+      \field{shorttitle}{No {AI} {Is} an {Island}}
+      \field{title}{No {AI} {Is} an {Island}: {The} {Case} for {Teaming} {Intelligence}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{16\bibrangedash 28}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1609/aimag.v40i1.2842
+      \endverb
+      \verb{file}
+      \verb Johnson_Vera_2019_No AI Is an Island.pdf:C\:\\Users\\benja\\Zotero\\storage\\ISFQXYTD\\Johnson_Vera_2019_No AI Is an Island.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2842
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2842
+      \endverb
+    \endentry
     \entry{johnson_coactive_2014}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
@@ -727,6 +1311,104 @@
       \verb Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:C\:\\Users\\benja\\Zotero\\storage\\GS3ZSP5G\\Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:application/pdf
       \endverb
     \endentry
+    \entry{juarez-espinosa_situation_nodate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e50a4e69bb2f18b0c2df84dc722c8a}{%
+           family={Juarez-Espinosa},
+           familyi={J\bibinithyphendelim E\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ef57fda71f50c9292436e6ffe80f286}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Cleotilde},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{fullhash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{fullhashraw}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{bibnamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorbibnamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authornamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorfullhash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorfullhashraw}{11e9d72690a91e1d4e898e49465f8244}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper discusses a computational model of situation awareness (SA) for military command and control in complex battle situations. Cognitive modeling is a research method that does not forgive vagueness. How do military commanders create awareness in a highly complex and uncertain world? The model described in this paper simulates computationally some of the cognitive operations performed by commanders during the evaluation of a complex battle situation. Although the set of cognitive processes that support SA are still not well understood, we have hypothesized a meta- architecture involving: information gathering, assessment, and alternative generation. The cognitive model reported here paves the road towards a more complete and valid representation. The model was implemented using ACT-R, a cognitive architecture, and tested with scenarios running in OTB, a simulation tool for war scenarios.}
+      \field{shorttitle}{Situation {Awareness} of {Commanders}}
+      \field{title}{Situation {Awareness} of {Commanders}: {A} {Cognitive} {Model}}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\A42JDK8Y\\Juarez-Espinosa and Gonzalez - Situation Awareness of Commanders A Cognitive Mod.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lawless_editorial_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3fa08629828a01c8c18b9e938b6f6b30}{%
+           family={Lawless},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3486255b738d2a99a9ecb1cb32a7afb}{%
+           family={Sofge},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=945cd3d05008e001bc9005c274c949fa}{%
+           family={Lofaro},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e55968dd8c2c184a121fad9cc5d567}{%
+           family={Mittu},
+           familyi={M\bibinitperiod},
+           given={Ranjeev},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fddcd9fef3b63929a826b9d529a0f08d}
+      \strng{fullhash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{fullhashraw}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{bibnamehash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authorbibnamehash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authornamehash}{fddcd9fef3b63929a826b9d529a0f08d}
+      \strng{authorfullhash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authorfullhashraw}{92b693452ce02e7325ab1c597a0c436a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2296-424X}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{shorttitle}{Editorial}
+      \field{title}{Editorial: {Interdisciplinary} approaches to the structure and performance of interdependent autonomous human machine teams and systems}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Lawless et al_2023_Editorial.pdf:C\:\\Users\\benja\\Zotero\\storage\\U7ULFY7A\\Lawless et al_2023_Editorial.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2023.1150796
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2023.1150796
+      \endverb
+    \endentry
     \entry{lee_design_2023}{inbook}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5afd73a9b515b1bc5caa35a02400d62b}{%
@@ -799,6 +1481,142 @@
       \verb https://doi.org/10.1007/978-3-030-96729-1_19
       \endverb
       \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
+    \endentry
+    \entry{liu_cognitive_2016}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=83f95dca7c81df3fe67380769eb0321c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a09f584cc21c01f0d9d9191d510550dc}{%
+           family={Gardi},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16fd9ef314fb37600e559ef7ca90f00e}{%
+           family={Ramasamy},
+           familyi={R\bibinitperiod},
+           given={Subramanian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c61adadc2bc4f967d220c003dbd44ef}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Yixiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61dcf4d91b2ffabbd6548ab196ae902e}{%
+           family={Sabatini},
+           familyi={S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e5bd7c7d70238c2c10b0a197391b05cd}
+      \strng{fullhash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{fullhashraw}{fb554a99a51b1be4f6893103716b845c}
+      \strng{bibnamehash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authorbibnamehash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authornamehash}{e5bd7c7d70238c2c10b0a197391b05cd}
+      \strng{authorfullhash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authorfullhashraw}{fb554a99a51b1be4f6893103716b845c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09507051}
+      \field{journaltitle}{Knowledge-Based Systems}
+      \field{month}{11}
+      \field{title}{Cognitive pilot-aircraft interface for single-pilot operations}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{112}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 53}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.knosys.2016.08.031
+      \endverb
+      \verb{file}
+      \verb Liu et al. - 2016 - Cognitive pilot-aircraft interface for single-pilo.pdf:C\:\\Users\\benja\\Zotero\\storage\\NU769RSB\\Liu et al. - 2016 - Cognitive pilot-aircraft interface for single-pilo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705116303057
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705116303057
+      \endverb
+    \endentry
+    \entry{lyons_humanautonomy_2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3fe18e05b7676e1d3005a91bb4c83c54}{%
+           family={Lyons},
+           familyi={L\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=03c6ada8436bd8591a5165974dd0341a}{%
+           family={Sycara},
+           familyi={S\bibinitperiod},
+           given={Katia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8738a105b120999db84493f32e57378d}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4653a5958a759017a3cfaf5c92d14ad}{%
+           family={Capiola},
+           familyi={C\bibinitperiod},
+           given={August},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bd7b1740effd12d1209a2152f51865d}
+      \strng{fullhash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{fullhashraw}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{bibnamehash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authorbibnamehash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authornamehash}{3bd7b1740effd12d1209a2152f51865d}
+      \strng{authorfullhash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authorfullhashraw}{a225e21bfea1063149a71c4a67d7a4b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Researchers are beginning to transition from studying human–automation interaction to human–autonomy teaming. This distinction has been highlighted in recent literature, and theoretical reasons why the psychological experience of humans interacting with autonomy may vary and affect subsequent collaboration outcomes are beginning to emerge (de Visser et al., 2018; Wynne and Lyons, 2018). In this review, we do a deep dive into human–autonomy teams (HATs) by explaining the differences between automation and autonomy and by reviewing the domain of human–human teaming to make inferences for HATs. We examine the domain of human–human teaming to extrapolate a few core factors that could have relevance for HATs. Notably, these factors involve critical social elements within teams that are central (as argued in this review) for HATs. We conclude by highlighting some research gaps that researchers should strive toward answering, which will ultimately facilitate a more nuanced and complete understanding of HATs in a variety of real-world contexts.}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{shorttitle}{Human–{Autonomy} {Teaming}}
+      \field{title}{Human–{Autonomy} {Teaming}: {Definitions}, {Debates}, and {Directions}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\LA469BBB\\Lyons et al. - 2021 - Human–Autonomy Teaming Definitions, Debates, and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fpsyg.2021.589585
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fpsyg.2021.589585
+      \endverb
     \endentry
     \entry{matessa_using_2017}{article}{}{}
       \name{author}{1}{}{%
@@ -912,6 +1730,111 @@
       \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
+    \endentry
+    \entry{national_academies_of_sciences_engineering_and_medicine_human-ai_2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7712180ec1b113ea720ee1781bc0dfba}{%
+           family={{National Academies of Sciences, Engineering, and Medicine}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {National Academies Press}%
+      }
+      \strng{namehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{fullhash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{fullhashraw}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{bibnamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorbibnamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authornamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorfullhash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorfullhashraw}{7712180ec1b113ea720ee1781bc0dfba}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-309-27017-5}
+      \field{month}{2}
+      \field{shorttitle}{Human-{AI} {Teaming}}
+      \field{title}{Human-{AI} {Teaming}: {State}-of-the-{Art} and {Research} {Needs}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17226/26355
+      \endverb
+      \verb{file}
+      \verb Committee on Human-System Integration Research Topics for the 711th Human Performance Wing of the Air Force Research Laboratory et al. - 2022 - Human-AI Teaming State-of-the-Art and Research Ne.pdf:C\:\\Users\\benja\\Zotero\\storage\\XJJ7KPI7\\Committee on Human-System Integration Research Topics for the 711th Human Performance Wing of the Air Force Research Laboratory et al. - 2022 - Human-AI Teaming State-of-the-Art and Research Ne.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nap.edu/catalog/26355
+      \endverb
+      \verb{url}
+      \verb https://www.nap.edu/catalog/26355
+      \endverb
+      \keyw{Behavioral and Social Sciences--Human Systems and Technology,Behavioral and Social Sciences--Policy,Reviews and Evaluations}
+    \endentry
+    \entry{parasuraman_model_2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=63e08627f261498969c640e94aad7396}{%
+           family={Parasuraman},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a570b9b6ca7077080fdff53b8660fe0}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={T.B.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a3a28f23bc431d37841febb347aac5b}{%
+           family={Wickens},
+           familyi={W\bibinitperiod},
+           given={C.D.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b3cc8722c74109abbe1653246adad8c}
+      \strng{fullhash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{fullhashraw}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{bibnamehash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authorbibnamehash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authornamehash}{5b3cc8722c74109abbe1653246adad8c}
+      \strng{authorfullhash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authorfullhashraw}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We outline a model for types and levels of automation that provides a framework and an objective basis for deciding which system functions should be automated and to what extent. Appropriate selection is important because automation does not merely supplant but changes human activity and can impose new coordination demands on the human operator. We propose that automation can be applied to four broad classes of functions: 1) information acquisition; 2) information analysis; 3) decision and action selection; and 4) action implementation. Within each of these types, automation can be applied across a continuum of levels from low to high, i.e., from fully manual to fully automatic. A particular system can involve automation of all four types at different levels. The human performance consequences of particular types and levels of automation constitute primary evaluative criteria for automation design using our model. Secondary evaluative criteria include automation reliability and the costs of decision/action consequences, among others. Examples of recommended types and levels of automation are provided to illustrate the application of the model to automation design.}
+      \field{issn}{1558-2426}
+      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans}
+      \field{month}{5}
+      \field{note}{Conference Name: IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans}
+      \field{number}{3}
+      \field{title}{A model for types and levels of human interaction with automation}
+      \field{volume}{30}
+      \field{year}{2000}
+      \field{pages}{286\bibrangedash 297}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/3468.844354
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\YXRNBAEM\\844354.html:text/html;Parasuraman et al_2000_A model for types and levels of human interaction with automation.pdf:C\:\\Users\\benja\\Zotero\\storage\\KYRUHBXZ\\Parasuraman et al_2000_A model for types and levels of human interaction with automation.pdf:application/pdf
+      \endverb
+      \keyw{Costs,Design automation,Design engineering,Hardware,Humans,Information analysis,Man machine systems,NASA,Reliability engineering,Software}
     \endentry
     \entry{rehman_phd_thesis}{thesis}{}{}
       \name{author}{1}{}{%
@@ -1061,6 +1984,62 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
       \endverb
+    \endentry
+    \entry{wynne_integrative_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=978664eed844bc20f8f76eeabf10a8c4}{%
+           family={Wynne},
+           familyi={W\bibinitperiod},
+           given={Kevin\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=53ddeca9486a9b49e71959aa5da7ef73}{%
+           family={Lyons},
+           familyi={L\bibinitperiod},
+           given={Joseph\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{fullhash}{7a14876dc40902dd62f93be4af376167}
+      \strng{fullhashraw}{7a14876dc40902dd62f93be4af376167}
+      \strng{bibnamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorbibnamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authornamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorfullhash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorfullhashraw}{7a14876dc40902dd62f93be4af376167}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advancements in autonomy are beginning to allow humans to partner with machines in order to accomplish work tasks in various settings. As human–agent teaming (HAT) becomes more prevalent as a research topic, the need to understand humans’ psychological perceptions of the machine partner is increasingly important, especially in terms of its perceived role, which may ultimately impact trust and team effectiveness. Specifically, it remains unclear how humans perceive intelligent agents and how consistent these perceptions are with existing taxonomies found in the psychology of teams. The present paper presents a definition of the construct of autonomous agent teammate-likeness (AAT) and a conceptual model of its components, reviews related concepts and germane research and proffers a number of propositions to guide future research. The goal is to contribute to the nascent literature on HAT by establishing a theoretical foundation for the AAT construct, upon which researchers can advance research on HAT.}
+      \field{issn}{1463-922X}
+      \field{journaltitle}{Theoretical Issues in Ergonomics Science}
+      \field{month}{5}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/1463922X.2016.1260181}
+      \field{number}{3}
+      \field{title}{An integrative model of autonomous agent teammate-likeness}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{353\bibrangedash 374}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/1463922X.2016.1260181
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/1463922X.2016.1260181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/1463922X.2016.1260181
+      \endverb
+      \keyw{autonomy,trust,Human–agent teaming,perceptions,teams}
     \endentry
     \entry{xu_modeling_2021}{article}{}{}
       \name{author}{2}{}{%
@@ -1205,6 +2184,7 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{month}{1}
@@ -1215,75 +2195,6 @@
       \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\YJY2KYTG\\Boy - 2014 - Requirements for Single Pilot Operations in Commer.pdf:application/pdf
       \endverb
     \endentry
-    \entry{boy_prodec_2024}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=b5fe1f5b3a2fcc58f2e487a88481ba28}{%
-           family={Boy},
-           familyi={B\bibinitperiod},
-           given={Guy\bibnamedelima André},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=8473f350b27b0219cf9055d6e917e3cf}{%
-           family={Masson},
-           familyi={M\bibinitperiod},
-           given={Dimitri},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=114927384129ee346303aefa9c00edea}{%
-           family={Durnerin},
-           familyi={D\bibinitperiod},
-           given={Élise},
-           giveni={É\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ab264eb7d244237925290c6d6cd31e30}{%
-           family={Morel},
-           familyi={M\bibinitperiod},
-           given={Chloé},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{a897320f700d3e4ce991296b38ea0424}
-      \strng{fullhash}{1c3b65b32225649648eb66252f879972}
-      \strng{fullhashraw}{1c3b65b32225649648eb66252f879972}
-      \strng{bibnamehash}{1c3b65b32225649648eb66252f879972}
-      \strng{authorbibnamehash}{1c3b65b32225649648eb66252f879972}
-      \strng{authornamehash}{a897320f700d3e4ce991296b38ea0424}
-      \strng{authorfullhash}{1c3b65b32225649648eb66252f879972}
-      \strng{authorfullhashraw}{1c3b65b32225649648eb66252f879972}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The purpose of the PRODEC scenario-based design method is the incremental cross-fertilization and refinement of procedural scenarios and declarative configurations. It uses virtual prototypes of the developed systems (mainly life-critical systems) to conduct human-in-the-loop simulations (HITLSs). Based on human systems integration (HSI) principles and criteria, as well as expertise and experience in the domain at stake, this HSI approach grounded in virtual environments requires a clear definition of physical and cognitive tangibility metrics to assess the distance between virtual and tangible (grasp) dimensions of the system being developed when it is put to work. PRODEC considers human and machine systems described in terms of structures and functions incrementally designed using procedural scenarios (i.e., stories) in task and activity networks, which provide life to declarative configurations (i.e., system's functions and structures). This active modeling and simulation process enables the discovery of emergent structures and functions of the system being developed when it is virtually operated. PRODEC's use is illustrated in an example. We discuss the use of PRODEC and its results as to how they can be used with digital twins.}
-      \field{issn}{1520-6858}
-      \field{journaltitle}{Systems Engineering}
-      \field{number}{n/a}
-      \field{title}{{PRODEC} for human systems integration of increasingly autonomous systems}
-      \field{urlday}{11}
-      \field{urlmonth}{7}
-      \field{urlyear}{2024}
-      \field{volume}{n/a}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1002/sys.21751
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\JMI9QGKT\\Boy et al. - PRODEC for human systems integration of increasing.pdf:application/pdf;Snapshot:C\:\\Users\\benja\\Zotero\\storage\\MF2K86YX\\sys.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/sys.21751
-      \endverb
-      \keyw{human-centered design,human systems integration,modeling,BPMN,complexity,digital engineering,flexibility,human-in-the-knowledge elicitation,maturity,oop simulation,physical and cognitive structure and functions,procedural and declarative scenarios,stability,sustainability,tangibility,virtual prototypes}
-    \endentry
     \entry{cao_modelling_2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8fed52f7a18aa7f4e740269e9ecade9e}{%
@@ -1292,12 +2203,12 @@
            given={Shi},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
+        {{un=1,uniquepart=given,hash=2e77063d3dfe2c12b768b61042a3f39f}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Yili},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{language}{1}{%
         {en}%
@@ -1342,6 +2253,356 @@
       \verb http://www.inderscience.com/link.php?id=75360
       \endverb
     \endentry
+    \entry{chen_developing_2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=dd060cd064f8f607eb1bee6712820270}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81e242b8fcbdf3579bd5ff6c9182df80}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43a245acb43340f5083034bf9c352fc7}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a543fd1c880a03106e817e073b07d8c9}{%
+           family={Wanyan},
+           familyi={W\bibinitperiod},
+           given={Xiaoru},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a72c1cf47d2743b9b53d32f7673fc3df}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yufeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34bcb9ba6216c3c32c851b701b4b5b33}
+      \strng{fullhash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{fullhashraw}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{bibnamehash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authorbibnamehash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authornamehash}{34bcb9ba6216c3c32c851b701b4b5b33}
+      \strng{authorfullhash}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \strng{authorfullhashraw}{5fbbc5f2495ca95c01a62d1bfc6e03b2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{According to a previously built situation-awareness (SA) model based on attention allocation, with the ACT-R (Adaptive Control of Thought, Rational) theory for analyzing pilot cognitive processes for situation elements, an SA mathematical model was improved to predict pilot SA during exposure to different display interfaces and missions. An indicator-display monitoring task was performed under different experimental conditions for SA model verification, while the SA global assessment technique (SAGAT), performance measures, 10-dimensional SA rating technique (10-D SART), and eye movement measures were adopted to comprehensively assess the operator's SA. The experimental results revealed that theoretical prediction values calculated using the improved SA model were strongly correlated with the operation performance, and thus confirming the model validation. The SAGAT was shown to be a more effective method than SART in this research, and the overall SAGAT accuracy rate, as well as the accuracy response time, are effective indices for SA measurement. Eye-movement indices, such as the fixation/saccade ratio, which corresponds to the mode of information perception and extraction, was examined to be sensitive to operator's SA changes. The Advances of the improved SA model have been achieved in predicting and indicating SA by using human behaviors, including operation performance, SAGAT response behaviors, and visual behaviors. Thereby, it provides a new auxiliary tool for quantitative characterization of pilot's SA during cockpit interface design optimization and ergonomic evaluation.}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Conference Name: IEEE Access}
+      \field{title}{Developing an {Improved} {ACT}-{R} {Model} for {Pilot} {Situation} {Awareness} {Measurement}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{122113\bibrangedash 122124}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2021.3108438
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\Z5FCSXNZ\\9524611.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\SVH4SAZR\\Chen et al. - 2021 - Developing an Improved ACT-R Model for Pilot Situa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9524611
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9524611
+      \endverb
+      \keyw{Analytical models,Aircraft,Visualization,Resource management,situation awareness,Task analysis,human-machine interaction,ACT-R model,Brain modeling,cockpit display interface,cognitive modeling,Predictive models}
+    \endentry
+    \entry{christoffersen_1_2002}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=37a32465cefd42e175bcd9c3b55bf215}{%
+           family={Christoffersen},
+           familyi={C\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3952c6dfe7462f10d1c9638f0f3673ba}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima D},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{fullhash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{fullhashraw}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{bibnamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorbibnamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authornamehash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorfullhash}{76d89ab92d6c7cc0d09215fb6731c834}
+      \strng{authorfullhashraw}{76d89ab92d6c7cc0d09215fb6731c834}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When designing a joint system for a complex, dynamic, open environment, where the consequences of poor performance by the joint system are potentially grave, the need to shape the machine agents into team players is critical. Traditionally, the assumption has been that if a joint system fails to perform adequately, the cause can be traced to so-called “human error.” However, if one digs a little deeper, they find that the only reason many of these joint systems perform adequately at all is because of the resourcefulness and adaptability that the human agents display in the face of uncommunicative and uncooperative machine agents. The ability of a joint system to perform effectively in the face of difficult problems depends intimately on the ability of the human and machine agents to coordinate and capitalize upon the unique abilities and information to which each agent has access.For automated agents to become team players, there are two fundamental characteristics which need to be designed in from the beginning: observability and directability. In other words, users need to be able to see what the automated agents are doing and what they will do next relative to the state of the process, and users need to be able to re-direct machine activities fluently in instances where they recognize a need to intervene. These two basic capabilities are the keys to fostering a cooperative relationship between the human and machine agents in any joint system.}
+      \field{booktitle}{Advances in {Human} {Performance} and {Cognitive} {Engineering} {Research}}
+      \field{isbn}{978-1-84950-145-3 978-0-7623-0864-4}
+      \field{month}{1}
+      \field{series}{Advances in {Human} {Performance} and {Cognitive} {Engineering} {Research}}
+      \field{title}{1. {How} to make automated systems team players}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S1479-3601(02)02003-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S1479-3601(02)02003-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S1479-3601(02)02003-9
+      \endverb
+    \endentry
+    \entry{cooke_interactive_2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=73f5530872389d57cf81979f10938be7}{%
+           family={Cooke},
+           familyi={C\bibinitperiod},
+           given={Nancy\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53b404f4b4070add24a975409f1bc202}{%
+           family={Gorman},
+           familyi={G\bibinitperiod},
+           given={Jamie\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd2e130bd86011e145c272d2215c75b1}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dece4a10254c42f0a7617e8e7ed40dee}{%
+           family={Duran},
+           familyi={D\bibinitperiod},
+           given={Jasmine\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{95d23a25377ffa590b15e7dddcf68b05}
+      \strng{fullhash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{fullhashraw}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{bibnamehash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authorbibnamehash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authornamehash}{95d23a25377ffa590b15e7dddcf68b05}
+      \strng{authorfullhash}{0284b844e00acadbcf32132cb22c8b3f}
+      \strng{authorfullhashraw}{0284b844e00acadbcf32132cb22c8b3f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cognition in work teams has been predominantly understood and explained in terms of shared cognition with a focus on the similarity of static knowledge structures across individual team members. Inspired by the current zeitgeist in cognitive science, as well as by empirical data and pragmatic concerns, we offer an alternative theory of team cognition. Interactive Team Cognition (ITC) theory posits that (1) team cognition is an activity, not a property or a product; (2) team cognition should be measured and studied at the team level; and (3) team cognition is inextricably tied to context. There are implications of ITC for theory building, modeling, measurement, and applications that make teams more effective performers.}
+      \field{issn}{1551-6709}
+      \field{journaltitle}{Cognitive Science}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.12009}
+      \field{number}{2}
+      \field{title}{Interactive {Team} {Cognition}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{255\bibrangedash 285}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1111/cogs.12009
+      \endverb
+      \verb{file}
+      \verb Cooke et al_2013_Interactive Team Cognition.pdf:C\:\\Users\\benja\\Zotero\\storage\\5CH3HNXC\\Cooke et al_2013_Interactive Team Cognition.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.12009
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.12009
+      \endverb
+      \keyw{Communication,Dynamical systems,Interaction,Shared cognition,Team cognition}
+    \endentry
+    \entry{daniello_fuzzy_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4eece69cae581b8dc2f0bdccdce264ed}{%
+           family={D’Aniello},
+           familyi={D\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{fullhash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{fullhashraw}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{bibnamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorbibnamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authornamehash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorfullhash}{4eece69cae581b8dc2f0bdccdce264ed}
+      \strng{authorfullhashraw}{4eece69cae581b8dc2f0bdccdce264ed}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Situation awareness is the cognitive capability of human and artificial agents to perceive, understand and predict the status of the situation in an environment. Situation awareness systems aim at supporting the situation awareness of human and artificial agents using computational techniques, models, and approaches for supporting the assessment, tracking, and prediction of critical situations. Fuzzy logic formalisms have been extensively used in situation awareness systems thanks to their capability of dealing with uncertainties while providing agents with easily understandable models of situations and decisions. This paper proposes a systematic, unbiased, and updated review of the literature on fuzzy logic for situation awareness from 2010 to 2021, conducted using the PRISMA methodology, analyzing 139 articles. An in-depth discussion of the main open challenges and future research directions is provided.}
+      \field{issn}{1868-5145}
+      \field{journaltitle}{Journal of Ambient Intelligence and Humanized Computing}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{Fuzzy logic for situation awareness}
+      \field{title}{Fuzzy logic for situation awareness: a systematic review}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{4419\bibrangedash 4438}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s12652-023-04560-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\KJT7WBNZ\\D’Aniello - 2023 - Fuzzy logic for situation awareness a systematic .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12652-023-04560-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12652-023-04560-6
+      \endverb
+      \keyw{Artificial Intelligence,Situation awareness,Cognitive situation management,Fuzzy cognitive map,Fuzzy inference system,Fuzzy logic,Situation-aware systems}
+    \endentry
+    \entry{easa_guidance_2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7a864088ca5cfac83bba94004eeb6e1}{%
+           family={EASA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cologne, Germany}%
+      }
+      \strng{namehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{fullhash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{fullhashraw}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{bibnamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorbibnamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authornamehash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorfullhash}{e7a864088ca5cfac83bba94004eeb6e1}
+      \strng{authorfullhashraw}{e7a864088ca5cfac83bba94004eeb6e1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Guidance for {Level} 1 \& 2 machine learning applications, issue 2}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \field{pages}{240}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://easa.europa.eu/ai
+      \endverb
+      \verb{url}
+      \verb https://easa.europa.eu/ai
+      \endverb
+    \endentry
+    \entry{endsley_measurement_1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Methodologies for the empirical measurement of situation awareness are reviewed, including a discussion of the advantages and disadvantages of each method and the potential limitations of the measures from a theoretical and practical viewpoint. Two studies are presented that investigate questions of validity and intrusiveness regarding a query-based technique. This technique requires that a simulation of the operational tasks be momentarily interrupted in order to query operators on their situation awareness. The results of the two studies indicate that the query technique is not intrusive on normal subject behavior during the trial and does not suffer from limitations of human memory, which provides an indication of empirical validity. The results of other validity studies regarding the technique are discussed along with recommendations for its use in measuring situation awareness in varied settings.}
+      \field{issn}{0018-7208, 1547-8181}
+      \field{journaltitle}{Human Factors: The Journal of the Human Factors and Ergonomics Society}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Measurement of {Situation} {Awareness} in {Dynamic} {Systems}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{volume}{37}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{65\bibrangedash 84}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1518/001872095779049499
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
+      \endverb
+    \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
@@ -1362,8 +2623,10 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1396,6 +2659,170 @@
       \verb{url}
       \verb http://journals.sagepub.com/doi/10.1177/0018720816681350
       \endverb
+    \endentry
+    \entry{endsley_here_2017-1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As autonomous and semiautonomous systems are developed for automotive, aviation, cyber, robotics and other applications, the ability of human operators to effectively oversee and interact with them when needed poses a significant challenge. An automation conundrum exists in which as more autonomy is added to a system, and its reliability and robustness increase, the lower the situation awareness of human operators and the less likely that they will be able to take over manual control when needed. The human–autonomy systems oversight model integrates several decades of relevant autonomy research on operator situation awareness, out-of-the-loop performance problems, monitoring, and trust, which are all major challenges underlying the automation conundrum. Key design interventions for improving human performance in interacting with autonomous systems are integrated in the model, including human–automation interface features and central automation interaction paradigms comprising levels of automation, adaptive automation, and granularity of control approaches. Recommendations for the design of human–autonomy interfaces are presented and directions for future research discussed.}
+      \field{issn}{0018-7208}
+      \field{journaltitle}{Human Factors}
+      \field{month}{2}
+      \field{note}{Publisher: SAGE Publications Inc}
+      \field{number}{1}
+      \field{shorttitle}{From {Here} to {Autonomy}}
+      \field{title}{From {Here} to {Autonomy}: {Lessons} {Learned} {From} {Human}–{Automation} {Research}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{59}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1177/0018720816681350
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0018720816681350
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0018720816681350
+      \endverb
+    \endentry
+    \entry{endsley_ironies_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bainbridge’s Ironies of Automation was a prescient description of automation related challenges for human performance that have characterized much of the 40 years since its publication. Today a new wave of automation based on artificial intelligence (AI) is being introduced across a wide variety of domains and applications. Not only are Bainbridge’s original warnings still pertinent for AI, but AI’s very nature and focus on cognitive tasks has introduced many new challenges for people who interact with it. Five ironies of AI are presented including difficulties with understanding AI and forming adaptations, opaqueness in AI limitations and biases that can drive human decision biases, and difficulties in understanding the AI reliability, despite the fact that AI remains insufficiently intelligent for many of its intended applications. Future directions are provided to create more human-centered AI applications that can address these challenges.}
+      \field{issn}{0014-0139}
+      \field{journaltitle}{Ergonomics}
+      \field{month}{8}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/00140139.2023.2243404}
+      \field{number}{ja}
+      \field{title}{Ironies of {Artificial} {Intelligence}}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{0}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/00140139.2023.2243404
+      \endverb
+      \verb{file}
+      \verb Endsley - 2023 - Ironies of Artificial Intelligence.pdf:C\:\\Users\\benja\\Zotero\\storage\\VALITV7U\\Endsley - 2023 - Ironies of Artificial Intelligence.pdf:application/pdf;Ironies of artificial intelligence 3.pdf:C\:\\Users\\benja\\Zotero\\storage\\MG2T7JNL\\Ironies of artificial intelligence 3.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00140139.2023.2243404
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00140139.2023.2243404
+      \endverb
+      \keyw{Automation,Artificial Intelligence,Bias,Human-Centered AI,Situation awareness,Transparency}
+    \endentry
+    \entry{endsley_supporting_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
+           family={Endsley},
+           familyi={E\bibinitperiod},
+           given={Mica\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
+      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
+      \field{extraname}{5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{System autonomy and AI are being developed for a wide variety of applications where they will likely work in tandem with people, forming human-AI teams (HAT). Situation awareness (SA) of autonomous systems and AI has been established as critical for effective interaction and oversight of these systems. As AI capabilities grow, and more effective teaming behaviors are expected of AI systems, there will also be an increased need for shared SA between the human and AI teammates. Methods for supporting team SA within HAT are discussed in terms of team SA requirements, team SA mechanisms, team SA displays and team SA processes. A framework for understanding the types of information that needs to be shared within HAT is provided, including a focus on taskwork SA, agent SA, and teamwork SA. AI based on learning systems creates new challenges for the development of good SA and mental models. AI transparency and explainability are discussed in terms of their separate roles for supporting SA and mental models in HAT. The SA Oriented Design (SAOD) process is described as a systematic methodology for developing transparent AI displays for HAT and an example of its application to automated driving in a Tesla is provided.}
+      \field{issn}{0747-5632}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{month}{3}
+      \field{shorttitle}{Supporting {Human}-{AI} {Teams}}
+      \field{title}{Supporting {Human}-{AI} {Teams}:{Transparency}, explainability, and situation awareness}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{140}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{107574}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chb.2022.107574
+      \endverb
+      \verb{file}
+      \verb Endsley - 2023 - Supporting Human-AI TeamsTransparency, explainabi.pdf:C\:\\Users\\benja\\Zotero\\storage\\WP8DGSFH\\Endsley - 2023 - Supporting Human-AI TeamsTransparency, explainabi.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\benja\\Zotero\\storage\\YNQFX2CB\\S0747563222003946.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563222003946
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563222003946
+      \endverb
+      \keyw{Situation awareness,Transparency,Explainable AI,Human-AI teams,Tesla}
     \endentry
     \entry{endsley_designing_2003}{book}{}{}
       \name{author}{3}{}{%
@@ -1451,6 +2878,80 @@
       \verb{file}
       \verb Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:C\:\\Users\\benja\\Zotero\\storage\\5NIEX5YS\\Endsley - 2012 - Designing for Situation Awareness An Approach to .pdf:application/pdf;Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\2J9HL4IM\\Endsley et al. - 2003 - Designing for Situation Awareness An Approach to .pdf:application/pdf
       \endverb
+    \endentry
+    \entry{freiman_assessing_2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=18cd6993eb28fc837537f9768aac7e8f}{%
+           family={Freiman},
+           familyi={F\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8468e951d141423f7bd8f3d3792623ee}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b2f67684aaf2eb1b9d0340adda94182}{%
+           family={Caisse},
+           familyi={C\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3e7755f4aa31a426fdac3eae993b463}{%
+           family={Halverson},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31ec7e17ab44d346aa3011e3c96465d}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91a6d6de62f90165d26df2eb9c076f77}
+      \strng{fullhash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{fullhashraw}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{bibnamehash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authorbibnamehash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authornamehash}{91a6d6de62f90165d26df2eb9c076f77}
+      \strng{authorfullhash}{6984a7f4946e6832cefd0b35235329a1}
+      \strng{authorfullhashraw}{6984a7f4946e6832cefd0b35235329a1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The model of situation awareness (SA) as described by Mica Endsley in her articles over the past couple decades is based in empirical psychological research and validated through testing and application across many domains. While there are many similar descriptive (“box-and-arrow”) models of human SA, some of which differ significantly from Endsley's, few computational process models of human SA exist. The vigorous debate over the proper form and function of descriptive SA models offers us a valuable insight into how best to evaluate process models for their adherence to human cognitive processes. Here we propose criteria, based on the descriptive SA model literature, for evaluating computational process models' SA capabilities, provide an example of that evaluation, and argue for the utility of computational process models in testing theoretical claims about situation awareness.}
+      \field{journaltitle}{2019 {IEEE} {Conference} on {Cognitive} and {Computational} {Aspects} of {Situation} {Management} ({CogSIMA})}
+      \field{month}{4}
+      \field{note}{ISSN: 2379-1675}
+      \field{title}{Assessing {Cognitive} {Fidelity} in a {Situation} {Awareness} {Process} {Model}}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{100\bibrangedash 106}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/COGSIMA.2019.8724256
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\GAYAQKVF\\authors.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8724256/authors#authors
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8724256/authors#authors
+      \endverb
+      \keyw{Analytical models,Atmospheric modeling,Computational modeling,Cognitive science,cognitive architecture,situation awareness,Task analysis,autonomous synthetic teammate (AST),Cognitive processes,computational cognitive process model,situation model,Time factors}
     \endentry
     \entry{hancock_imposing_2017}{article}{}{}
       \name{author}{1}{}{%
@@ -1780,6 +3281,68 @@
       \endverb
       \keyw{teamwork,human-robot interaction,coactive design,collaboration,human-agent-robot teamwork,interdependence,joint activity}
     \endentry
+    \entry{johnson_no_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd21a8c9bfcfdf3cf66066f073fd7ff6}{%
+           family={Vera},
+           familyi={V\bibinitperiod},
+           given={Alonso},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{fullhash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{fullhashraw}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{bibnamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorbibnamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authornamehash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorfullhash}{69577fa039b1a47397c4b3b11b4fa02f}
+      \strng{authorfullhashraw}{69577fa039b1a47397c4b3b11b4fa02f}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The purpose of this article is to draw attention to an aspect of intelligence that has not yet received significant attention from the AI community, but that plays a crucial role in a technology’s effectiveness in the world, namely teaming intelligence. We propose that Al will reach its full potential only if, as part of its intelligence, it also has enough teaming intelligence to work well with people. Although seemingly counterintuitive, the more intelligent the technological system, the greater the need for collaborative skills. This paper will argue why teaming intelligence is important to AI, provide a general structure for AI researchers to use in developing intelligent systems that team well, assess the current state of the art and, in doing so, suggest a path forward for future AI systems. This is not a call to develop a new capability, but rather, an approach to what AI capabilities should be built, and how, so as to imbue intelligent systems with teaming competence.}
+      \field{issn}{2371-9621}
+      \field{journaltitle}{AI Magazine}
+      \field{month}{3}
+      \field{note}{Number: 1}
+      \field{number}{1}
+      \field{shorttitle}{No {AI} {Is} an {Island}}
+      \field{title}{No {AI} {Is} an {Island}: {The} {Case} for {Teaming} {Intelligence}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{16\bibrangedash 28}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1609/aimag.v40i1.2842
+      \endverb
+      \verb{file}
+      \verb Johnson_Vera_2019_No AI Is an Island.pdf:C\:\\Users\\benja\\Zotero\\storage\\ISFQXYTD\\Johnson_Vera_2019_No AI Is an Island.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2842
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2842
+      \endverb
+    \endentry
     \entry{johnson_understanding_2018}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=2ae3260bfecb5be8445e17eccabf2143}{%
@@ -1824,6 +3387,104 @@
       \range{pages}{20}
       \verb{file}
       \verb Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:C\:\\Users\\benja\\Zotero\\storage\\GS3ZSP5G\\Johnson et al. - 2018 - Understanding human-autonomy teaming through inter.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{juarez-espinosa_situation_nodate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08e50a4e69bb2f18b0c2df84dc722c8a}{%
+           family={Juarez-Espinosa},
+           familyi={J\bibinithyphendelim E\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ef57fda71f50c9292436e6ffe80f286}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Cleotilde},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{fullhash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{fullhashraw}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{bibnamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorbibnamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authornamehash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorfullhash}{11e9d72690a91e1d4e898e49465f8244}
+      \strng{authorfullhashraw}{11e9d72690a91e1d4e898e49465f8244}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper discusses a computational model of situation awareness (SA) for military command and control in complex battle situations. Cognitive modeling is a research method that does not forgive vagueness. How do military commanders create awareness in a highly complex and uncertain world? The model described in this paper simulates computationally some of the cognitive operations performed by commanders during the evaluation of a complex battle situation. Although the set of cognitive processes that support SA are still not well understood, we have hypothesized a meta- architecture involving: information gathering, assessment, and alternative generation. The cognitive model reported here paves the road towards a more complete and valid representation. The model was implemented using ACT-R, a cognitive architecture, and tested with scenarios running in OTB, a simulation tool for war scenarios.}
+      \field{shorttitle}{Situation {Awareness} of {Commanders}}
+      \field{title}{Situation {Awareness} of {Commanders}: {A} {Cognitive} {Model}}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\A42JDK8Y\\Juarez-Espinosa and Gonzalez - Situation Awareness of Commanders A Cognitive Mod.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lawless_editorial_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3fa08629828a01c8c18b9e938b6f6b30}{%
+           family={Lawless},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3486255b738d2a99a9ecb1cb32a7afb}{%
+           family={Sofge},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=945cd3d05008e001bc9005c274c949fa}{%
+           family={Lofaro},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57e55968dd8c2c184a121fad9cc5d567}{%
+           family={Mittu},
+           familyi={M\bibinitperiod},
+           given={Ranjeev},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fddcd9fef3b63929a826b9d529a0f08d}
+      \strng{fullhash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{fullhashraw}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{bibnamehash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authorbibnamehash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authornamehash}{fddcd9fef3b63929a826b9d529a0f08d}
+      \strng{authorfullhash}{92b693452ce02e7325ab1c597a0c436a}
+      \strng{authorfullhashraw}{92b693452ce02e7325ab1c597a0c436a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2296-424X}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{shorttitle}{Editorial}
+      \field{title}{Editorial: {Interdisciplinary} approaches to the structure and performance of interdependent autonomous human machine teams and systems}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Lawless et al_2023_Editorial.pdf:C\:\\Users\\benja\\Zotero\\storage\\U7ULFY7A\\Lawless et al_2023_Editorial.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2023.1150796
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2023.1150796
       \endverb
     \endentry
     \entry{lee_design_2023}{inbook}{}{}
@@ -1898,6 +3559,142 @@
       \verb https://doi.org/10.1007/978-3-030-96729-1_19
       \endverb
       \keyw{Mental models,Trust,Automation design,Supply chains,Vehicle automation}
+    \endentry
+    \entry{liu_cognitive_2016}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=83f95dca7c81df3fe67380769eb0321c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a09f584cc21c01f0d9d9191d510550dc}{%
+           family={Gardi},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16fd9ef314fb37600e559ef7ca90f00e}{%
+           family={Ramasamy},
+           familyi={R\bibinitperiod},
+           given={Subramanian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c61adadc2bc4f967d220c003dbd44ef}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Yixiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61dcf4d91b2ffabbd6548ab196ae902e}{%
+           family={Sabatini},
+           familyi={S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e5bd7c7d70238c2c10b0a197391b05cd}
+      \strng{fullhash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{fullhashraw}{fb554a99a51b1be4f6893103716b845c}
+      \strng{bibnamehash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authorbibnamehash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authornamehash}{e5bd7c7d70238c2c10b0a197391b05cd}
+      \strng{authorfullhash}{fb554a99a51b1be4f6893103716b845c}
+      \strng{authorfullhashraw}{fb554a99a51b1be4f6893103716b845c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09507051}
+      \field{journaltitle}{Knowledge-Based Systems}
+      \field{month}{11}
+      \field{title}{Cognitive pilot-aircraft interface for single-pilot operations}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{112}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{37\bibrangedash 53}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.knosys.2016.08.031
+      \endverb
+      \verb{file}
+      \verb Liu et al. - 2016 - Cognitive pilot-aircraft interface for single-pilo.pdf:C\:\\Users\\benja\\Zotero\\storage\\NU769RSB\\Liu et al. - 2016 - Cognitive pilot-aircraft interface for single-pilo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705116303057
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0950705116303057
+      \endverb
+    \endentry
+    \entry{lyons_humanautonomy_2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3fe18e05b7676e1d3005a91bb4c83c54}{%
+           family={Lyons},
+           familyi={L\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=03c6ada8436bd8591a5165974dd0341a}{%
+           family={Sycara},
+           familyi={S\bibinitperiod},
+           given={Katia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8738a105b120999db84493f32e57378d}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4653a5958a759017a3cfaf5c92d14ad}{%
+           family={Capiola},
+           familyi={C\bibinitperiod},
+           given={August},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bd7b1740effd12d1209a2152f51865d}
+      \strng{fullhash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{fullhashraw}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{bibnamehash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authorbibnamehash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authornamehash}{3bd7b1740effd12d1209a2152f51865d}
+      \strng{authorfullhash}{a225e21bfea1063149a71c4a67d7a4b2}
+      \strng{authorfullhashraw}{a225e21bfea1063149a71c4a67d7a4b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Researchers are beginning to transition from studying human–automation interaction to human–autonomy teaming. This distinction has been highlighted in recent literature, and theoretical reasons why the psychological experience of humans interacting with autonomy may vary and affect subsequent collaboration outcomes are beginning to emerge (de Visser et al., 2018; Wynne and Lyons, 2018). In this review, we do a deep dive into human–autonomy teams (HATs) by explaining the differences between automation and autonomy and by reviewing the domain of human–human teaming to make inferences for HATs. We examine the domain of human–human teaming to extrapolate a few core factors that could have relevance for HATs. Notably, these factors involve critical social elements within teams that are central (as argued in this review) for HATs. We conclude by highlighting some research gaps that researchers should strive toward answering, which will ultimately facilitate a more nuanced and complete understanding of HATs in a variety of real-world contexts.}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{shorttitle}{Human–{Autonomy} {Teaming}}
+      \field{title}{Human–{Autonomy} {Teaming}: {Definitions}, {Debates}, and {Directions}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\benja\\Zotero\\storage\\LA469BBB\\Lyons et al. - 2021 - Human–Autonomy Teaming Definitions, Debates, and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fpsyg.2021.589585
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fpsyg.2021.589585
+      \endverb
     \endentry
     \entry{matessa_using_2017}{article}{}{}
       \name{author}{1}{}{%
@@ -2011,6 +3808,111 @@
       \verb https://www.sciencedirect.com/science/article/pii/B9780128153673000098
       \endverb
       \keyw{Artificial intelligence,Cognition,Complex systems design,Frameworks,Human autonomous systems,Human–robotic interaction,Information and intelligent technologies,Teamwork}
+    \endentry
+    \entry{national_academies_of_sciences_engineering_and_medicine_human-ai_2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7712180ec1b113ea720ee1781bc0dfba}{%
+           family={{National Academies of Sciences, Engineering, and Medicine}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {National Academies Press}%
+      }
+      \strng{namehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{fullhash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{fullhashraw}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{bibnamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorbibnamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authornamehash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorfullhash}{7712180ec1b113ea720ee1781bc0dfba}
+      \strng{authorfullhashraw}{7712180ec1b113ea720ee1781bc0dfba}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-309-27017-5}
+      \field{month}{2}
+      \field{shorttitle}{Human-{AI} {Teaming}}
+      \field{title}{Human-{AI} {Teaming}: {State}-of-the-{Art} and {Research} {Needs}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17226/26355
+      \endverb
+      \verb{file}
+      \verb Committee on Human-System Integration Research Topics for the 711th Human Performance Wing of the Air Force Research Laboratory et al. - 2022 - Human-AI Teaming State-of-the-Art and Research Ne.pdf:C\:\\Users\\benja\\Zotero\\storage\\XJJ7KPI7\\Committee on Human-System Integration Research Topics for the 711th Human Performance Wing of the Air Force Research Laboratory et al. - 2022 - Human-AI Teaming State-of-the-Art and Research Ne.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nap.edu/catalog/26355
+      \endverb
+      \verb{url}
+      \verb https://www.nap.edu/catalog/26355
+      \endverb
+      \keyw{Behavioral and Social Sciences--Human Systems and Technology,Behavioral and Social Sciences--Policy,Reviews and Evaluations}
+    \endentry
+    \entry{parasuraman_model_2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=63e08627f261498969c640e94aad7396}{%
+           family={Parasuraman},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a570b9b6ca7077080fdff53b8660fe0}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={T.B.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a3a28f23bc431d37841febb347aac5b}{%
+           family={Wickens},
+           familyi={W\bibinitperiod},
+           given={C.D.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b3cc8722c74109abbe1653246adad8c}
+      \strng{fullhash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{fullhashraw}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{bibnamehash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authorbibnamehash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authornamehash}{5b3cc8722c74109abbe1653246adad8c}
+      \strng{authorfullhash}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \strng{authorfullhashraw}{4db98a3bdc50e0b08e3dcf7c06b6d746}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We outline a model for types and levels of automation that provides a framework and an objective basis for deciding which system functions should be automated and to what extent. Appropriate selection is important because automation does not merely supplant but changes human activity and can impose new coordination demands on the human operator. We propose that automation can be applied to four broad classes of functions: 1) information acquisition; 2) information analysis; 3) decision and action selection; and 4) action implementation. Within each of these types, automation can be applied across a continuum of levels from low to high, i.e., from fully manual to fully automatic. A particular system can involve automation of all four types at different levels. The human performance consequences of particular types and levels of automation constitute primary evaluative criteria for automation design using our model. Secondary evaluative criteria include automation reliability and the costs of decision/action consequences, among others. Examples of recommended types and levels of automation are provided to illustrate the application of the model to automation design.}
+      \field{issn}{1558-2426}
+      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans}
+      \field{month}{5}
+      \field{note}{Conference Name: IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans}
+      \field{number}{3}
+      \field{title}{A model for types and levels of human interaction with automation}
+      \field{volume}{30}
+      \field{year}{2000}
+      \field{pages}{286\bibrangedash 297}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/3468.844354
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:C\:\\Users\\benja\\Zotero\\storage\\YXRNBAEM\\844354.html:text/html;Parasuraman et al_2000_A model for types and levels of human interaction with automation.pdf:C\:\\Users\\benja\\Zotero\\storage\\KYRUHBXZ\\Parasuraman et al_2000_A model for types and levels of human interaction with automation.pdf:application/pdf
+      \endverb
+      \keyw{Costs,Design automation,Design engineering,Hardware,Humans,Information analysis,Man machine systems,NASA,Reliability engineering,Software}
     \endentry
     \entry{rehman_phd_thesis}{thesis}{}{}
       \name{author}{1}{}{%
@@ -2161,6 +4063,62 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3901699
       \endverb
     \endentry
+    \entry{wynne_integrative_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=978664eed844bc20f8f76eeabf10a8c4}{%
+           family={Wynne},
+           familyi={W\bibinitperiod},
+           given={Kevin\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=53ddeca9486a9b49e71959aa5da7ef73}{%
+           family={Lyons},
+           familyi={L\bibinitperiod},
+           given={Joseph\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{fullhash}{7a14876dc40902dd62f93be4af376167}
+      \strng{fullhashraw}{7a14876dc40902dd62f93be4af376167}
+      \strng{bibnamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorbibnamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authornamehash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorfullhash}{7a14876dc40902dd62f93be4af376167}
+      \strng{authorfullhashraw}{7a14876dc40902dd62f93be4af376167}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advancements in autonomy are beginning to allow humans to partner with machines in order to accomplish work tasks in various settings. As human–agent teaming (HAT) becomes more prevalent as a research topic, the need to understand humans’ psychological perceptions of the machine partner is increasingly important, especially in terms of its perceived role, which may ultimately impact trust and team effectiveness. Specifically, it remains unclear how humans perceive intelligent agents and how consistent these perceptions are with existing taxonomies found in the psychology of teams. The present paper presents a definition of the construct of autonomous agent teammate-likeness (AAT) and a conceptual model of its components, reviews related concepts and germane research and proffers a number of propositions to guide future research. The goal is to contribute to the nascent literature on HAT by establishing a theoretical foundation for the AAT construct, upon which researchers can advance research on HAT.}
+      \field{issn}{1463-922X}
+      \field{journaltitle}{Theoretical Issues in Ergonomics Science}
+      \field{month}{5}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/1463922X.2016.1260181}
+      \field{number}{3}
+      \field{title}{An integrative model of autonomous agent teammate-likeness}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{353\bibrangedash 374}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/1463922X.2016.1260181
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/1463922X.2016.1260181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/1463922X.2016.1260181
+      \endverb
+      \keyw{autonomy,trust,Human–agent teaming,perceptions,teams}
+    \endentry
     \entry{xu_modeling_2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=41443a2501ed6b381d8902bf0da1130d}{%
@@ -2216,6 +4174,12 @@
       \keyw{Ergonomics,Flight simulators,Adaptive control systems,Behavioral research,Cognitive systems,Network architecture}
     \endentry
   \enddatalist
+  \missing{cooke_measuring_2001}
+  \missing{endsley-2015}
+  \missing{endsley_systematic_2021}
+  \missing{kokar_situation_2012}
+  \missing{parush_individuals_2017}
+  \missing{prince_measurement_2007}
 \endrefsection
 \endinput
 
