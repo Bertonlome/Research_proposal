@@ -1,27 +1,21 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'Proposition_de_recherche.blg'
-[116] biber-MSWIN64:340> INFO - === 
-[163] Biber.pm:420> INFO - Reading 'Proposition_de_recherche.bcf'
-[302] Biber.pm:994> INFO - Found 42 citekeys in bib section 0
-[321] Biber.pm:4463> INFO - Processing section 0
-[332] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
-[776] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2079] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[2384] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2384] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2384] Biber.pm:4283> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2384] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[2452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2452] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2452] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[2494] bbl.pm:676> INFO - Writing 'Proposition_de_recherche.bbl' with encoding 'UTF-8'
-[2549] bbl.pm:779> INFO - Output to Proposition_de_recherche.bbl
-[2549] Biber.pm:131> WARN - ISBN '978-1-84950-145-3 978-0-7623-0864-4' in entry 'christoffersen_1_2002' is invalid - run biber with '--validate_datamodel' for details.
-[2549] Biber.pm:131> WARN - I didn't find a database entry for 'endsley-2015' (section 0)
-[2550] Biber.pm:131> WARN - I didn't find a database entry for 'endsley_systematic_2021' (section 0)
-[2550] Biber.pm:131> WARN - I didn't find a database entry for 'kokar_situation_2012' (section 0)
-[2550] Biber.pm:131> WARN - I didn't find a database entry for 'cooke_measuring_2001' (section 0)
-[2550] Biber.pm:131> WARN - I didn't find a database entry for 'prince_measurement_2007' (section 0)
-[2550] Biber.pm:131> WARN - I didn't find a database entry for 'parush_individuals_2017' (section 0)
-[2550] Biber.pm:133> INFO - WARNINGS: 7
+[125] biber-MSWIN64:340> INFO - === 
+[173] Biber.pm:420> INFO - Reading 'Proposition_de_recherche.bcf'
+[318] Biber.pm:994> INFO - Found 67 citekeys in bib section 0
+[337] Biber.pm:4463> INFO - Processing section 0
+[349] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[865] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2236] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[2730] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2731] Biber.pm:4283> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2731] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[2862] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2862] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2863] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[2863] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[2945] bbl.pm:676> INFO - Writing 'Proposition_de_recherche.bbl' with encoding 'UTF-8'
+[3048] bbl.pm:779> INFO - Output to Proposition_de_recherche.bbl
+[3048] Biber.pm:131> WARN - ISBN '978-1-84950-145-3 978-0-7623-0864-4' in entry 'christoffersen_1_2002' is invalid - run biber with '--validate_datamodel' for details.
+[3048] Biber.pm:133> INFO - WARNINGS: 1
