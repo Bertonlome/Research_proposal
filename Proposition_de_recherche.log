@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.18)  2 APR 2025 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.18)  3 APR 2025 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1132,7 +1132,7 @@ l.445
        <./images/qn-actr-sa-synoptic.png>]
 
 [25]
-<./images/AA_synoptic.png, id=551, 994.71625pt x 310.15875pt>
+<./images/AA_synoptic.png, id=549, 994.71625pt x 310.15875pt>
 File: ./images/AA_synoptic.png Graphic file (type png)
 <use ./images/AA_synoptic.png>
 Package pdftex.def Info: ./images/AA_synoptic.png  used on input line 468.
@@ -1143,17 +1143,22 @@ Package pdftex.def Info: ./images/AA_synoptic.png  used on input line 468.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.481 		\item \textbf
-                     {Autonomous Agent:} Handles delegated tasks from the di... <./images/AA_synoptic.png>]
-<./images/ingescape_platform.png, id=560, 1566.60281pt x 810.02625pt>
+l.484 	
+        <./images/AA_synoptic.png>]
+<./images/ingescape_platform.png, id=557, 1566.60281pt x 810.02625pt>
 File: ./images/ingescape_platform.png Graphic file (type png)
 <use ./images/ingescape_platform.png>
 Package pdftex.def Info: ./images/ingescape_platform.png  used on input line 501.
 (pdftex.def)             Requested size: 452.9679pt x 234.20943pt.
 
 
-[27]
-<./images/scenario_detailed.png, id=567, 963.6pt x 367.3725pt>
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 
+       <./images/ingescape_platform.png>]
+<./images/scenario_detailed.png, id=565, 963.6pt x 367.3725pt>
 File: ./images/scenario_detailed.png Graphic file (type png)
 <use ./images/scenario_detailed.png>
 Package pdftex.def Info: ./images/scenario_detailed.png  used on input line 512.
@@ -1161,18 +1166,17 @@ Package pdftex.def Info: ./images/scenario_detailed.png  used on input line 512.
 
 
 [28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.518 	
-       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.518 	
-        <./images/ingescape_platform.png> <./images/scenario_detailed.png>]
+l.530 
+       <./images/scenario_detailed.png>]
 
 [29]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [30]
 
@@ -1180,14 +1184,14 @@ l.518
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.623 
+l.629 
       ]
-<images/poly_simu.png, id=607, 1204.5pt x 632.3625pt>
+<images/poly_simu.png, id=604, 1204.5pt x 632.3625pt>
 File: images/poly_simu.png Graphic file (type png)
 <use images/poly_simu.png>
 Package pdftex.def Info: images/poly_simu.png  used on input line 635.
 (pdftex.def)             Requested size: 226.48395pt x 118.89574pt.
-<images/mustang_cockpit.jpg, id=608, 27.40096pt x 18.5413pt>
+<images/mustang_cockpit.jpg, id=605, 27.40096pt x 18.5413pt>
 File: images/mustang_cockpit.jpg Graphic file (type jpg)
 <use images/mustang_cockpit.jpg>
 Package pdftex.def Info: images/mustang_cockpit.jpg  used on input line 641.
@@ -1198,8 +1202,8 @@ Package pdftex.def Info: images/mustang_cockpit.jpg  used on input line 641.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.654 		\item R
-               oute and weather conditions <./images/poly_simu.png (PNG copy)> <./images/mustang_cockpit.jpg>]
+l.661 
+       <./images/poly_simu.png (PNG copy)> <./images/mustang_cockpit.jpg>]
 
 [33]
 
@@ -1210,7 +1214,7 @@ l.654 		\item R
 [36]
 
 [37]
-Overfull \hbox (53.93436pt too wide) in paragraph at lines 808--809
+Overfull \hbox (53.93436pt too wide) in paragraph at lines 811--812
  [] 
  []
 
@@ -1222,201 +1226,203 @@ Overfull \hbox (53.93436pt too wide) in paragraph at lines 808--809
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.814 	\end{landscape}
+l.817 	\end{landscape}
                       ]
-<./images/GDTA/top-goal-1.jpg, id=663, 1518.67375pt x 662.475pt>
+<./images/GDTA/top-goal-1.jpg, id=662, 1518.67375pt x 662.475pt>
 File: ./images/GDTA/top-goal-1.jpg Graphic file (type jpg)
 <use ./images/GDTA/top-goal-1.jpg>
-Package pdftex.def Info: ./images/GDTA/top-goal-1.jpg  used on input line 823.
+Package pdftex.def Info: ./images/GDTA/top-goal-1.jpg  used on input line 826.
 (pdftex.def)             Requested size: 452.9679pt x 197.59166pt.
-<./images/GDTA/top-goal-2.jpg, id=664, 1743.51375pt x 577.15625pt>
+<./images/GDTA/top-goal-2.jpg, id=663, 1743.51375pt x 577.15625pt>
 File: ./images/GDTA/top-goal-2.jpg Graphic file (type jpg)
 <use ./images/GDTA/top-goal-2.jpg>
-Package pdftex.def Info: ./images/GDTA/top-goal-2.jpg  used on input line 829.
+Package pdftex.def Info: ./images/GDTA/top-goal-2.jpg  used on input line 832.
 (pdftex.def)             Requested size: 452.9679pt x 149.9426pt.
-<./images/GDTA/top-goal-3.jpg, id=665, 1928.20375pt x 521.95pt>
+<./images/GDTA/top-goal-3.jpg, id=664, 1928.20375pt x 521.95pt>
 File: ./images/GDTA/top-goal-3.jpg Graphic file (type jpg)
 <use ./images/GDTA/top-goal-3.jpg>
-Package pdftex.def Info: ./images/GDTA/top-goal-3.jpg  used on input line 835.
+Package pdftex.def Info: ./images/GDTA/top-goal-3.jpg  used on input line 838.
 (pdftex.def)             Requested size: 452.9679pt x 122.61047pt.
-<./images/GDTA/bott-goal-1.jpg, id=666, 1407.2575pt x 715.67375pt>
+<./images/GDTA/bott-goal-1.jpg, id=665, 1407.2575pt x 715.67375pt>
 File: ./images/GDTA/bott-goal-1.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-1.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-1.jpg  used on input line 843.
+Package pdftex.def Info: ./images/GDTA/bott-goal-1.jpg  used on input line 846.
 (pdftex.def)             Requested size: 452.9679pt x 230.35255pt.
 
 
 [39
 
  <./images/GDTA/top-goal-1.jpg> <./images/GDTA/top-goal-2.jpg> <./images/GDTA/top-goal-3.jpg>]
-<./images/GDTA/bott-goal-2.jpg, id=671, 1358.07375pt x 740.7675pt>
+<./images/GDTA/bott-goal-2.jpg, id=670, 1358.07375pt x 740.7675pt>
 File: ./images/GDTA/bott-goal-2.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-2.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-2.jpg  used on input line 849.
+Package pdftex.def Info: ./images/GDTA/bott-goal-2.jpg  used on input line 852.
 (pdftex.def)             Requested size: 452.9679pt x 247.06506pt.
-<./images/GDTA/bott-goal-3.jpg, id=672, 1297.84875pt x 774.895pt>
+<./images/GDTA/bott-goal-3.jpg, id=671, 1297.84875pt x 774.895pt>
 File: ./images/GDTA/bott-goal-3.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-3.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-3.jpg  used on input line 855.
+Package pdftex.def Info: ./images/GDTA/bott-goal-3.jpg  used on input line 858.
 (pdftex.def)             Requested size: 452.9679pt x 270.44876pt.
 
 
 [40 <./images/GDTA/bott-goal-1.jpg> <./images/GDTA/bott-goal-2.jpg>]
-<./images/GDTA/bott-goal-4.jpg, id=677, 1427.3325pt x 704.6325pt>
+<./images/GDTA/bott-goal-4.jpg, id=676, 1427.3325pt x 704.6325pt>
 File: ./images/GDTA/bott-goal-4.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-4.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-4.jpg  used on input line 861.
+Package pdftex.def Info: ./images/GDTA/bott-goal-4.jpg  used on input line 864.
 (pdftex.def)             Requested size: 452.9679pt x 223.6162pt.
-<./images/GDTA/bott-goal-5.jpg, id=678, 1449.415pt x 694.595pt>
+<./images/GDTA/bott-goal-5.jpg, id=677, 1449.415pt x 694.595pt>
 File: ./images/GDTA/bott-goal-5.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-5.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-5.jpg  used on input line 867.
+Package pdftex.def Info: ./images/GDTA/bott-goal-5.jpg  used on input line 870.
 (pdftex.def)             Requested size: 452.9679pt x 217.071pt.
 
 
 [41 <./images/GDTA/bott-goal-3.jpg> <./images/GDTA/bott-goal-4.jpg>]
-<./images/GDTA/bott-goal-6.jpg, id=683, 1329.96875pt x 756.8275pt>
+<./images/GDTA/bott-goal-6.jpg, id=682, 1329.96875pt x 756.8275pt>
 File: ./images/GDTA/bott-goal-6.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-6.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-6.jpg  used on input line 873.
+Package pdftex.def Info: ./images/GDTA/bott-goal-6.jpg  used on input line 876.
 (pdftex.def)             Requested size: 452.9679pt x 257.76833pt.
-<./images/GDTA/bott-goal-7.jpg, id=684, 1133.23375pt x 887.315pt>
+<./images/GDTA/bott-goal-7.jpg, id=683, 1133.23375pt x 887.315pt>
 File: ./images/GDTA/bott-goal-7.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-7.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-7.jpg  used on input line 879.
+Package pdftex.def Info: ./images/GDTA/bott-goal-7.jpg  used on input line 882.
 (pdftex.def)             Requested size: 362.37569pt x 283.72997pt.
 
 
 [42 <./images/GDTA/bott-goal-5.jpg> <./images/GDTA/bott-goal-6.jpg>]
-<./images/GDTA/bott-goal-8.jpg, id=689, 1243.64626pt x 809.0225pt>
+<./images/GDTA/bott-goal-8.jpg, id=688, 1243.64626pt x 809.0225pt>
 File: ./images/GDTA/bott-goal-8.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-8.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-8.jpg  used on input line 885.
+Package pdftex.def Info: ./images/GDTA/bott-goal-8.jpg  used on input line 888.
 (pdftex.def)             Requested size: 452.9679pt x 294.66736pt.
-<./images/GDTA/bott-goal-9.jpg, id=690, 1050.92625pt x 957.5775pt>
+<./images/GDTA/bott-goal-9.jpg, id=689, 1050.92625pt x 957.5775pt>
 File: ./images/GDTA/bott-goal-9.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-9.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-9.jpg  used on input line 891.
+Package pdftex.def Info: ./images/GDTA/bott-goal-9.jpg  used on input line 894.
 (pdftex.def)             Requested size: 362.37569pt x 330.18925pt.
 
 
 [43 <./images/GDTA/bott-goal-7.jpg> <./images/GDTA/bott-goal-8.jpg>]
-<./images/GDTA/bott-goal-10.jpg, id=696, 1357.07pt x 741.77126pt>
+<./images/GDTA/bott-goal-10.jpg, id=695, 1357.07pt x 741.77126pt>
 File: ./images/GDTA/bott-goal-10.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-10.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-10.jpg  used on input line 897.
+Package pdftex.def Info: ./images/GDTA/bott-goal-10.jpg  used on input line 900.
 (pdftex.def)             Requested size: 452.9679pt x 247.58095pt.
-<./images/GDTA/bott-goal-11.jpg, id=697, 1254.6875pt x 803.0pt>
+<./images/GDTA/bott-goal-11.jpg, id=696, 1254.6875pt x 803.0pt>
 File: ./images/GDTA/bott-goal-11.jpg Graphic file (type jpg)
 <use ./images/GDTA/bott-goal-11.jpg>
-Package pdftex.def Info: ./images/GDTA/bott-goal-11.jpg  used on input line 903.
+Package pdftex.def Info: ./images/GDTA/bott-goal-11.jpg  used on input line 906.
 (pdftex.def)             Requested size: 452.9679pt x 289.90071pt.
 
 
 [44 <./images/GDTA/bott-goal-9.jpg> <./images/GDTA/bott-goal-10.jpg>]
-<images/color_key_IA.png, id=702, 359.84438pt x 107.65219pt>
+<images/color_key_IA.png, id=701, 359.84438pt x 107.65219pt>
 File: images/color_key_IA.png Graphic file (type png)
 <use images/color_key_IA.png>
-Package pdftex.def Info: images/color_key_IA.png  used on input line 914.
+Package pdftex.def Info: images/color_key_IA.png  used on input line 917.
 (pdftex.def)             Requested size: 359.84349pt x 107.65192pt.
-<images/IA-table-1.png, id=703, 1527.45656pt x 858.95906pt>
+<images/IA-table-1.png, id=702, 1527.45656pt x 858.95906pt>
 File: images/IA-table-1.png Graphic file (type png)
 <use images/IA-table-1.png>
-Package pdftex.def Info: images/IA-table-1.png  used on input line 923.
+Package pdftex.def Info: images/IA-table-1.png  used on input line 926.
 (pdftex.def)             Requested size: 452.9679pt x 254.7145pt.
 
 
 [45 <./images/GDTA/bott-goal-11.jpg> <./images/color_key_IA.png>]
-<images/IA-table-2.png, id=709, 1528.20938pt x 861.9703pt>
+<images/IA-table-2.png, id=708, 1528.20938pt x 861.9703pt>
 File: images/IA-table-2.png Graphic file (type png)
 <use images/IA-table-2.png>
-Package pdftex.def Info: images/IA-table-2.png  used on input line 928.
+Package pdftex.def Info: images/IA-table-2.png  used on input line 931.
 (pdftex.def)             Requested size: 452.9679pt x 255.48907pt.
-<images/IA-table-3.png, id=710, 1529.715pt x 873.2625pt>
+<images/IA-table-3.png, id=709, 1529.715pt x 873.2625pt>
 File: images/IA-table-3.png Graphic file (type png)
 <use images/IA-table-3.png>
-Package pdftex.def Info: images/IA-table-3.png  used on input line 933.
+Package pdftex.def Info: images/IA-table-3.png  used on input line 936.
 (pdftex.def)             Requested size: 452.9679pt x 258.58292pt.
 
 
 [46 <./images/IA-table-1.png> <./images/IA-table-2.png>]
-<images/IA-table-4.png, id=717, 1528.20938pt x 861.9703pt>
+<images/IA-table-4.png, id=716, 1528.20938pt x 861.9703pt>
 File: images/IA-table-4.png Graphic file (type png)
 <use images/IA-table-4.png>
-Package pdftex.def Info: images/IA-table-4.png  used on input line 938.
+Package pdftex.def Info: images/IA-table-4.png  used on input line 941.
 (pdftex.def)             Requested size: 452.9679pt x 255.48907pt.
-<images/IA-table-5.png, id=718, 1530.46782pt x 863.47594pt>
+<images/IA-table-5.png, id=717, 1530.46782pt x 863.47594pt>
 File: images/IA-table-5.png Graphic file (type png)
 <use images/IA-table-5.png>
-Package pdftex.def Info: images/IA-table-5.png  used on input line 943.
+Package pdftex.def Info: images/IA-table-5.png  used on input line 946.
 (pdftex.def)             Requested size: 452.9679pt x 255.55325pt.
 
 
 [47 <./images/IA-table-3.png> <./images/IA-table-4.png>]
 
 [48 <./images/IA-table-5.png>]
-Overfull \hbox (2.0449pt too wide) in paragraph at lines 978--979
+Overfull \hbox (2.0449pt too wide) in paragraph at lines 983--984
 []\OT1/cmr/m/n/12 These ob-jec-tives are ful-filled through the \OT1/cmr/bx/n/12 Goal-Directed Task Anal-y-sis (GDTA)
  []
 
 
-LaTeX Warning: Reference `sec:interdependence' on page 49 undefined on input line 987.
+LaTeX Warning: Reference `sec:interdependence' on page 49 undefined on input line 992.
 
 
 
 [49]
-Overfull \hbox (15.80434pt too wide) in paragraph at lines 999--999
+Overfull \hbox (15.80434pt too wide) in paragraph at lines 1012--1012
 \OT1/cmr/m/n/12 ix, 290]. Ox-ford Uni-ver-sity Press. []$https : / / doi . org / 10 . 1093 / acprof : oso / 9780195324259 .
  []
 
 
 
 [50]
-Overfull \hbox (17.61005pt too wide) in paragraph at lines 999--999
+
+[51]
+Overfull \hbox (17.61005pt too wide) in paragraph at lines 1012--1012
 [][]\OT1/cmr/m/n/12 Endsley, M. R. (2017a). From Here to Au-ton-omy: Lessons Learned From Hu-man{Automation
  []
 
 
-Overfull \hbox (18.26282pt too wide) in paragraph at lines 999--999
+Overfull \hbox (18.26282pt too wide) in paragraph at lines 1012--1012
 [][]\OT1/cmr/m/n/12 Endsley, M. R. (2017b). From Here to Au-ton-omy: Lessons Learned From Hu-man{Automation
  []
 
 
 
-[51]
-
 [52]
-Overfull \hbox (11.61264pt too wide) in paragraph at lines 999--999
+
+[53]
+Overfull \hbox (11.61264pt too wide) in paragraph at lines 1012--1012
 [][]\OT1/cmr/m/n/12 Lee, J. D., & Sep-pelt, B. D. (2023). De-sign for Human-Automation and Human-Autonomous
  []
 
 
 
-[53]
-Overfull \hbox (13.51126pt too wide) in paragraph at lines 999--999
+[54]
+Overfull \hbox (13.51126pt too wide) in paragraph at lines 1012--1012
 \OT1/cmr/m/n/12 https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3901699]. \OT1/cmr/m/it/12 In-ter-na-tional Jour-
  []
 
 
-
-[54]
-Overfull \hbox (23.16171pt too wide) in paragraph at lines 999--999
+Overfull \hbox (23.16171pt too wide) in paragraph at lines 1012--1012
 [][]\OT1/cmr/m/n/12 Whitehill, J. (2013, June). Un-der-stand-ing ACT-R - an Out-sider's Per-spec-tive [arXiv:1306.0125
  []
 
 
-Overfull \hbox (5.25851pt too wide) in paragraph at lines 999--999
+
+[55]
+Overfull \hbox (5.25851pt too wide) in paragraph at lines 1012--1012
 [][]\OT1/cmr/m/n/12 Wynne, K. T., & Lyons, J. B. (2018). An in-te-gra-tive model of au-tonomous agent teammate-
  []
 
 
-Overfull \hbox (63.92456pt too wide) in paragraph at lines 999--999
+Overfull \hbox (63.92456pt too wide) in paragraph at lines 1012--1012
 \OT1/cmr/m/n/12 likeness [Pub-lisher: Tay-lor & Fran-cis []eprint: https://doi.org/10.1080/1463922X.2016.1260181].
  []
 
 
 
-[55] (Proposition_de_recherche.aux)
+[56] (Proposition_de_recherche.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1426,23 +1432,23 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Proposition_de_recherche.out' has not changed.
-(rerunfilecheck)             Checksum: 55DD03CF7946C5465302D4AAE26C781B;7209.
+(rerunfilecheck)             Checksum: B57BCBC5A33244EA33889F29E159F390;7455.
 Package logreq Info: Writing requests to 'Proposition_de_recherche.run.xml'.
 \openout1 = `Proposition_de_recherche.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34423 strings out of 473523
- 690292 string characters out of 5714630
- 1628599 words of memory out of 5000000
+ 34424 strings out of 473523
+ 690299 string characters out of 5714630
+ 1628843 words of memory out of 5000000
  56923 multiletter control sequences out of 15000+600000
  567422 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,101p,3209b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\benja\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Proposition_de_recherche.pdf (55 pages, 6670518 bytes).
+Output written on Proposition_de_recherche.pdf (56 pages, 6674106 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
- 238 named destinations out of 1000 (max. 500000)
+ 972 PDF objects out of 1000 (max. 8388607)
+ 239 named destinations out of 1000 (max. 500000)
  500 words of extra memory for PDF output out of 10000 (max. 10000000)
 

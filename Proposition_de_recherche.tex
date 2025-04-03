@@ -47,7 +47,7 @@
 	\tableofcontents % Generates the table of contents
 	\newpage % Starts a new page
 	
-	\section{Trigger} % Defines a section titled "Trigger"
+	\section{Introduction - Increased autonomy in the flight deck} % Defines a section titled "Trigger"
 	Commercial aviation has shown a trend toward crew reduction, progressively decreasing the number of members in the cockpit \parencite{harris_human-centred_2007}. Historically, flight crews included up to five members, but technological advancements have reduced this number to two—the Captain and First Officer eliminating the need for flight engineers, navigators, and radio operators.
 	
 	Currently, the Federal Aviation Administration (FAA) - Part 25 regulations mandate a minimum of two pilots in the cockpit. However, technological advancements suggest the possibility of transitioning to Single Pilot Operations (SPO), where only one pilot would be on duty, assisted by advanced onboard technologies and potentially ground support \parencite{bilimoria_conceptual_2014}. While this transition is technically feasible, it introduces significant challenges, far more complex than previous crew reductions \parencite{matessa_using_2017}.
@@ -444,7 +444,7 @@
 	A functional prototype of the AA system will be developed in parallel with the cognitive model to meet the previously defined requirements. The prototype will be deployed as a tablet application interfacing with the flight simulator and positioned within the cockpit environment.
 
 	The AA is implemented as a modular and reactive software component designed to assist the pilot in managing the flight scenario.
-	\paragraph{Objective CO-03 - Definition of the AA system:} The agent adopts a nested FSM architecture, employing the state pattern, to organize its behavior into a structured hierarchy of states and substates. Each state encapsulates a specific procedural phase of the scenario, with transitions triggered by defined environmental conditions.
+	The agent adopts a nested FSM architecture, employing the state pattern, to organize its behavior into a structured hierarchy of states and substates. Each state encapsulates a specific procedural phase of the scenario, with transitions triggered by defined environmental conditions.
 	
 	This design was selected to reflect the deterministic and highly procedural characteristics of the flight scenario chosen. The agent does not incorporate deliberative planning or uncertainty handling; rather, it functions as a partial Wizard of Oz system. Its purpose is to emulate the expert-like behavior of an AI system that executes preprogrammed actions in response to parameters perceived in the simulation environment.
 	
@@ -456,12 +456,12 @@
 		\item \textbf{Status Monitoring:} A continuous input channel from the flight simulator (X-Plane 11) used to assess scenario conditions and update the agent's internal state. 
 		\item \textbf{Cockpit AA Interface:} A graphical and/or auditory interface that communicates the agent's current state, intended actions, and contextual information to the pilot. It is designed to support real-time awareness by providing timely and relevant cues aligned with the scenario's procedural flow.
 	\end{itemize}
-	\paragraph{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}
+
 	The agent maintains an implicit representation of the current situation by continuously monitoring the flight environment and updating its active state within the nested FSM hierarchy. This evolving internal state reflects the agent's interpretation of procedural phases and contextual conditions. Although the system does not engage in deliberative reasoning or planning, this structured state-driven representation allows the AA to maintain an internal situation model akin to human SA.
-	\paragraph{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}  
+
 	To support the pilot's situation awareness, the AA system incorporates a dedicated cockpit interface that provides transparent access to its current state and behavioral intent. By externalizing the agent's internal state transitions and highlighting critical contextual information (e.g., detected anomalies, pending actions, communication cues), the interface reinforces the pilot's understanding of the evolving scenario. 
 
-	In conclusion, the nested FSM structure provides a modular and scalable framework, ensuring ease of maintenance and facilitating the alignment between the agent's reactive behavior and the cognitive model's.
+	In conclusion, the chosen architecture provides a modular and scalable framework, ensuring ease of maintenance and facilitating the alignment between the agent's reactive behavior and the cognitive model's.
 
 	\begin{figure}[H]
 		\centering
@@ -694,6 +694,9 @@
 	\end{equation}
 
 	The second objective is to investigate non-modelable human factors \ref{obj:3b}, specifically predictability of autonomous agents's behaviour, trust, and usability aspects. We will also gather qualitative feedback on autonomous agent and HMI design and subjective responses regarding future human-autonomy crew roles.
+
+	The final phase of this research (Phase 3) will conclude with HITLS study aimed at validating the cognitive model and investigating additional human factors not captured by the simulation. This experimental phase will complete objective~\ref{obj:3a} and~\ref{obj:3b}, and provide empirical evidence of the model's prediction of actual human pilot behavior. We expect to publish a peer-reviewed journal article detailing the model validation results, quantitative comparisons between simulated and human pilot data, and insights on how cognitive modeling can support early-stage evaluation of HAT systems. This contribution targets human factors or aviation psychology journals focused on empirical validation.
+
 	
 	\section{Originality and Impact}
 
@@ -967,6 +970,8 @@
 	  \item \textbf{Level 2A (Cooperation):} Task sharing and mutual direction within predefined goals.
 	  \item \textbf{Level 2B (Collaboration):} Dynamic adaptation of strategies, real-time communication, and shared situation awareness.
 	\end{itemize}
+
+	\paragraph{Objective CO-03 - Definition of the AA system:} The agent adopts a nested FSM architecture, employing the state pattern, to organize its behavior into a structured hierarchy of states and substates. Each state encapsulates a specific procedural phase of the scenario, with transitions triggered by defined environmental conditions.
 	
 	\subsection*{Integration and Function Allocation}
 	
@@ -986,7 +991,15 @@
 	\begin{itemize}
 	  \item The \textbf{Interdependence Analysis} framework in Section~\ref{sec:interdependence} satisfies these objectives by formalizing task dependencies, OPD (Observability, Predictability, Directability) profiles, and the dynamic allocation between the human and AA across various phases of flight.
 	\end{itemize}
+
+	\subsection*{Human factors of AI}
 	
+	\paragraph{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}
+	The agent maintains an implicit representation of the current situation by continuously monitoring the flight environment and updating its active state within the nested FSM hierarchy. This evolving internal state reflects the agent's interpretation of procedural phases and contextual conditions. Although the system does not engage in deliberative reasoning or planning, this structured state-driven representation allows the AA to maintain an internal situation model akin to human SA.
+
+	\paragraph{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}  
+	To support the pilot's situation awareness, the AA system incorporates a dedicated cockpit interface that provides transparent access to its current state and behavioral intent. By externalizing the agent's internal state transitions and highlighting critical contextual information (e.g., detected anomalies, pending actions, communication cues), the interface reinforces the pilot's understanding of the evolving scenario. 
+
 	\subsection*{Verification and Validation}
 	
 	\paragraph{Objective LM-10:} \textit{Perform requirements-based verification of the trained model behaviour.}

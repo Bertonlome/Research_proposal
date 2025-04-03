@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Proposition_de_recherche"] 1743641706.53031 "Proposition_de_recherche.bcf" "Proposition_de_recherche.bbl" "Proposition_de_recherche" 1743641870.19896 0
-  "Proposition_de_recherche.bcf" 1743641869 141352 6ca6f7787cffa208616fa241d50b6c1b "pdflatex"
+["biber Proposition_de_recherche"] 1743641706.53031 "Proposition_de_recherche.bcf" "Proposition_de_recherche.bbl" "Proposition_de_recherche" 1743692236.57909 0
+  "Proposition_de_recherche.bcf" 1743692236 141352 6ca6f7787cffa208616fa241d50b6c1b "pdflatex"
   "references.bib" 1743552738 1250969 5037a8a69d7201a05c61468c269c04df ""
   (generated)
   "Proposition_de_recherche.bbl"
   "Proposition_de_recherche.blg"
   (rewritten before read)
-["pdflatex"] 1743641864.05698 "c:/Users/benja/OneDrive/Bureau/RECHERCHE/Research_proposal/Proposition_de_recherche.tex" "Proposition_de_recherche.pdf" "Proposition_de_recherche" 1743641870.19988 0
+["pdflatex"] 1743692230.39822 "c:/Users/benja/OneDrive/Bureau/RECHERCHE/Research_proposal/Proposition_de_recherche.tex" "Proposition_de_recherche.pdf" "Proposition_de_recherche" 1743692236.57996 0
   "C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743465840 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/benja/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1742328638 14064 eed66325888df968611e0d642359ec2b ""
   "C:/Users/benja/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742331618 12036089 cac2bb3c2b53d270e876c129c4c30f48 ""
@@ -207,13 +207,13 @@
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Proposition_de_recherche.aux" 1743641869 37660 1fe695faafb0b7d2dc8247e3f4f067d0 "pdflatex"
+  "Proposition_de_recherche.aux" 1743692236 37705 8f5f84d2ef649bcd36b4ed0573561319 "pdflatex"
   "Proposition_de_recherche.bbl" 1743641711 436165 f63cd39083475ad944805459b6fc4c54 "biber Proposition_de_recherche"
-  "Proposition_de_recherche.out" 1743641869 7209 55dd03cf7946c5465302d4aae26c781b "pdflatex"
-  "Proposition_de_recherche.run.xml" 1743641869 2567 547e995a4c0b25a2dfaa0b0d73b34f33 "pdflatex"
-  "Proposition_de_recherche.tex" 1743641863 93238 02042360f04f82a857623b7621bd80b0 ""
-  "Proposition_de_recherche.toc" 1743641869 5422 84685a3d77a994f3502468adfb1d8560 "pdflatex"
-  "c:/Users/benja/OneDrive/Bureau/RECHERCHE/Research_proposal/Proposition_de_recherche.tex" 1743641863 93238 02042360f04f82a857623b7621bd80b0 ""
+  "Proposition_de_recherche.out" 1743692236 7455 b57bcbc5a33244ea33889f29e159f390 "pdflatex"
+  "Proposition_de_recherche.run.xml" 1743692236 2567 547e995a4c0b25a2dfaa0b0d73b34f33 "pdflatex"
+  "Proposition_de_recherche.tex" 1743692223 95251 c09eafb4887ebbea4af9755251d6ce36 ""
+  "Proposition_de_recherche.toc" 1743692236 5467 95314be9ce993b310dcf889ba7bddc03 "pdflatex"
+  "c:/Users/benja/OneDrive/Bureau/RECHERCHE/Research_proposal/Proposition_de_recherche.tex" 1743692223 95251 c09eafb4887ebbea4af9755251d6ce36 ""
   "images/AA_synoptic.png" 1742829422 57844 d435799f422431c630bb296485a25a66 ""
   "images/GDTA/bott-goal-1.jpg" 1743264575 196549 a79c1f6f4fee876272e584a17c127548 ""
   "images/GDTA/bott-goal-10.jpg" 1743266735 166039 679a3ad1c78f20718173bd5f79386df0 ""

@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}Trigger}{4}{section.1}%
+\contentsline {section}{\numberline {1}Introduction - Increased autonomy in the flight deck}{4}{section.1}%
 \contentsline {paragraph}{Thesis Contribution and Structure.}{5}{paragraph*.1}%
 \contentsline {section}{\numberline {2}Theoretical Background}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Human-Autonomy Teaming}{6}{subsection.2.1}%
@@ -21,28 +21,25 @@
 \contentsline {subsection}{\numberline {4.2}Phase 2: Cognitive modeling and agent development}{22}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}QN-ACTR and SEEV}{23}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Agent design}{25}{subsubsection.4.2.2}%
-\contentsline {paragraph}{Objective CO-03 - Definition of the AA system:}{25}{paragraph*.3}%
-\contentsline {paragraph}{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}{25}{paragraph*.4}%
-\contentsline {paragraph}{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}{26}{paragraph*.5}%
 \contentsline {subsubsection}{\numberline {4.2.3}System architecture}{26}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Operational Scenario \& Simulation}{28}{subsubsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.3}Phase 3: Human-In-The-loop simulation studies}{31}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Scenario}{32}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Scenario}{31}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Equipment}{32}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Participants}{32}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Protocol}{33}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4}Protocol}{32}{subsubsection.4.3.4}%
 \contentsline {subsubsection}{\numberline {4.3.5}Model validation and results}{33}{subsubsection.4.3.5}%
 \contentsline {section}{\numberline {5}Originality and Impact}{34}{section.5}%
 \contentsline {section}{\numberline {6}Risks Assessment and Mitigation Strategy}{35}{section.6}%
-\contentsline {paragraph}{1. Complexity of Cognitive Modeling}{36}{paragraph*.6}%
-\contentsline {paragraph}{2. Implementation of a SA-Based Cognitive Model}{36}{paragraph*.7}%
-\contentsline {paragraph}{3. Feasibility of Agent Development}{36}{paragraph*.8}%
-\contentsline {paragraph}{4. Technical Feasibility of System Integration}{36}{paragraph*.9}%
-\contentsline {paragraph}{5. Access to Human Participants}{36}{paragraph*.10}%
-\contentsline {paragraph}{6. Ethical and Safety Concerns in HITLS}{37}{paragraph*.11}%
-\contentsline {paragraph}{7. Scope and Project Management}{37}{paragraph*.12}%
-\contentsline {paragraph}{8. Flight Simulator Availability and Complexity}{37}{paragraph*.13}%
-\contentsline {paragraph}{9. Resource Constraints for System Prototyping}{37}{paragraph*.14}%
+\contentsline {paragraph}{1. Complexity of Cognitive Modeling}{35}{paragraph*.3}%
+\contentsline {paragraph}{2. Implementation of a SA-Based Cognitive Model}{36}{paragraph*.4}%
+\contentsline {paragraph}{3. Feasibility of Agent Development}{36}{paragraph*.5}%
+\contentsline {paragraph}{4. Technical Feasibility of System Integration}{36}{paragraph*.6}%
+\contentsline {paragraph}{5. Access to Human Participants}{36}{paragraph*.7}%
+\contentsline {paragraph}{6. Ethical and Safety Concerns in HITLS}{36}{paragraph*.8}%
+\contentsline {paragraph}{7. Scope and Project Management}{37}{paragraph*.9}%
+\contentsline {paragraph}{8. Flight Simulator Availability and Complexity}{37}{paragraph*.10}%
+\contentsline {paragraph}{9. Resource Constraints for System Prototyping}{37}{paragraph*.11}%
 \contentsline {section}{\numberline {7}Timeline}{38}{section.7}%
 \contentsline {section}{\numberline {A}Goal-Directed Task Analysis}{39}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Top-Level Goal hierarchy}{39}{subsection.A.1}%
@@ -51,10 +48,13 @@
 \contentsline {subsection}{\numberline {B.1}Color key for Interdependence Analysis}{45}{subsection.B.1}%
 \contentsline {subsection}{\numberline {B.2}IA tables}{46}{subsection.B.2}%
 \contentsline {section}{\numberline {C}EASA Objectives}{48}{appendix.C}%
-\contentsline {paragraph}{Objective CO-01:}{48}{paragraph*.15}%
-\contentsline {paragraph}{Objective CL-01:}{48}{paragraph*.16}%
-\contentsline {paragraph}{Objective CO-02:}{49}{paragraph*.17}%
-\contentsline {paragraph}{Objective CO-05:}{49}{paragraph*.18}%
-\contentsline {paragraph}{Objective CO-04:}{49}{paragraph*.19}%
-\contentsline {paragraph}{Objective CO-06:}{49}{paragraph*.20}%
-\contentsline {paragraph}{Objective LM-10:}{49}{paragraph*.21}%
+\contentsline {paragraph}{Objective CO-01:}{48}{paragraph*.12}%
+\contentsline {paragraph}{Objective CL-01:}{48}{paragraph*.13}%
+\contentsline {paragraph}{Objective CO-03 - Definition of the AA system:}{49}{paragraph*.14}%
+\contentsline {paragraph}{Objective CO-02:}{49}{paragraph*.15}%
+\contentsline {paragraph}{Objective CO-05:}{49}{paragraph*.16}%
+\contentsline {paragraph}{Objective CO-04:}{49}{paragraph*.17}%
+\contentsline {paragraph}{Objective CO-06:}{49}{paragraph*.18}%
+\contentsline {paragraph}{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}{50}{paragraph*.19}%
+\contentsline {paragraph}{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}{50}{paragraph*.20}%
+\contentsline {paragraph}{Objective LM-10:}{50}{paragraph*.21}%
