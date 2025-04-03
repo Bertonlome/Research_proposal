@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.18)  3 APR 2025 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.18)  3 APR 2025 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1364,12 +1364,9 @@ Overfull \hbox (2.0449pt too wide) in paragraph at lines 983--984
  []
 
 
-LaTeX Warning: Reference `sec:interdependence' on page 49 undefined on input line 992.
-
-
 
 [49]
-Overfull \hbox (15.80434pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (15.80434pt too wide) in paragraph at lines 1016--1016
 \OT1/cmr/m/n/12 ix, 290]. Ox-ford Uni-ver-sity Press. []$https : / / doi . org / 10 . 1093 / acprof : oso / 9780195324259 .
  []
 
@@ -1378,12 +1375,12 @@ Overfull \hbox (15.80434pt too wide) in paragraph at lines 1012--1012
 [50]
 
 [51]
-Overfull \hbox (17.61005pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (17.61005pt too wide) in paragraph at lines 1016--1016
 [][]\OT1/cmr/m/n/12 Endsley, M. R. (2017a). From Here to Au-ton-omy: Lessons Learned From Hu-man{Automation
  []
 
 
-Overfull \hbox (18.26282pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (18.26282pt too wide) in paragraph at lines 1016--1016
 [][]\OT1/cmr/m/n/12 Endsley, M. R. (2017b). From Here to Au-ton-omy: Lessons Learned From Hu-man{Automation
  []
 
@@ -1392,31 +1389,31 @@ Overfull \hbox (18.26282pt too wide) in paragraph at lines 1012--1012
 [52]
 
 [53]
-Overfull \hbox (11.61264pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (11.61264pt too wide) in paragraph at lines 1016--1016
 [][]\OT1/cmr/m/n/12 Lee, J. D., & Sep-pelt, B. D. (2023). De-sign for Human-Automation and Human-Autonomous
  []
 
 
 
 [54]
-Overfull \hbox (13.51126pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (13.51126pt too wide) in paragraph at lines 1016--1016
 \OT1/cmr/m/n/12 https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3901699]. \OT1/cmr/m/it/12 In-ter-na-tional Jour-
  []
 
 
-Overfull \hbox (23.16171pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (23.16171pt too wide) in paragraph at lines 1016--1016
 [][]\OT1/cmr/m/n/12 Whitehill, J. (2013, June). Un-der-stand-ing ACT-R - an Out-sider's Per-spec-tive [arXiv:1306.0125
  []
 
 
 
 [55]
-Overfull \hbox (5.25851pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (5.25851pt too wide) in paragraph at lines 1016--1016
 [][]\OT1/cmr/m/n/12 Wynne, K. T., & Lyons, J. B. (2018). An in-te-gra-tive model of au-tonomous agent teammate-
  []
 
 
-Overfull \hbox (63.92456pt too wide) in paragraph at lines 1012--1012
+Overfull \hbox (63.92456pt too wide) in paragraph at lines 1016--1016
 \OT1/cmr/m/n/12 likeness [Pub-lisher: Tay-lor & Fran-cis []eprint: https://doi.org/10.1080/1463922X.2016.1260181].
  []
 
@@ -1427,10 +1424,6 @@ Overfull \hbox (63.92456pt too wide) in paragraph at lines 1012--1012
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Proposition_de_recherche.out' has not changed.
 (rerunfilecheck)             Checksum: B57BCBC5A33244EA33889F29E159F390;7455.
 Package logreq Info: Writing requests to 'Proposition_de_recherche.run.xml'.
@@ -1439,16 +1432,16 @@ Package logreq Info: Writing requests to 'Proposition_de_recherche.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  34424 strings out of 473523
- 690299 string characters out of 5714630
- 1628843 words of memory out of 5000000
+ 690286 string characters out of 5714630
+ 1628238 words of memory out of 5000000
  56923 multiletter control sequences out of 15000+600000
  567422 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,101p,3209b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\benja\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Proposition_de_recherche.pdf (56 pages, 6674106 bytes).
+Output written on Proposition_de_recherche.pdf (56 pages, 6674079 bytes).
 PDF statistics:
- 972 PDF objects out of 1000 (max. 8388607)
+ 973 PDF objects out of 1000 (max. 8388607)
  239 named destinations out of 1000 (max. 500000)
  500 words of extra memory for PDF output out of 10000 (max. 10000000)
 

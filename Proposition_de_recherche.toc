@@ -55,6 +55,6 @@
 \contentsline {paragraph}{Objective CO-05:}{49}{paragraph*.16}%
 \contentsline {paragraph}{Objective CO-04:}{49}{paragraph*.17}%
 \contentsline {paragraph}{Objective CO-06:}{49}{paragraph*.18}%
-\contentsline {paragraph}{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}{50}{paragraph*.19}%
-\contentsline {paragraph}{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}{50}{paragraph*.20}%
+\contentsline {paragraph}{Objective HF-01:}{50}{paragraph*.19}%
+\contentsline {paragraph}{Objective HF-02:}{50}{paragraph*.20}%
 \contentsline {paragraph}{Objective LM-10:}{50}{paragraph*.21}%

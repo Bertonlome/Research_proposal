@@ -345,7 +345,7 @@
 	The goal is to ensure that the human-agent team maintains alignment of their respective situation representation by attending both to the proper information for the task at hand. This alignment supports the development of Team SA
 	
 	\subsubsection{Interdependence Analysis}
-
+	\label{sec:ia}
 	Following the GDTA, we defined how responsibilities will be allocated between the human pilot and the autonomous agent.
 
 	To explore viable teaming configurations, we created the Interdependence Analysis table, we used decision questions from the GDTA (e.g. \emph{“What is the impact?”}), then derived the task hierarchy from these questions using operational documentation and expert input (see Table~\ref{table:IA} section 1).
@@ -989,16 +989,20 @@
 	\paragraph{Objective CO-06:} \textit{Perform a functional analysis of the system and functional decomposition and allocation.}
 	
 	\begin{itemize}
-	  \item The \textbf{Interdependence Analysis} framework in Section~\ref{sec:interdependence} satisfies these objectives by formalizing task dependencies, OPD (Observability, Predictability, Directability) profiles, and the dynamic allocation between the human and AA across various phases of flight.
+	  \item The \textbf{Interdependence Analysis} framework in Section~\ref{sec:ia} satisfies these objectives by formalizing task dependencies, OPD (Observability, Predictability, Directability) profiles, and the dynamic allocation between the human and AA across various phases of flight.
 	\end{itemize}
 
 	\subsection*{Human factors of AI}
 	
-	\paragraph{Objective HF-01 - design the AA with the ability to build its own individual situation representation:}
-	The agent maintains an implicit representation of the current situation by continuously monitoring the flight environment and updating its active state within the nested FSM hierarchy. This evolving internal state reflects the agent's interpretation of procedural phases and contextual conditions. Although the system does not engage in deliberative reasoning or planning, this structured state-driven representation allows the AA to maintain an internal situation model akin to human SA.
+	\paragraph{Objective HF-01:} \textit{design the AA with the ability to build its own individual situation representation.}
+	\begin{itemize}
+		\item The agent maintains an implicit representation of the current situation by continuously monitoring the flight environment and updating its active state within the nested FSM hierarchy. This evolving internal state reflects the agent's interpretation of procedural phases and contextual conditions. Although the system does not engage in deliberative reasoning or planning, this structured state-driven representation allows the AA to maintain an internal situation model akin to human SA. 
+	\end{itemize}
 
-	\paragraph{Objective HF-02 - Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness:}  
-	To support the pilot's situation awareness, the AA system incorporates a dedicated cockpit interface that provides transparent access to its current state and behavioral intent. By externalizing the agent's internal state transitions and highlighting critical contextual information (e.g., detected anomalies, pending actions, communication cues), the interface reinforces the pilot's understanding of the evolving scenario. 
+	\paragraph{Objective HF-02:} \textit{Reinforcing Pilot Situation Awareness; Objective HF-03 - Support shared situation awareness.}  
+	\begin{itemize}
+		\item To support the pilot's situation awareness, the AA system incorporates a dedicated cockpit interface that provides transparent access to its current state and behavioral intent. By externalizing the agent's internal state transitions and highlighting critical contextual information (e.g., detected anomalies, pending actions, communication cues), the interface reinforces the pilot's understanding of the evolving scenario. 
+	\end{itemize}
 
 	\subsection*{Verification and Validation}
 	
