@@ -1137,62 +1137,6 @@
       \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
       \endverb
     \endentry
-    \entry{endsley_situation_2015}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
-           family={Endsley},
-           familyi={E\bibinitperiod},
-           given={Mica\bibnamedelima R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {EN}%
-      }
-      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Situation awareness (SA) has become a widely used construct within the human factors community, the focus of considerable research over the past 25 years. This research has been used to drive the development of advanced information displays, the design of automated systems, information fusion algorithms, and new training approaches for improving SA in individuals and teams. In recent years, a number of papers criticized the Endsley model of SA on various grounds. I review those criticisms here and show them to be based on misunderstandings of the model. I also review several new models of SA, including situated SA, distributed SA, and sensemaking, in light of this discussion and show how they compare to existing models of SA in individuals and teams.}
-      \field{issn}{1555-3434}
-      \field{journaltitle}{Journal of Cognitive Engineering and Decision Making}
-      \field{month}{3}
-      \field{note}{Publisher: SAGE Publications}
-      \field{number}{1}
-      \field{title}{Situation {Awareness} {Misconceptions} and {Misunderstandings}}
-      \field{urlday}{31}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{9}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{4\bibrangedash 32}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1177/1555343415572631
-      \endverb
-      \verb{file}
-      \verb SAGE PDF Full Text:files/3399/Endsley - 2015 - Situation Awareness Misconceptions and Misundersta.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1555343415572631
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1555343415572631
-      \endverb
-    \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
@@ -1213,7 +1157,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{1}
@@ -1270,7 +1214,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{2}
@@ -1325,7 +1269,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -1366,7 +1310,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{1}
@@ -1421,7 +1365,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{7}
+      \field{extraname}{6}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{2}
@@ -5008,62 +4952,6 @@
       \verb http://journals.sagepub.com/doi/10.1518/001872095779049499
       \endverb
     \endentry
-    \entry{endsley_situation_2015}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
-           family={Endsley},
-           familyi={E\bibinitperiod},
-           given={Mica\bibnamedelima R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {EN}%
-      }
-      \strng{namehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{fullhash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{fullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{bibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorbibnamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
-      \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Situation awareness (SA) has become a widely used construct within the human factors community, the focus of considerable research over the past 25 years. This research has been used to drive the development of advanced information displays, the design of automated systems, information fusion algorithms, and new training approaches for improving SA in individuals and teams. In recent years, a number of papers criticized the Endsley model of SA on various grounds. I review those criticisms here and show them to be based on misunderstandings of the model. I also review several new models of SA, including situated SA, distributed SA, and sensemaking, in light of this discussion and show how they compare to existing models of SA in individuals and teams.}
-      \field{issn}{1555-3434}
-      \field{journaltitle}{Journal of Cognitive Engineering and Decision Making}
-      \field{month}{3}
-      \field{note}{Publisher: SAGE Publications}
-      \field{number}{1}
-      \field{title}{Situation {Awareness} {Misconceptions} and {Misunderstandings}}
-      \field{urlday}{31}
-      \field{urlmonth}{3}
-      \field{urlyear}{2025}
-      \field{volume}{9}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{4\bibrangedash 32}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1177/1555343415572631
-      \endverb
-      \verb{file}
-      \verb SAGE PDF Full Text:files/3399/Endsley - 2015 - Situation Awareness Misconceptions and Misundersta.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1555343415572631
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1555343415572631
-      \endverb
-    \endentry
     \entry{endsley_here_2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c4076a9d75f329759cafbd09a0cbae8}{%
@@ -5084,7 +4972,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{1}
@@ -5141,7 +5029,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{2}
@@ -5196,7 +5084,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -5237,7 +5125,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{1}
@@ -5292,7 +5180,7 @@
       \strng{authornamehash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhash}{4c4076a9d75f329759cafbd09a0cbae8}
       \strng{authorfullhashraw}{4c4076a9d75f329759cafbd09a0cbae8}
-      \field{extraname}{7}
+      \field{extraname}{6}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradate}{2}

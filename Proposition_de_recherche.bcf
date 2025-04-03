@@ -3100,79 +3100,81 @@
     <bcf:citekey order="20" intorder="2">endsley_ironies_2023</bcf:citekey>
     <bcf:citekey order="21" intorder="1">lawless_editorial_2023</bcf:citekey>
     <bcf:citekey order="21" intorder="2">johnson_no_2019</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">endsley_measurement_1995</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">endsley_situation_2015</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">endsley_systematic_2021</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">kokar_situation_2012</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">endsley_measurement_1995</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">cooke_measuring_2001</bcf:citekey>
-    <bcf:citekey order="27" intorder="2">prince_measurement_2007</bcf:citekey>
-    <bcf:citekey order="27" intorder="3">parush_individuals_2017</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">endsley_designing_2003</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">johnson_coactive_2014</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">johnson_understanding_2018</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">endsley_measurement_1995</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">endsley_systematic_2021</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">kokar_situation_2012</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">endsley_measurement_1995</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">cooke_measuring_2001</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">prince_measurement_2007</bcf:citekey>
+    <bcf:citekey order="28" intorder="3">parush_individuals_2017</bcf:citekey>
     <bcf:citekey order="29" intorder="1">endsley_designing_2003</bcf:citekey>
-    <bcf:citekey order="29" intorder="2">national_academies_of_sciences_engineering_and_medicine_human-ai_2022</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">endsley_supporting_2023</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">endsley_designing_2003</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">national_academies_of_sciences_engineering_and_medicine_human-ai_2022</bcf:citekey>
     <bcf:citekey order="31" intorder="1">endsley_supporting_2023</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">paul_modelling_2021</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">alexander_ergonomic_2014</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">chander_modelling_2019</bcf:citekey>
-    <bcf:citekey order="33" intorder="3">park_review_2024</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">li_human_2020</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">zhang_pilot_2013</bcf:citekey>
-    <bcf:citekey order="35" intorder="2">balaji_act-r_2023</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">wang_survey_2023</bcf:citekey>
-    <bcf:citekey order="36" intorder="2">wu_pilot_2016</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">foyle_human_2005</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">andrews_reshaping_2020</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">boyd_essence_1995</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">swets_signal_2001</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">wickens_attention_2021</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">wickens_attention_2021</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">wickens_processing_1991</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">brunswik_conceptual_1952</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">fitts_information_1954</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">wang_survey_2023</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">kirlik_conceptual_2007</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">anderson_integrated_2004</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">whitehill_understanding_2013</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">anderson_how_2007</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">anderson_how_2007</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">klaproth_modeling_2024</bcf:citekey>
-    <bcf:citekey order="52" intorder="2">xu_modeling_2021</bcf:citekey>
-    <bcf:citekey order="52" intorder="3">foyle_human_2005</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">wang_real-time_2024</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">wang_real-time_2024</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">chen_developing_2021</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">chen_developing_2021</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">juarez-espinosa_situation_nodate</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">juarez-espinosa_situation_nodate</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">rehman_phd_thesis</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">rehman_phd_thesis</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">freiman_assessing_2019</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">freiman_assessing_2019</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">daniello_fuzzy_2023</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">daniello_fuzzy_2023</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">kaber_conceptual_2018</bcf:citekey>
-    <bcf:citekey order="65" intorder="2">national_academies_of_sciences_engineering_and_medicine_human-ai_2022</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">cooke_teams_2024</bcf:citekey>
-    <bcf:citekey order="66" intorder="2">freiman_assessing_2019</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">johnson_coactive_2014</bcf:citekey>
-    <bcf:citekey order="67" intorder="2">stensrud_exploring_2024</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">easa_guidance_2024</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">endsley_supporting_2023</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">endsley_systematic_2021</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">paul_modelling_2021</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">alexander_ergonomic_2014</bcf:citekey>
+    <bcf:citekey order="35" intorder="2">chander_modelling_2019</bcf:citekey>
+    <bcf:citekey order="35" intorder="3">park_review_2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">li_human_2020</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">zhang_pilot_2013</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">balaji_act-r_2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">wang_survey_2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">wu_pilot_2016</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">foyle_human_2005</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">andrews_reshaping_2020</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">boyd_essence_1995</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">boyd_essence_1995</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">swets_signal_2001</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">wickens_attention_2021</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">wickens_processing_1991</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">brunswik_conceptual_1952</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">fitts_information_1954</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">wang_survey_2023</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">kirlik_conceptual_2007</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">anderson_integrated_2004</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">whitehill_understanding_2013</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">anderson_how_2007</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">klaproth_modeling_2024</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">xu_modeling_2021</bcf:citekey>
+    <bcf:citekey order="53" intorder="3">foyle_human_2005</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">daniello_fuzzy_2023</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">daniello_fuzzy_2023</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">wang_real-time_2024</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">wang_real-time_2024</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">chen_developing_2021</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">chen_developing_2021</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">juarez-espinosa_situation_nodate</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">juarez-espinosa_situation_nodate</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">rehman_phd_thesis</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">rehman_phd_thesis</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">freiman_assessing_2019</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">freiman_assessing_2019</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">kaber_conceptual_2018</bcf:citekey>
+    <bcf:citekey order="66" intorder="2">national_academies_of_sciences_engineering_and_medicine_human-ai_2022</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">cooke_teams_2024</bcf:citekey>
+    <bcf:citekey order="67" intorder="2">freiman_assessing_2019</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">johnson_coactive_2014</bcf:citekey>
+    <bcf:citekey order="68" intorder="2">stensrud_exploring_2024</bcf:citekey>
     <bcf:citekey order="69" intorder="1">easa_guidance_2024</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">endsley_designing_2003</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">endsley_designing_2003</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">johnson_coactive_2014</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">johnson_understanding_2018</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">easa_guidance_2024</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">easa_guidance_2024</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">endsley_designing_2003</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">endsley_designing_2003</bcf:citekey>
     <bcf:citekey order="74" intorder="1">xu_modeling_2021</bcf:citekey>
     <bcf:citekey order="75" intorder="1">xu_modeling_2021</bcf:citekey>
     <bcf:citekey order="76" intorder="1">wang_real-time_2024</bcf:citekey>
     <bcf:citekey order="77" intorder="1">wang_real-time_2024</bcf:citekey>
     <bcf:citekey order="78" intorder="1">rehman_phd_thesis</bcf:citekey>
     <bcf:citekey order="79" intorder="1">rehman_phd_thesis</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">cao_modelling_2015</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">xu_modeling_2021</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">wang_real-time_2024</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">rehman_phd_thesis</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">rehman_phd_thesis</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">cao_modelling_2015</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">xu_modeling_2021</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">wang_real-time_2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
